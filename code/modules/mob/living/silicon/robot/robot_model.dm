@@ -368,6 +368,10 @@
 	model_select_icon = "service"
 	cyborg_base_icon = "clown"
 	hat_offset = list("north" = list(0, -2), "south" = list(0, -2), "east" = list(4, -2), "west" = list(-4, -2))
+	borg_skins = list(
+		"Clown" = list(SKIN_ICON_STATE = "clown"),
+		"Skiff" = list(SKIN_ICON_STATE = "skiff_clown", SKIN_LIGHT_KEY = "skiff_clown"),
+	)
 
 /obj/item/robot_model/clown/respawn_consumable(mob/living/silicon/robot/cyborg, coeff = 1)
 	. = ..()
@@ -409,6 +413,10 @@
 	model_select_icon = "engineer"
 	model_traits = list(TRAIT_NEGATES_GRAVITY)
 	hat_offset = list("north" = list(0, -4), "south" = list(0, -4), "east" = list(4, -4), "west" = list(-4, -4))
+	borg_skins = list(
+		"Engineering" = list(SKIN_ICON_STATE = "engineer"),
+		"Skiff" = list(SKIN_ICON_STATE = "skiff_engineer", SKIN_LIGHT_KEY = "skiff_engineer"),
+	)
 
 /obj/item/robot_model/janitor
 	name = "Janitor"
@@ -438,6 +446,10 @@
 	hat_offset = list("north" = list(0, -5), "south" = list(0, -5), "east" = list(4, -5), "west" = list(-4, -5))
 	/// Weakref to the wash toggle action we own
 	var/datum/weakref/wash_toggle_ref
+	borg_skins = list(
+		"Janitor" = list(SKIN_ICON_STATE = "janitor"),
+		"Skiff" = list(SKIN_ICON_STATE = "skiff_janitor", SKIN_LIGHT_KEY = "skiff_janitor"),
+	)
 
 /obj/item/robot_model/janitor/be_transformed_to(obj/item/robot_model/old_model, forced = FALSE)
 	. = ..()
@@ -708,6 +720,7 @@
 	borg_skins = list(
 		"Machinified Doctor" = list(SKIN_ICON_STATE = "medical", SKIN_HAT_OFFSET = list("north" = list(0, 3), "south" = list(0, 3), "east" = list(-1, 3), "west" = list(1, 3))),
 		"Qualified Doctor" = list(SKIN_ICON_STATE = "qualified_doctor", SKIN_HAT_OFFSET = list("north" = list(0, 3), "south" = list(0, 3), "east" = list(1, 3), "west" = list(-1, 3))),
+		"Skiff" = list(SKIN_ICON_STATE = "skiff_medical", SKIN_LIGHT_KEY = "skiff_medical"),
 	)
 
 /obj/item/robot_model/miner
@@ -738,6 +751,7 @@
 		"Asteroid Miner" = list(SKIN_ICON_STATE = "minerOLD"),
 		"Spider Miner" = list(SKIN_ICON_STATE = "spidermin", SKIN_HAT_OFFSET = list("north" = list(0, -2), "south" = list(0, -2), "east" = list(-2, -2), "west" = list(2, -2))),
 		"Lavaland Miner" = list(SKIN_ICON_STATE = "miner"),
+		"Skiff" = list(SKIN_ICON_STATE = "skiff_miner", SKIN_LIGHT_KEY = "skiff_miner"),
 	)
 
 /obj/item/robot_model/peacekeeper
@@ -759,6 +773,10 @@
 	model_select_icon = "standard"
 	model_traits = list(TRAIT_PUSHIMMUNE)
 	hat_offset = list("north" = list(0, -2), "south" = list(0, -2), "east" = list(1, -2), "west" = list(-1, -2))
+	borg_skins = list(
+		"Peacekeeper" = list(SKIN_ICON_STATE = "peace"),
+		"Skiff" = list(SKIN_ICON_STATE = "skiff_peacekeeper", SKIN_LIGHT_KEY = "skiff_peacekeeper"),
+	)
 
 /obj/item/robot_model/peacekeeper/do_transform_animation()
 	..()
@@ -783,6 +801,10 @@
 	model_select_icon = "security"
 	model_traits = list(TRAIT_PUSHIMMUNE)
 	hat_offset = list("north" = list(0, 3), "south" = list(0, 3), "east" = list(1, 3), "west" = list(-1, 3))
+	borg_skins = list(
+		"Security" = list(SKIN_ICON_STATE = "sec"),
+		"Skiff" = list(SKIN_ICON_STATE = "skiff_security", SKIN_LIGHT_KEY = "skiff_security"),
+	)
 
 /obj/item/robot_model/security/do_transform_animation()
 	..()
@@ -841,6 +863,7 @@
 		"Tophat" = list(SKIN_ICON_STATE = "tophat", SKIN_LIGHT_KEY = NONE, SKIN_HAT_OFFSET = INFINITY),
 		"Waitress" = list(SKIN_ICON_STATE = "service_f"),
 		"Gardener" = list(SKIN_ICON_STATE = "gardener", SKIN_HAT_OFFSET = INFINITY),
+		"Skiff" = list(SKIN_ICON_STATE = "skiff_service", SKIN_LIGHT_KEY = "skiff_service"),
 	)
 
 /obj/item/robot_model/service/respawn_consumable(mob/living/silicon/robot/cyborg, coeff = 1)
