@@ -31,11 +31,11 @@ endmap
 #	votable
 #endmap
 
-#map metastation
-#	minplayers 25
-#	#voteweight 0.5
-#	votable
-#endmap
+map metastation
+	minplayers 25
+	#voteweight 0.5
+	votable
+endmap
 
 #map tramstation
 #	minplayers 35
@@ -61,4 +61,5 @@ endmap
 #endmap
 
 map runtimestation
+	default
 endmap

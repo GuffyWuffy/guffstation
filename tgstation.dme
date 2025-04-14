@@ -6617,6 +6617,7 @@
 #include "troutstation\code\modules\client\preferences\species_features\anteater.dm"
 #include "troutstation\code\modules\language\_language_holder.dm"
 #include "troutstation\code\modules\language\myrtongue.dm"
+#include "troutstation\code\modules\language\slosh.dm"
 #include "troutstation\code\modules\mob\living\basic\space_fauna\slugcat\slugcat.dm"
 #include "troutstation\code\modules\mob\living\carbon\human\species_types\anteater.dm"
 #include "troutstation\code\modules\surgery\bodyparts\species_parts\anteater_bodyparts.dm"
