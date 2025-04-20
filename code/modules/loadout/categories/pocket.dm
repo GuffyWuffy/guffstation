@@ -92,7 +92,6 @@
 	name = "Plush (human)"
 	item_path = /obj/item/toy/plush/human
 
-
 /datum/loadout_item/pocket_items/plush/rouny
 	name = "Plush (Rouny)"
 	item_path = /obj/item/toy/plush/rouny
