@@ -1,5 +1,5 @@
 /obj/item/toy/plush/maddie
-icon = "troutstation/icons/obj/toys/plushes.dmi"
+	icon = 'troutstation/icons/obj/toys/plushes.dmi'
 	name = "maddie plushie"
 	desc = "Oh hey, that's a plushie of Maddie. You love her!"
 	icon_state = "plushie_maddie"
