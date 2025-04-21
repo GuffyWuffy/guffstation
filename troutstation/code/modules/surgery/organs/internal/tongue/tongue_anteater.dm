@@ -4,6 +4,7 @@
 	icon = 'troutstation/icons/obj/medical/organs/organs.dmi'
 	icon_state = "anteater_tongue"
 	say_mod = "trills"
+	languages_native = list(/datum/language/myrtongue)
 	liked_foodtypes = BUGS | FRUIT | MEAT
 	disliked_foodtypes = VEGETABLES | GROSS | CLOTH | RAW
 	toxic_foodtypes = TOXIC
