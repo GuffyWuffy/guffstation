@@ -11,8 +11,6 @@ an essay into madness by Cirr
 
 ## How would you do this?
 
-+++IMAGE of me at the bottom of a hole saying "the only way out is to keep digging"+++
-
 ### PREPARATION
 I would strongly recommend at least skimming through the [tgstation Guide to Contributing](https://github.com/tgstation/tgstation/blob/master/.github/CONTRIBUTING.md), although you can safely ignore any mention of Good Boy Points and the team structure they have. Following the guides from there will be of great use.
 
@@ -25,7 +23,7 @@ When you have your development environment set up, whether's that you setting up
 
 #### Fork and Clone
 - Fork the repository. You'll need a GitHub account to do this, but that's free. For now.
-- Go to https://github.com/Cirrial/cirrstation and you'll see a button that says "Fork" to the right and up. Click it to have a space station of your very own +++IMAGE of fork button+++
+- Go to https://github.com/Cirrial/cirrstation and you'll see a button that says "Fork" to the right and up. Click it to have a space station of your very own
 - Go to your new fork, and **clone** the repository by clicking on the green Code dropdown button, it'll give you options on how you want to clone the repository.
   - The exact specifics for this are out of scope of this document, but basically if you pick HTTPS you'll have to put your GitHub username and password into your client each time, and if you pick SSH [you'll need to look into setting up a whole bunch of stuff instead](https://docs.github.com/en/authentication/connecting-to-github-with-ssh), so if you're very new to this I'd recommend HTTPS
 
@@ -49,8 +47,6 @@ When you have your development environment set up, whether's that you setting up
 
 #### "But Cirr, why are we doing this whole "troutstation" branch nonsense?"
 It makes maintaining the troutstation repo easier. I appreciate it makes contributing a little harder, but this way the "master" branch is (in theory) identical to the tgstation master branch and it's less of a confusing headache to manage. (In practice, the master branch is always going to be a little bit behind, as nothing is automatically keeping them in sync. YET)
-
-+++IMAGE showing the relationship between repositories+++
 
 ### SYNCING YOUR REPO (and avoiding a million merge conflicts)
 Time always goes forwards and the repositories all get updates.
@@ -135,8 +131,6 @@ Oh boy.
 #### Some combination of all of the above
 
 - Good luck.
-
-+++IMAGE of me surrounded by papers as I laugh insanely+++
 
 ### REFERENCE INDEX
 
