@@ -1186,3 +1186,6 @@
 
 /mob/living/carbon/human/species/voidwalker
 	race = /datum/species/voidwalker
+
+/mob/living/carbon/human/species/anteater // Troutstation edit
+	race = /datum/species/anteater
