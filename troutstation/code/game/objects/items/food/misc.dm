@@ -1,7 +1,7 @@
 /obj/item/food/float_your_goat
 	name = "\improper Float Your Goat"
 	desc = "This looks fucking foul, but I guess someone will eat it. Drink it? Your call, man."
-	icon = 'troutstation/icons/obj/food/io.dmi'
+	icon = 'troutstation/icons/obj/food/io_foods.dmi'
 	icon_state = "float_your_goat"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 5,

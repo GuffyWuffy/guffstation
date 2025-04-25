@@ -41,3 +41,33 @@
 	)
 	result = /obj/item/food/democracy_sausage
 	category = CAT_IO
+
+/datum/crafting_recipe/food/lamington
+	name = "lamington"
+	reqs = list(
+		/obj/item/food/cake/plain = 1,
+		/obj/item/food/desiccated_coconut = 2,
+		/obj/item/food/chocolatebar = 1
+	)
+	result = /obj/item/food/lamington
+	category = CAT_IO
+
+/datum/crafting_recipe/food/knife/lamington_slice
+	reqs = list(/datum/crafting_recipe/food/lamington = 1)
+	result = /obj/item/food/lamington_slice
+	category = CAT_IO
+
+/datum/crafting_recipe/food/JC_lamington
+	name = "jam and cream lamington"
+	reqs = list(
+		/datum/crafting_recipe/food/lamington = 1
+		/datum/reagent/consumable/cream = 5,
+		/datum/reagent/consumable/berryjuice = 5,
+	)
+	result = /obj/item/food/JC_lamington
+	category = CAT_IO
+
+/datum/crafting_recipe/food/knife/JC_lamington_slice
+	reqs = list(/datum/crafting_recipe/food/JC_lamington = 1)
+	result = /obj/item/food/JC_lamington_slice
+	category = CAT_IO

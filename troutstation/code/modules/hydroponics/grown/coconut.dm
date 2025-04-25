@@ -94,6 +94,10 @@
 	desc = "Thinly shredded coconut."
 	icon = 'troutstation/icons/obj/food/io_foods.dmi'
 	icon_state = "desiccated_coconut"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment/vitamin = 0.2,
+		/datum/reagent/consumable/nutriment = 0.6,
+	)
 	w_class = WEIGHT_CLASS_TINY
 	foodtypes = FRUIT
 	tastes = list("coconut" = 1)
