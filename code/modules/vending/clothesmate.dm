@@ -41,6 +41,7 @@
 				/obj/item/clothing/head/costume/sombrero/green = 3,
 				/obj/item/clothing/head/costume/nightcap/blue = 3,
 				/obj/item/clothing/head/costume/nightcap/red = 3,
+				/obj/item/clothing/head/hats/cork = 3, // Troutstation edit
 			),
 		),
 
