@@ -193,6 +193,7 @@ GLOBAL_LIST_INIT(uncommon_loot, list(//uncommon: useful items
 		/obj/item/storage/belt/medical = 1,
 		/obj/item/storage/belt/utility = 1,
 		/obj/item/pen/screwdriver = 1,
+		/obj/item/clothing/head/hats/cork = 1, // Troutstation edit
 		) = 8,
 
 	list(//strange objects
