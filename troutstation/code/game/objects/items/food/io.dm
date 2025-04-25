@@ -14,6 +14,11 @@
 	crafting_complexity = FOOD_COMPLEXITY_2
 	venue_value = FOOD_PRICE_CHEAP
 
+/obj/item/food/space_shuttle_jelly/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/love_food_buff, /datum/status_effect/food/speech/io)
+
+
 /obj/item/food/raw_dim_sim
 	name = "raw dim sim"
 	desc = "A raw meat and cabbage filled dumpling. Cook this baby up!"
@@ -50,6 +55,11 @@
 	venue_value = FOOD_PRICE_CHEAP
 	food_flags = FOOD_FINGER_FOOD
 
+/obj/item/food/dim_sim/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/love_food_buff, /datum/status_effect/food/speech/io)
+
+
 /obj/item/food/democracy_sausage
 	name = "democracy sausage"
 	desc = "It's compulsory to vote on Io, but stands selling these \"Democracy\" sausage sandwiches outside polling stations help draw in vote dodgers and raise money."
@@ -69,6 +79,10 @@
 	food_flags = FOOD_FINGER_FOOD
 
 
+/obj/item/food/democracy_sausage/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/love_food_buff, /datum/status_effect/food/speech/io)
+  
 /obj/item/food/lamington
 	name = "lamington"
 	desc = "A dessert delight from Io, a square of sponge cake coated with chocolate sauce and rolled in coconut."
@@ -84,6 +98,10 @@
 	foodtypes = GRAIN|DAIRY|SUGAR|FRUIT
 	crafting_complexity = FOOD_COMPLEXITY_2
 	w_class = WEIGHT_CLASS_NORMAL
+
+/obj/item/food/lamington/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/love_food_buff, /datum/status_effect/food/speech/io)
 
 /obj/item/food/lamington/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/lamington_slice, 5, 3 SECONDS, table_required = TRUE, screentip_verb = "Slice")
@@ -106,6 +124,10 @@
 	food_flags = FOOD_FINGER_FOOD
 	venue_value = FOOD_PRICE_CHEAP
 
+/obj/item/food/lamington_slice/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/love_food_buff, /datum/status_effect/food/speech/io)
+  
 
 /obj/item/food/JC_lamington
 	name = "jam and cream lamington"
@@ -123,6 +145,10 @@
 	foodtypes = GRAIN|DAIRY|SUGAR|FRUIT
 	crafting_complexity = FOOD_COMPLEXITY_2
 	w_class = WEIGHT_CLASS_NORMAL
+
+/obj/item/food/JC_lamington/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/love_food_buff, /datum/status_effect/food/speech/io)
 
 /obj/item/food/JC_lamington/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/JC_lamington_slice, 5, 3 SECONDS, table_required = TRUE, screentip_verb = "Slice")
@@ -145,3 +171,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	food_flags = FOOD_FINGER_FOOD
 	venue_value = FOOD_PRICE_CHEAP
+
+/obj/item/food/JC_lamington_slice/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/love_food_buff, /datum/status_effect/food/speech/io)
