@@ -129,7 +129,7 @@
 
 /obj/item/food/JC_lamington_slice
 	name = "jam and cream lamington slice"
-	desc = "A small piece of lamington."
+	desc = "A small piece of jam and cream lamington."
 	icon = 'troutstation/icons/obj/food/io_foods.dmi'
 	icon_state = "jam_cream_lamington_slice"
 	food_reagents = list(

@@ -609,7 +609,7 @@
 
 /obj/item/food/cake/pavlova
 	name = "pavlova"
-	desc = "A sweet berry pavlova. Invented in New Zealand, but named after a Russian ballerina... And scientifically proven to be the best at dinner parties!"
+	desc = "A sweet berry pavlova. Invented on Io, but named after a Russian ballerina... And scientifically proven to be the best at dinner parties!" // Troutstation edit
 	icon_state = "pavlova"
 	tastes = list("meringue" = 5, "creaminess" = 1, "berries" = 1)
 	foodtypes = DAIRY | FRUIT | SUGAR

@@ -60,7 +60,7 @@
 /datum/crafting_recipe/food/JC_lamington
 	name = "jam and cream lamington"
 	reqs = list(
-		/datum/crafting_recipe/food/lamington = 1
+		/obj/item/food/lamington = 1,
 		/datum/reagent/consumable/cream = 5,
 		/datum/reagent/consumable/berryjuice = 5,
 	)

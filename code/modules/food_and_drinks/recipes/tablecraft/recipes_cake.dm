@@ -166,7 +166,7 @@
 	)
 	result = /obj/item/food/cake/pavlova
 	added_foodtypes = SUGAR|DAIRY
-	category = CAT_CAKE
+	category = CAT_IO // Troutstation edit
 
 /datum/crafting_recipe/food/pavlovakorta
 	name = "Pavlova with korta cream"
@@ -178,7 +178,7 @@
 	)
 	result = /obj/item/food/cake/pavlova/nuts
 	added_foodtypes = SUGAR|NUTS
-	category = CAT_CAKE
+	category = CAT_IO // Troutstation edit
 
 /datum/crafting_recipe/food/berry_vanilla_cake
 	name = "blackberry and strawberry vanilla cake"
