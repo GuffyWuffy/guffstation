@@ -69,7 +69,3 @@
 	category = list(RND_CATEGORY_INITIAL,
 					RND_CATEGORY_EQUIPMENT + RND_SUBCATEGORY_EQUIPMENT_SCIENCE)
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
-
-/obj/machinery/vending/wardrobe/science_wardrobe/Initialize(mapload)
-	products.Add(/obj/item/pinpointer/relic = 10)
-	. = ..()
