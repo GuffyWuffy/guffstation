@@ -17,7 +17,10 @@
 		"portadrive_basic",
 		"portadrive_advanced",
 		"portadrive_super",
-		"relic_pinpointer", // Troutstation edit
+	/// TROUTSTATION start
+		"relic_pinpointer",
+		"relic_analyzer",
+	/// TROUTSTATION end
 	)
 
 /datum/techweb_node/bluespace_theory

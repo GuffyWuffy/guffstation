@@ -51,6 +51,7 @@
 	var/node_id
 	var/list/datum/relic_trans/relic_transes = list()
 	var/obj/item/relic/parent_relic
+	var/desc = ""
 
 /datum/relic_node/proc/on_generate()
 	return
@@ -74,7 +75,7 @@
 	// Give time for other reactions to happen before procing none
 	if (HAS_TRAIT(src, TRAIT_IRRADIATED))
 		addtimer(CALLBACK(src, PROC_REF(check_trans), null, /datum/relic_trans/irradiate), parent_relic.cooldown_timer + 0.1 SECONDS)
-	addtimer(CALLBACK(src, PROC_REF(check_trans), user, /datum/relic_trans/none), parent_relic.cooldown_timer + 1.0 SECONDS)
+	addtimer(CALLBACK(src, PROC_REF(check_trans), user, /datum/relic_trans/none), parent_relic.cooldown_timer + 5.0 SECONDS)
 
 
 /datum/relic_node/proc/check_trans(mob/user, react_type, ...)
@@ -98,11 +99,13 @@
 	. = ..()
 
 /datum/relic_node/no_effect
+	desc = "This node didn't seem to do anything..."
 /datum/relic_node/no_effect/reaction_power(mob/user)
 		to_chat(user, span_notice("[parent_relic] seizes up, and seems to do nothing..."))
 		return
 
 /datum/relic_node/reagent
+	desc = "This node made it release a foam!"
 	var/datum/reagent/reagent
 	var/method
 	var/units
@@ -130,6 +133,7 @@
 	return
 
 /datum/relic_node/item
+	desc = "This node made it create some items!"
 	var/obj/item/item_type
 	var/count
 /datum/relic_node/item/on_generate()
@@ -145,6 +149,7 @@
 	return
 
 /datum/relic_node/animal
+	desc = "This node made it release some animals!"
 	var/mob/living/basic/animal_type
 	var/count
 /datum/relic_node/animal/on_generate()
@@ -160,6 +165,7 @@
 	return
 
 /datum/relic_node/vacuum
+	desc = "This node made it absorb some gasses from the room!"
 	var/amount
 /datum/relic_node/vacuum/on_generate()
 	amount = rand(1, 700)
@@ -176,11 +182,14 @@
 	return
 
 /datum/relic_node/outgas
+	desc = "This node made it release some gasses into the air!"
 	var/amount
 	var/datum/gas/gas_type
+
 /datum/relic_node/outgas/on_generate()
 	amount = rand(1, 80)
 	gas_type = pick(subtypesof(/datum/gas/))
+
 /datum/relic_node/outgas/reaction_power(mob/user)
 	to_chat(user, span_warning("[parent_relic] releases [gas_type.name] into the air!"))
 	playsound(parent_relic, 'sound/effects/smoke.ogg', 50, TRUE, -3)
@@ -192,6 +201,7 @@
 	return
 
 /datum/relic_node/explode
+	desc = "This node made it explode!!"
 	var/light_impact_range
 	var/flame_range
 	var/flash_range
@@ -214,6 +224,7 @@
 	return
 
 /datum/relic_node/emp
+	desc = "This node made it emit an EMP pulse."
 	var/strong_range
 	var/weak_range
 
@@ -234,6 +245,7 @@
 	return
 
 /datum/relic_node/charge
+	desc = "This node made it charge nearby devices!"
 	var/amount
 	var/range
 	var/stunner
@@ -286,6 +298,7 @@
 				to_chat(target, span_danger("You feel surged!"))
 
 /datum/relic_node/harm
+	desc = "This node made it change its implements..."
 	var/force
 	var/damtype
 
@@ -335,6 +348,7 @@
 	return
 
 /datum/relic_node/sound
+	desc = "This node made it make a sound.."
 	var/mood_effect = 0
 	var/range = 0
 	var/lowlow_sound
@@ -380,6 +394,7 @@
 	return
 
 /datum/relic_node/rad_pulse
+	desc = "This node made it emit radiation!!"
 	var/range
 	var/delta_energy
 /datum/relic_node/rad_pulse/on_generate()
@@ -395,6 +410,7 @@
 	radiation_pulse(source = parent_relic, max_range = range, threshold = RAD_MEDIUM_INSULATION)
 
 /datum/relic_node/teleport
+	desc = "This node made it teleport somewhere else!!"
 /datum/relic_node/teleport/reaction_power(mob/user)
 	for(var/mob/living/m in oview(parent_relic, 3))
 		to_chat(m, span_notice("[parent_relic] vanishes into thin air!"))
@@ -403,6 +419,7 @@
 		to_chat(m, span_notice("[parent_relic] appears out of nowhere!"))
 
 /datum/relic_node/dimensional_shift
+	desc = "This node made it the tiles change dimensional orientation..."
 	var/new_theme_path
 
 /datum/relic_node/dimensional_shift/on_generate()
@@ -416,52 +433,98 @@
 		shifter.apply_theme(shiftee, show_effect = TRUE)
 	return
 
+/datum/relic_node/blood
+	desc = "This node made the relic feast on flesh!"
+	var/amount = 0
+
+/datum/relic_node/blood/on_generate()
+	amount = rand(100, 400)
+
+/datum/relic_node/blood/reaction_power(mob/user)
+	new /obj/effect/decal/cleanable/blood/old(get_turf(src))
+	for(var/mob/living/m in oview(parent_relic, 1))
+		new /obj/effect/decal/cleanable/blood/old(get_turf(m))
+		if (istype(m, /mob/living/carbon/))
+			var/mob/living/carbon/c = m
+			if (prob(80)) // Just blood.. blood..
+				c.blood_volume -= amount
+				to_chat(c, span_warning("[parent_relic] lashes out!"))
+			else if (prob(95)) // Steal a non-brain organ
+				var/obj/item/organ/remove_organ = pick(GLOB.bioscrambler_valid_organs)
+				if (c.organs_slot.Find(remove_organ.slot))
+					c.organs_slot[remove_organ.slot].mob_remove(c)
+					to_chat(c, span_boldwarning("[parent_relic] demands something more, and you feel a little hollow."))
+				else
+					to_chat(c, span_warning("[parent_relic] demands something more, but you do not have what it wants."))
+			else // get a gift :)
+				to_chat(c, span_boldwarning("[parent_relic] offers a gift, and you feel your insides change to accept!"))
+				var/gland_type = subtypesof(/obj/item/organ/heart/gland)
+				var/obj/item/organ/heart/gland/new_gland = new gland_type()
+				if (new_gland)
+					new_gland.replace_into(c)
+		else
+			m.blood_volume -= amount
+			to_chat(m, span_warning("[parent_relic] lashes out!"))
+
+/datum/relic_node/rosetta
+	desc = "This node offers thesaurical knowledge..."
+	var/language
+	var/percent
+
+/datum/relic_node/rosetta/on_generate()
+	language = pick(subtypesof(/datum/language/))
+	percent = rand(1, 100)
 
 /obj/item/relic
-	desc = "What mysteries could this hold? Maybe Research & Development knows to discover its uses..."
+	desc = "What mysteries could this hold? Maybe Research & Development knows how to analyze it...."
 	//Minimum possible cooldown.
 	min_cooldown = 1 SECONDS
 	//Max possible cooldown.
 	max_cooldown = 12 SECONDS
+	w_class = 3
+	var/canhear_range = 5
 	var/node_limit = 0
 	var/list/relic_nodes = list()
 	var/datum/relic_node/current_node
 	var/reacting_when_off_cooldown = FALSE //has a pending reaction
-	w_class = 3
+	var/static/list/existing_relics = list()
 
 	var/static/list/relic_reactions = list(
-		/datum/relic_node/no_effect,
-		/datum/relic_node/reagent,
-		/datum/relic_node/item,
-		/datum/relic_node/animal,
-		/datum/relic_node/emp,
-		/datum/relic_node/charge,
-		/datum/relic_node/explode,
-		/datum/relic_node/harm,
-		/datum/relic_node/vacuum,
-		/datum/relic_node/outgas,
-		/datum/relic_node/sound,
-		/datum/relic_node/rad_pulse,
-		/datum/relic_node/teleport,
-		/datum/relic_node/dimensional_shift
+		/datum/relic_node/no_effect = 10,
+		/datum/relic_node/reagent 	= 10,
+		/datum/relic_node/item		= 10,
+		/datum/relic_node/animal	= 10,
+		/datum/relic_node/emp		= 10,
+		/datum/relic_node/charge	= 10,
+		/datum/relic_node/explode	= 10,
+		/datum/relic_node/harm		= 10,
+		/datum/relic_node/vacuum	= 10,
+		/datum/relic_node/outgas	= 10,
+		/datum/relic_node/sound		= 10,
+		/datum/relic_node/rad_pulse	= 10,
+		/datum/relic_node/teleport	= 10,
+		/datum/relic_node/dimensional_shift = 10,
+		/datum/relic_node/blood		= 10,
+		/datum/relic_node/rosetta	= 10,
 	)
 
 	var/static/list/relic_trans_types = list(
-		/datum/relic_trans/none,
-		/datum/relic_trans/touch,
-		/datum/relic_trans/harm,
-		/datum/relic_trans/fire,
-		/datum/relic_trans/reagent,
-		/datum/relic_trans/paint,
+		/datum/relic_trans/none		= 10,
+		/datum/relic_trans/touch	= 10,
+		/datum/relic_trans/harm		= 10,
+		/datum/relic_trans/fire		= 10,
+		/datum/relic_trans/reagent	= 10,
+		/datum/relic_trans/paint	= 10,
 		// /datum/relic_trans/vacuum, // Requires adding a tick, not gonna do that.
-		/datum/relic_trans/irradiate,
-		/datum/relic_trans/explode,
-		/datum/relic_trans/tracked
-		// /datum/relic_trans/hear // For some reason, this item's Hear doesn't get procced by anything.
+		/datum/relic_trans/irradiate= 10,
+		/datum/relic_trans/explode	= 10,
+		/datum/relic_trans/tracked	= 10,
+		/datum/relic_trans/hear		= 10
 	)
 
 /obj/item/relic/Initialize()
 	. = ..()
+	existing_relics.Add(src)
 	RegisterSignal(src, COMSIG_ATOM_EMP_ACT, PROC_REF(on_emped))
 	RegisterSignal(src, COMSIG_ATOM_FIRE_ACT, PROC_REF(on_fired))
 	RegisterSignal(src, COMSIG_ITEM_HIT_REACT, PROC_REF(on_hit_react))
@@ -469,6 +532,12 @@
 	RegisterSignal(src, COMSIG_ATOM_AFTER_EXPOSE_REAGENTS, PROC_REF(on_exposure))
 	RegisterSignal(src, COMSIG_ATOM_ITEM_INTERACTION, PROC_REF(on_clicked))
 	RegisterSignal(src, SIGNAL_ADDTRAIT(TRAIT_IRRADIATED), PROC_REF(on_radiated))
+
+/obj/item/relic/Destroy(force)
+	existing_relics.Remove(src)
+	for (var/each as anything in relic_nodes)
+		QDEL_NULL(each)
+	. = ..()
 
 /obj/item/relic/random_themed_appearance() // TODO: rewrite the original so adding shit is easier
 	. = ..()
@@ -521,23 +590,26 @@
 	current_node.check_trans(null, /datum/relic_trans/irradiate)
 	return
 
-/obj/item/relic/Hear(message, atom/movable/speaker, message_language, raw_message, radio_freq, list/spans, list/message_mods = list(), message_range=0)
-	if (speaker == src)
-		return ..()
+
+/obj/item/relic/Hear(message, atom/movable/speaker, message_language, raw_message, radio_freq, list/spans, list/message_mods = list(), message_range)
+	. = ..()
+	if (speaker == src || get_dist(src, speaker) > canhear_range || message_mods[MODE_RELAY])
+		return .
 	// to_chat(speaker, span_warning("DEBUG: [src] is listening to [speaker]...."))
 	current_node.check_trans(null, /datum/relic_trans/hear)
-	return ..()
+	return .
 
 // Rules:
 // - Creates 3-15 nodes
 // - Each node has 2-4 connections
 // - Orphaned nodes are given a connection (this can break limits)
 /obj/item/relic/proc/generate()
+	become_hearing_sensitive(INNATE_TRAIT)
 	var/list/datum/relic_node/not_orphaned = list()
 	// Generate nodes up to limit
 	node_limit = rand(3, 15)
 	for (var/_i in 0 to node_limit)
-		var/relic_type = pick(relic_reactions)
+		var/relic_type = pick_weight(relic_reactions)
 		var/datum/relic_node/new_relic_node = new relic_type
 		new_relic_node.parent_relic = src
 		new_relic_node.node_id = _i
@@ -549,7 +621,7 @@
 	// Add connections between nodes
 	for (var/datum/relic_node/it as anything in relic_nodes)
 		for (var/i in 2 to 4)
-			var/relic_trans_type = pick(relic_trans_types)
+			var/relic_trans_type = pick_weight(relic_trans_types)
 			var/datum/relic_trans/new_relic_trans = new relic_trans_type
 			do
 				new_relic_trans.next_node = pick(relic_nodes)
@@ -589,14 +661,19 @@
 		current_node.check_trans(user, /datum/relic_trans/harm, user)
 		return TRUE
 	else
-
-		to_chat(user, span_notice("You touch [src], its surface seems inviting."))
+		if (istype(current_node, /datum/relic_node/rosetta) && istype(user, /mob/living))
+			var/datum/relic_node/rosetta/r = current_node
+			var/mob/living/l = user;
+			to_chat(user, span_notice("[src] has unknown text that fills you with knowledge of a language."))
+			l.grant_partial_language(r.language, r.percent, MAGIC_TRAIT)
+		else
+			to_chat(user, span_notice("You touch [src], its surface seems inviting."))
 		current_node.check_trans(user, /datum/relic_trans/touch)
 	return ..()
 
 /obj/item/relic/attack_self(mob/user)
 	if(!activated)
-		to_chat(user, span_notice("What mysteries could this hold? Maybe Research & Development knows how to discover its uses..."))
+		to_chat(user, span_notice("[desc]"))
 		return //..()
 
 	var/mob/living/living_user = user
@@ -610,7 +687,7 @@
 
 /obj/item/relic/attack(mob/M, mob/user)
 	if(!activated)
-		to_chat(user, span_notice("What mysteries could this hold? Maybe Research & Development knows how to discover its uses..."))
+		to_chat(user, span_notice("[desc]"))
 		return ..()
 
 	var/mob/living/living_user = user
@@ -625,7 +702,6 @@
 /obj/item/relic/ex_act(severity, target)
 	current_node.check_trans(null, /datum/relic_trans/explode)
 	return
-
 
 /obj/item/relic/Destroy(force)
 	for (var/each as anything in relic_nodes)
@@ -646,5 +722,7 @@
 /datum/supply_pack/imports/relicorder
 	name = "Spare Relic Dodads"
 	desc = "We have zero clue what these do, and frankly they're piling up. Could you take some off our hands?"
-	cost = CARGO_CRATE_VALUE * 7
-	contains = list(/obj/item/relic = 3, /obj/item/pinpointer/relic = 2)
+	cost = CARGO_CRATE_VALUE * 8
+	contains = list(/obj/item/relic = 3, /obj/item/pinpointer/relic = 1, /obj/item/relicanalyzer = 1)
+	crate_name = "Spare Relics Crate"
+	crate_type = /obj/structure/closet/crate/science
