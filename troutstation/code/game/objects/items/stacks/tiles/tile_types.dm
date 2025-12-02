@@ -1,5 +1,5 @@
 /obj/item/stack/tile/carpet/picnic
-	name = "picnic carpet"
+	name = "picnic blanket"
 	icon = 'troutstation/icons/obj/tiles.dmi'
 	icon_state = "tile-carpet-picnic"
 	turf_type = /turf/open/floor/carpet/picnic
