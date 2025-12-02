@@ -52,6 +52,10 @@
 /obj/effect/turf_decal/raven/four,
 /turf/open/floor/iron/dark,
 /area/space)
+"cD" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet/picnic,
+/area/space)
 "de" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L5"
@@ -361,11 +365,8 @@
 /turf/open/floor/iron,
 /area/space)
 "ug" = (
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
 /obj/item/storage/basket,
-/turf/open/floor/fake_snow{
-	name = "picnic blanket"
-	},
+/turf/open/floor/carpet/picnic,
 /area/space)
 "uw" = (
 /obj/structure/chair/comfy/black,
@@ -398,6 +399,9 @@
 	icon_state = "L14"
 	},
 /turf/open/floor/iron,
+/area/space)
+"wv" = (
+/turf/open/floor/carpet/picnic,
 /area/space)
 "xp" = (
 /obj/effect/turf_decal/bot_white/right,
@@ -442,12 +446,6 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/wood,
-/area/space)
-"zs" = (
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/turf/open/floor/fake_snow{
-	name = "picnic blanket"
-	},
 /area/space)
 "zF" = (
 /turf/open/floor/iron/white/side{
@@ -23417,9 +23415,9 @@ UW
 jy
 SA
 WO
-zs
-zs
-zs
+wv
+wv
+wv
 iA
 NN
 ac
@@ -23674,9 +23672,9 @@ dh
 jy
 SA
 WO
-zs
+wv
 ug
-zs
+wv
 iA
 NN
 ac
@@ -23931,9 +23929,9 @@ dh
 jy
 SA
 WO
-zs
-zs
-zs
+wv
+wv
+wv
 iA
 NN
 ac
@@ -24702,9 +24700,9 @@ vQ
 jy
 SA
 WO
-zs
-zs
-zs
+wv
+wv
+wv
 iA
 NN
 ac
@@ -24959,9 +24957,9 @@ dh
 jy
 SA
 WO
-zs
+wv
 ug
-zs
+wv
 iA
 XJ
 NN
@@ -25216,9 +25214,9 @@ dh
 jy
 SA
 WO
-zs
+wv
 ug
-zs
+wv
 iA
 iA
 XJ
@@ -25473,9 +25471,9 @@ dk
 jy
 SA
 WO
-zs
-zs
-zs
+wv
+wv
+wv
 iA
 iA
 iA
@@ -28300,11 +28298,11 @@ dh
 jy
 SA
 WO
-WO
-iA
-iA
-iA
-iA
+wv
+wv
+wv
+wv
+wv
 iA
 iA
 iA
@@ -28557,11 +28555,11 @@ dh
 jy
 SA
 WO
-WO
-iA
-iA
-iA
-iA
+wv
+cD
+cD
+cD
+wv
 iA
 iA
 iA
@@ -28814,11 +28812,11 @@ UW
 jy
 SA
 WO
-WO
-iA
-iA
-iA
-iA
+wv
+cD
+cD
+cD
+wv
 iA
 iA
 iA
@@ -29071,11 +29069,11 @@ dh
 jy
 SA
 WO
-WO
-iA
-iA
-iA
-iA
+wv
+wv
+wv
+wv
+wv
 iA
 iA
 iA
@@ -29585,11 +29583,11 @@ Al
 jy
 SA
 WO
-WO
-iA
-iA
-iA
-iA
+wv
+wv
+wv
+wv
+wv
 iA
 iA
 iA
@@ -29842,11 +29840,11 @@ vQ
 jy
 SA
 WO
-WO
-iA
-iA
-iA
-iA
+wv
+cD
+cD
+cD
+wv
 iA
 iA
 iA
@@ -30099,11 +30097,11 @@ dh
 jy
 SA
 WO
-WO
-iA
-iA
-iA
-iA
+wv
+cD
+cD
+cD
+wv
 iA
 iA
 iA
@@ -30356,11 +30354,11 @@ dh
 jy
 SA
 WO
-WO
-iA
-iA
-iA
-iA
+wv
+wv
+wv
+wv
+wv
 iA
 iA
 iA
