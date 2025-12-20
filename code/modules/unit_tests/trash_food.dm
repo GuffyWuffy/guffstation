@@ -21,6 +21,8 @@
 		/obj/item/stack/rods, // kebab
 		/obj/item/paper/paperslip/fortune, // fortune cookie
 		/obj/item/dice/fudge, // /obj/item/food/fudgedice
+		// Troutstation edit
+		/obj/item/reagent_containers/cup/glass/drinkingglass // /obj/item/food/float_your_goat
 	)
 
 	for(var/path in subtypesof(/obj/item/food))
