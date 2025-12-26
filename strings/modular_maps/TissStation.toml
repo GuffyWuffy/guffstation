@@ -1,0 +1,4 @@
+directory = "_maps/map_files/TissStation/maintenance_modules/"
+
+[rooms.engCentral]
+modules = ["engCentral_1.dmm","engCentral_2.dmm"]
