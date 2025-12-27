@@ -1400,6 +1400,18 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
+"blY" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/modular_map_root/tissstation{
+	name = "medMorgue"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
 "bme" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 8
@@ -18664,6 +18676,16 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/engineering/atmos)
+"qdi" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/modular_map_root/tissstation{
+	name = "medWest"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
 "qdu" = (
 /obj/machinery/airalarm/directional/west,
 /obj/effect/spawner/random/entertainment/plushie/vending,
@@ -23791,6 +23813,15 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/heads_quarters/ce)
+"uIE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/modular_map_root/tissstation{
+	name = "medNorth"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
 "uII" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
@@ -37863,7 +37894,7 @@ nqJ
 sdS
 ppZ
 xRs
-paB
+qdi
 paB
 paB
 paB
@@ -41204,7 +41235,7 @@ bfN
 eHF
 pYd
 sKA
-hyp
+uIE
 uYA
 jlh
 nXc
@@ -44053,7 +44084,7 @@ nqJ
 tSS
 qta
 iqm
-wXm
+blY
 iqm
 qta
 ohK

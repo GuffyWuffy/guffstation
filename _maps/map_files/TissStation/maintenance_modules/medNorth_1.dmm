@@ -1,0 +1,777 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"b" = (
+/turf/closed/mineral/random/stationside/asteroid/porus,
+/area/station/asteroid)
+"d" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Medbay Maintenance"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/cmo,
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/command/heads_quarters/cmo)
+"f" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/any/medical/maintenance,
+/obj/machinery/door/airlock/maintenance{
+	name = "Medbay Maintenance"
+	},
+/turf/open/floor/plating,
+/area/station/medical/medbay)
+"h" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Medbay Maintenance"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/structure/plasticflaps/kitchen,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/medical/coldroom)
+"i" = (
+/obj/structure/falsewall,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"n" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/modular_map_connector,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"q" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"t" = (
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"v" = (
+/turf/closed/wall/r_wall,
+/area/station/maintenance/department/medical)
+"C" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"F" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"G" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Medbay Maintenance"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/all/medical/surgery,
+/turf/open/floor/plating,
+/area/station/medical/surgery/aft)
+"H" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance{
+	name = "Medbay Maintenance"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/turf/open/floor/plating,
+/area/station/medical/break_room)
+"K" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/medical/maintenance,
+/obj/machinery/door/airlock/maintenance{
+	name = "Medbay Maintenance"
+	},
+/turf/open/floor/plating,
+/area/station/medical/medbay)
+"P" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/junction/flip{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"R" = (
+/obj/effect/decal/cleanable/confetti,
+/obj/item/storage/box/party_poppers,
+/obj/item/reagent_containers/spray/chemsprayer/party,
+/obj/item/clothing/mask/party_horn,
+/obj/item/clothing/head/costume/party/festive,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"V" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Medbay Maintenance"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/all/medical/surgery,
+/obj/structure/disposalpipe/segment{
+	dir = 2
+	},
+/turf/open/floor/plating,
+/area/station/medical/surgery/fore)
+"W" = (
+/turf/template_noop,
+/area/template_noop)
+"X" = (
+/turf/closed/wall,
+/area/station/maintenance/department/medical)
+"Z" = (
+/turf/open/misc/asteroid/airless,
+/area/station/asteroid)
+
+(1,1,1) = {"
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+Z
+b
+W
+W
+W
+W
+W
+W
+"}
+(2,1,1) = {"
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+Z
+Z
+b
+b
+W
+W
+W
+W
+W
+W
+"}
+(3,1,1) = {"
+W
+W
+W
+W
+W
+W
+W
+W
+W
+Z
+b
+b
+b
+b
+W
+W
+W
+W
+W
+W
+W
+"}
+(4,1,1) = {"
+W
+W
+W
+W
+W
+W
+W
+b
+b
+b
+X
+X
+X
+X
+W
+W
+W
+W
+W
+W
+W
+"}
+(5,1,1) = {"
+W
+W
+W
+W
+W
+W
+b
+X
+X
+X
+X
+t
+a
+a
+K
+W
+W
+W
+W
+W
+W
+"}
+(6,1,1) = {"
+W
+W
+W
+W
+W
+Z
+b
+X
+a
+a
+a
+a
+a
+t
+W
+W
+W
+W
+W
+W
+W
+"}
+(7,1,1) = {"
+W
+W
+W
+W
+W
+Z
+b
+X
+a
+t
+t
+t
+t
+t
+W
+W
+W
+W
+W
+W
+W
+"}
+(8,1,1) = {"
+W
+W
+W
+W
+W
+b
+X
+X
+a
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(9,1,1) = {"
+W
+W
+W
+W
+b
+b
+X
+t
+a
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(10,1,1) = {"
+W
+W
+W
+W
+b
+X
+X
+t
+a
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(11,1,1) = {"
+W
+W
+W
+W
+b
+X
+a
+a
+a
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(12,1,1) = {"
+W
+W
+W
+Z
+b
+X
+a
+X
+X
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(13,1,1) = {"
+W
+W
+W
+b
+b
+X
+a
+X
+R
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(14,1,1) = {"
+W
+W
+Z
+b
+b
+X
+a
+X
+i
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(15,1,1) = {"
+W
+W
+Z
+b
+b
+X
+a
+a
+a
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(16,1,1) = {"
+W
+W
+Z
+b
+b
+X
+v
+v
+a
+H
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(17,1,1) = {"
+W
+Z
+b
+b
+X
+X
+b
+b
+a
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+f
+W
+"}
+(18,1,1) = {"
+W
+Z
+b
+b
+X
+t
+t
+t
+a
+t
+t
+t
+t
+t
+W
+W
+W
+W
+W
+n
+W
+"}
+(19,1,1) = {"
+Z
+Z
+b
+b
+X
+t
+t
+t
+a
+a
+a
+a
+a
+a
+h
+W
+W
+W
+h
+F
+W
+"}
+(20,1,1) = {"
+Z
+b
+b
+b
+X
+t
+t
+t
+t
+X
+X
+X
+X
+X
+W
+W
+W
+W
+W
+F
+W
+"}
+(21,1,1) = {"
+W
+b
+b
+b
+X
+t
+t
+t
+X
+b
+b
+b
+b
+b
+W
+W
+W
+W
+W
+P
+G
+"}
+(22,1,1) = {"
+W
+W
+b
+b
+b
+X
+b
+X
+b
+b
+b
+b
+b
+b
+b
+b
+b
+X
+t
+F
+W
+"}
+(23,1,1) = {"
+W
+W
+W
+Z
+Z
+b
+b
+b
+b
+b
+Z
+Z
+Z
+Z
+b
+b
+b
+X
+t
+C
+V
+"}
+(24,1,1) = {"
+W
+W
+W
+W
+W
+W
+b
+b
+b
+Z
+W
+W
+W
+Z
+b
+b
+X
+X
+t
+q
+W
+"}
+(25,1,1) = {"
+W
+W
+W
+W
+W
+W
+W
+Z
+Z
+W
+W
+W
+W
+W
+b
+X
+X
+t
+t
+q
+W
+"}
+(26,1,1) = {"
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+b
+b
+X
+t
+t
+t
+q
+W
+"}
+(27,1,1) = {"
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+d
+W
+"}
