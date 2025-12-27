@@ -2414,6 +2414,12 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
+"cod" = (
+/obj/modular_map_root/tissstation{
+	name = "mainOuterWest"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/port/central)
 "cos" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hazardvest,
@@ -3136,6 +3142,15 @@
 /obj/effect/turf_decal/trimline/blue/line,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
+"cQz" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2
+	},
+/obj/modular_map_root/tissstation{
+	name = "mainCentralWest"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/crew_quarters/bar)
 "cQM" = (
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/iron/showroomfloor,
@@ -8742,7 +8757,9 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/department/crew_quarters/dorms)
+/area/station/hallway/primary/port{
+	name = "\improper Medical Walkway"
+	})
 "hJV" = (
 /obj/effect/turf_decal/tile/dark_green/half/contrasted{
 	dir = 8
@@ -21076,12 +21093,6 @@
 /obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/iron,
 /area/station/engineering/main)
-"smg" = (
-/obj/machinery/door/airlock/maintenance,
-/turf/open/floor/plating,
-/area/station/hallway/primary/central/aft{
-	name = "\improper Tube Room"
-	})
 "smK" = (
 /obj/machinery/computer/security,
 /obj/effect/turf_decal/tile/dark_blue/half/contrasted{
@@ -22919,6 +22930,16 @@
 /obj/structure/tank_holder/extinguisher,
 /turf/open/floor/iron,
 /area/station/engineering/lobby)
+"tYw" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/modular_map_root/tissstation{
+	name = "medEast"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
 "tYL" = (
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 4
@@ -47114,7 +47135,7 @@ hDK
 sYd
 beA
 iAV
-lWe
+tYw
 jZa
 vIy
 uYA
@@ -55807,7 +55828,7 @@ lgk
 lSd
 lSd
 kGE
-rWy
+cQz
 hYY
 fSP
 oSt
@@ -56079,7 +56100,7 @@ xfd
 oSt
 fSP
 oFY
-rby
+iVv
 ohK
 elN
 elN
@@ -56338,7 +56359,7 @@ fSP
 jEW
 lvQ
 iVv
-rby
+iVv
 xeM
 xeM
 elN
@@ -60481,8 +60502,8 @@ oHn
 oxs
 rRT
 kLt
-smg
-eJd
+snG
+cod
 xJz
 hRv
 pvk
