@@ -6856,4 +6856,6 @@
 #include "troutstation\code\modules\surgery\organs\external\tails.dm"
 #include "troutstation\code\modules\surgery\organs\internal\stomach\stomach_anteater.dm"
 #include "troutstation\code\modules\surgery\organs\internal\tongue\tongue_anteater.dm"
+#include "troutstation\code\modules\transport\transport_navigation.dm"
+#include "troutstation\code\modules\transport\tram\tram_controller.dm"
 // END_INCLUDE
