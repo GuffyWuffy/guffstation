@@ -14,13 +14,6 @@
 "d" = (
 /turf/closed/wall,
 /area/station/maintenance/department/crew_quarters/bar)
-"e" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Tool Storage Maintenance"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/turf/open/floor/plating,
-/area/station/commons/storage/primary)
 "f" = (
 /obj/structure/reagent_dispensers/plumbed{
 	name = "bar water reservoir"
@@ -84,14 +77,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
-"q" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/structure/disposalpipe/segment{
-	dir = 2
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/department/crew_quarters/bar)
 "r" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -101,24 +86,6 @@
 "s" = (
 /turf/open/space/basic,
 /area/space)
-"t" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Dormitories Maintenance"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plating,
-/area/station/commons/dorms)
-"u" = (
-/obj/machinery/door/airlock{
-	name = "Bar Storage"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/bar,
-/obj/structure/disposalpipe/segment{
-	dir = 2
-	},
-/turf/open/floor/wood,
-/area/station/service/bar/backroom)
 "v" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -129,11 +96,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
-"x" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/turf/open/floor/plating,
-/area/station/hallway/secondary/recreation)
 "y" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -168,20 +130,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
-"C" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/duct,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/station/hallway/primary/port{
-	name = "\improper Medical Walkway"
-	})
 "D" = (
 /obj/effect/spawner/random/structure/grille,
 /turf/open/floor/plating,
@@ -204,15 +152,6 @@
 "J" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
-"K" = (
-/obj/effect/turf_decal/tile/dark_red/opposingcorners,
-/obj/machinery/door/airlock{
-	name = "Bar Storage"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/bar,
-/obj/machinery/duct,
-/turf/open/floor/iron/dark,
-/area/station/service/bar)
 "L" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -236,16 +175,6 @@
 "Q" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/department/crew_quarters/bar)
-"R" = (
-/obj/machinery/door/airlock{
-	name = "Custodial Closet"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/janitor,
-/obj/structure/disposalpipe/segment{
-	dir = 4
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
@@ -307,7 +236,7 @@ G
 G
 G
 G
-C
+G
 G
 G
 G
@@ -433,7 +362,7 @@ G
 G
 G
 G
-e
+G
 G
 G
 G
@@ -536,7 +465,7 @@ G
 G
 "}
 (10,1,1) = {"
-q
+G
 A
 g
 d
@@ -624,7 +553,7 @@ d
 r
 M
 M
-u
+G
 G
 G
 G
@@ -774,7 +703,7 @@ d
 J
 p
 L
-t
+G
 G
 G
 "}
@@ -790,7 +719,7 @@ G
 G
 G
 G
-K
+G
 U
 G
 G
@@ -852,7 +781,7 @@ G
 G
 G
 G
-R
+G
 G
 G
 T
@@ -1072,6 +1001,6 @@ G
 G
 G
 G
-x
+G
 G
 "}

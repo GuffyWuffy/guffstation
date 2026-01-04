@@ -36,14 +36,6 @@
 /obj/modular_map_connector,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
-"p" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Engineering Maintenance"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/main)
 "q" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/structure/cable,
@@ -61,21 +53,6 @@
 "t" = (
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
-"y" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/maintenance{
-	name = "Engineering Maintenance"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/main)
 "D" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -85,12 +62,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
-"H" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/template_noop)
 "J" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment{
@@ -120,65 +91,12 @@
 "R" = (
 /turf/template_noop,
 /area/template_noop)
-"S" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Atmospherics Maintenance"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
-/obj/effect/mapping_helpers/airlock/abandoned,
-/obj/structure/cable,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/atmos/hfr_room)
-"T" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/machinery/door/airlock/maintenance{
-	name = "Engineering Maintenance"
-	},
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/break_room)
-"U" = (
-/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
-/obj/machinery/door/airlock/maintenance{
-	name = "Engineering Maintenance"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/atmos)
-"V" = (
-/obj/machinery/door/airlock/external,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/maintenance/department/engine)
 "W" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "X" = (
 /turf/closed/wall/r_wall,
-/area/station/maintenance/department/engine)
-"Z" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Engineering Maintenance"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 
 (1,1,1) = {"
@@ -343,7 +261,7 @@ R
 R
 j
 X
-H
+R
 X
 X
 X
@@ -482,7 +400,7 @@ R
 R
 R
 R
-p
+R
 a
 a
 a
@@ -1042,7 +960,7 @@ R
 R
 R
 R
-y
+R
 R
 R
 R
@@ -1448,10 +1366,10 @@ a
 a
 a
 X
-R
+X
 "}
 (28,1,1) = {"
-T
+R
 N
 a
 a
@@ -1495,7 +1413,7 @@ a
 a
 a
 a
-V
+R
 "}
 (29,1,1) = {"
 R
@@ -1542,7 +1460,7 @@ W
 W
 a
 X
-R
+X
 "}
 (30,1,1) = {"
 R
@@ -1555,7 +1473,6 @@ a
 R
 R
 R
-U
 R
 R
 R
@@ -1577,7 +1494,6 @@ R
 R
 R
 R
-Z
 R
 R
 R
@@ -1586,7 +1502,9 @@ R
 R
 R
 R
-S
+R
+R
+R
 R
 R
 R

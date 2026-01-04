@@ -1,25 +1,25 @@
 directory = "_maps/map_files/TissStation/maintenance_modules/"
 
 [rooms.engCentral]
-modules = ["TEMPLATE-engCentral.dmm"]
+modules = ["engCentral_1.dmm"]
 
 [rooms.engUpperWest]
-modules = ["TEMPLATE-engUpperWest.dmm"]
+modules = ["engUpperWest_1.dmm"]
 
 [rooms.mainCentralWest]
-modules = ["TEMPLATE-mainCentralWest.dmm","mainCentralWest_1.dmm"]
+modules = ["mainCentralWest_1.dmm"]
 
 [rooms.mainOuterWest]
-modules = ["TEMPLATE-mainOuterWest.dmm"]
+modules = ["mainOuterWest_1.dmm"]
 
 [rooms.medEast]
-modules = ["TEMPLATE-medEast.dmm"]
+modules = ["medEast_1.dmm"]
 
 [rooms.medMorgue]
-modules = ["TEMPLATE-medMorgue.dmm","medMorgue_1.dmm"]
+modules = ["medMorgue_1.dmm"]
 
 [rooms.medNorth]
-modules = ["TEMPLATE-medNorth.dmm","medNorth_1.dmm"]
+modules = ["medNorth_1.dmm"]
 
 [rooms.medWest]
-modules = ["TEMPLATE-medWest.dmm"]
+modules = ["medWest_1.dmm"]

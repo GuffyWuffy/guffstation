@@ -2,18 +2,6 @@
 "a" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
-"b" = (
-/obj/structure/cable,
-/obj/machinery/door/airlock/maintenance{
-	name = "Engineering Maintenance"
-	},
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/main)
 "c" = (
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
@@ -71,22 +59,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
-"x" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/lobby)
-"y" = (
-/obj/structure/transit_tube/horizontal,
-/obj/effect/spawner/structure/window,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/maintenance/port/aft)
 "B" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -119,32 +91,6 @@
 "I" = (
 /turf/closed/wall/r_wall,
 /area/station/maintenance/port/aft)
-"J" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/maintenance/port/aft)
-"K" = (
-/obj/machinery/navbeacon{
-	codes_txt = "delivery;dir=2";
-	location = "Engineering"
-	},
-/obj/structure/plasticflaps/opaque,
-/obj/effect/turf_decal/bot,
-/obj/effect/landmark/firealarm_sanity,
-/obj/machinery/door/window/left/directional/west{
-	name = "MuleBot Access";
-	req_access = list("shipping");
-	dir = 1
-	},
-/obj/effect/mapping_error,
-/turf/open/floor/iron,
-/area/station/maintenance/port/aft)
 "M" = (
 /obj/structure/disposalpipe/sorting/mail{
 	dir = 1
@@ -176,12 +122,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
-"X" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/lobby)
 "Y" = (
 /turf/template_noop,
 /area/template_noop)
@@ -393,7 +333,7 @@ I
 I
 e
 e
-K
+Y
 Y
 Y
 Y
@@ -542,7 +482,7 @@ S
 S
 S
 S
-y
+Y
 S
 T
 Y
@@ -639,7 +579,7 @@ Z
 Z
 Z
 Z
-b
+Y
 Y
 Y
 Y
@@ -706,9 +646,9 @@ Y
 Y
 Y
 Y
-y
 Y
-x
+Y
+Y
 Y
 Y
 Y
@@ -932,7 +872,7 @@ Y
 Y
 "}
 (19,1,1) = {"
-J
+Y
 q
 q
 q
@@ -949,7 +889,7 @@ e
 e
 e
 f
-X
+Y
 Y
 Y
 Y

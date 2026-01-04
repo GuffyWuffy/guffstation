@@ -18,20 +18,6 @@
 /obj/structure/transit_tube/horizontal,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
-"h" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/airlock/access/any/medical/maintenance,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/door/airlock/maintenance{
-	name = "Medbay Maintenance"
-	},
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/medical/chemistry)
 "l" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -41,12 +27,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
-"n" = (
-/obj/structure/transit_tube/horizontal,
-/obj/effect/spawner/structure/window,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical)
 "o" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
@@ -54,14 +34,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical)
-"r" = (
-/obj/structure/transit_tube/curved/flipped{
-	dir = 1
-	},
-/obj/effect/spawner/structure/window,
-/obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "v" = (
@@ -156,16 +128,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "T" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/any/medical/maintenance,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
+/turf/closed/wall,
 /area/station/maintenance/department/medical)
 "U" = (
 /obj/structure/cable,
@@ -174,16 +137,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical)
-"V" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/structure/cable,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "W" = (
@@ -209,18 +162,6 @@
 /obj/modular_map_connector,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
-"Z" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Medbay Maintenance"
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/airlock/access/all/medical/pharmacy,
-/obj/structure/disposalpipe/segment,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/medical/pharmacy)
 
 (1,1,1) = {"
 N
@@ -248,7 +189,7 @@ N
 N
 N
 N
-h
+N
 N
 N
 N
@@ -311,7 +252,7 @@ N
 N
 v
 D
-D
+T
 x
 a
 "}
@@ -341,7 +282,7 @@ N
 N
 N
 v
-D
+T
 x
 x
 N
@@ -372,7 +313,7 @@ N
 N
 N
 v
-D
+T
 x
 x
 a
@@ -434,8 +375,8 @@ N
 N
 D
 v
-D
-D
+T
+T
 x
 a
 "}
@@ -452,21 +393,21 @@ N
 N
 N
 N
-n
-N
-N
-n
 N
 N
 N
 N
 N
 N
-Z
+N
+N
+N
+N
+N
 Y
 W
 D
-D
+T
 x
 a
 "}
@@ -480,7 +421,7 @@ N
 N
 N
 N
-V
+N
 U
 c
 L
@@ -497,7 +438,7 @@ N
 D
 v
 D
-D
+T
 x
 N
 "}
@@ -514,7 +455,7 @@ N
 N
 v
 N
-n
+N
 N
 N
 F
@@ -548,7 +489,7 @@ N
 N
 N
 N
-n
+N
 N
 w
 c
@@ -754,7 +695,7 @@ N
 N
 N
 N
-r
+N
 D
 M
 I
@@ -910,7 +851,7 @@ N
 U
 l
 N
-n
+N
 N
 N
 N
@@ -968,7 +909,7 @@ N
 "}
 (25,1,1) = {"
 N
-T
+N
 N
 N
 N

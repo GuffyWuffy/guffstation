@@ -43,24 +43,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
 "l" = (
-/obj/structure/transit_tube/horizontal,
-/obj/effect/spawner/structure/window,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/hallway/primary/central/aft{
-	name = "\improper Tube Room"
-	})
+/turf/closed/wall/r_wall,
+/area/station/maintenance/port/central)
 "m" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/hallway/primary/port{
-	name = "\improper Medical Walkway"
-	})
+/turf/closed/wall,
+/area/station/maintenance/port/central)
 "n" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -97,14 +84,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
-"A" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/hallway/primary/central/aft{
-	name = "\improper Tube Room"
-	})
 "E" = (
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
@@ -140,41 +119,13 @@
 /obj/structure/transit_tube/crossing/horizontal,
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
-"S" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/template_noop)
-"U" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/any/medical/maintenance,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical)
-"X" = (
-/obj/structure/transit_tube/horizontal,
-/obj/effect/spawner/structure/window,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/maintenance/port/central)
 
 (1,1,1) = {"
 a
 a
 a
 a
-U
+a
 a
 a
 a
@@ -323,14 +274,14 @@ M
 u
 u
 c
+l
 E
 E
 E
-E
-E
-E
-E
-E
+l
+l
+l
+l
 w
 a
 a
@@ -352,7 +303,7 @@ a
 (6,1,1) = {"
 a
 E
-E
+m
 G
 E
 E
@@ -366,8 +317,8 @@ u
 u
 u
 c
-E
-E
+l
+l
 a
 a
 a
@@ -386,7 +337,7 @@ a
 a
 "}
 (7,1,1) = {"
-m
+a
 f
 f
 f
@@ -405,7 +356,7 @@ s
 u
 u
 c
-E
+l
 w
 a
 a
@@ -441,7 +392,7 @@ E
 E
 E
 y
-E
+l
 w
 a
 a
@@ -477,8 +428,8 @@ E
 E
 E
 y
-E
-E
+l
+l
 a
 a
 a
@@ -555,8 +506,8 @@ a
 a
 y
 a
-X
-X
+a
+a
 a
 w
 w
@@ -594,7 +545,7 @@ E
 P
 P
 E
-E
+l
 w
 w
 a
@@ -630,7 +581,7 @@ E
 P
 P
 E
-E
+l
 w
 w
 a
@@ -666,8 +617,8 @@ E
 P
 P
 E
-E
-E
+l
+l
 w
 w
 a
@@ -703,7 +654,7 @@ P
 P
 E
 E
-E
+l
 w
 w
 a
@@ -739,7 +690,7 @@ P
 P
 E
 E
-E
+l
 w
 w
 a
@@ -775,8 +726,8 @@ P
 P
 E
 E
-E
-E
+l
+l
 w
 a
 a
@@ -812,7 +763,7 @@ P
 E
 E
 E
-E
+l
 w
 w
 a
@@ -848,7 +799,7 @@ P
 E
 E
 E
-E
+l
 w
 w
 a
@@ -884,7 +835,7 @@ P
 E
 E
 E
-E
+l
 w
 w
 a
@@ -920,7 +871,7 @@ P
 E
 E
 E
-E
+l
 w
 w
 w
@@ -956,8 +907,8 @@ P
 E
 E
 E
-E
-E
+l
+l
 w
 w
 "}
@@ -993,7 +944,7 @@ E
 E
 E
 E
-E
+l
 w
 w
 "}
@@ -1029,7 +980,7 @@ E
 E
 E
 E
-E
+l
 w
 w
 "}
@@ -1065,7 +1016,7 @@ E
 E
 E
 E
-E
+l
 w
 w
 "}
@@ -1101,7 +1052,7 @@ E
 E
 E
 E
-E
+l
 w
 w
 "}
@@ -1137,7 +1088,7 @@ E
 E
 E
 E
-E
+l
 w
 w
 "}
@@ -1173,7 +1124,7 @@ E
 E
 E
 E
-E
+l
 w
 w
 "}
@@ -1209,7 +1160,7 @@ E
 E
 E
 E
-E
+l
 w
 w
 "}
@@ -1235,7 +1186,7 @@ a
 a
 a
 a
-E
+m
 E
 y
 E
@@ -1245,7 +1196,7 @@ E
 E
 E
 E
-E
+l
 w
 w
 "}
@@ -1281,7 +1232,7 @@ E
 E
 E
 E
-E
+l
 w
 w
 "}
@@ -1317,8 +1268,8 @@ E
 E
 E
 E
-E
-E
+l
+l
 w
 "}
 (33,1,1) = {"
@@ -1343,7 +1294,7 @@ a
 a
 a
 a
-E
+m
 E
 j
 u
@@ -1354,7 +1305,7 @@ u
 u
 c
 E
-E
+l
 a
 "}
 (34,1,1) = {"
@@ -1381,10 +1332,10 @@ a
 a
 a
 a
-l
 a
 a
-l
+a
+a
 a
 a
 a
@@ -1427,7 +1378,7 @@ a
 s
 g
 g
-S
+a
 "}
 (36,1,1) = {"
 a
@@ -1459,7 +1410,7 @@ a
 a
 a
 a
-A
+a
 O
 a
 a

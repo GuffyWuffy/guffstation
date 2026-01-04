@@ -16,6 +16,7 @@
 	name = "Tool Storage Maintenance"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/commons/storage/primary)
 "f" = (
@@ -75,6 +76,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 2
 	},
+/obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
 "r" = (
@@ -92,6 +94,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/disposalpipe/segment,
+/obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/commons/dorms)
 "u" = (
@@ -102,6 +105,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 2
 	},
+/obj/effect/mapping_error,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
 "v" = (
@@ -117,6 +121,7 @@
 "x" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/recreation)
 "y" = (
@@ -129,19 +134,11 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
-"z" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plating,
-/area/station/maintenance/department/crew_quarters/bar)
 "A" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2
 	},
-/obj/modular_map_root/tissstation{
-	name = "mainCentralWest"
-	},
+/obj/modular_map_connector,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
 "B" = (
@@ -165,6 +162,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/hallway/primary/port{
 	name = "\improper Medical Walkway"
@@ -182,6 +180,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /obj/machinery/duct,
+/obj/effect/mapping_error,
 /turf/open/floor/iron/dark,
 /area/station/service/bar)
 "L" = (
@@ -218,6 +217,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
 "S" = (
@@ -537,7 +537,7 @@ G
 G
 G
 r
-z
+w
 X
 Q
 Z
