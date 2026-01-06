@@ -17,6 +17,10 @@ endmap
 
 # Production-level maps.
 
+map tissstation
+	votable
+endmap
+
 map deltastation
 	minplayers 50
 	votable

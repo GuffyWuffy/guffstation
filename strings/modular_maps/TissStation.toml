@@ -6,11 +6,17 @@ modules = ["engCentral_1.dmm"]
 [rooms.engUpperWest]
 modules = ["engUpperWest_1.dmm"]
 
+[rooms.engUpperEast]
+modules = ["engUpperEast_1.dmm"]
+
 [rooms.mainCentralWest]
 modules = ["mainCentralWest_1.dmm"]
 
 [rooms.mainOuterWest]
 modules = ["mainOuterWest_1.dmm"]
+
+[rooms.mainOuterEast]
+modules = ["mainOuterEast_1.dmm"]
 
 [rooms.medEast]
 modules = ["medEast_1.dmm"]
