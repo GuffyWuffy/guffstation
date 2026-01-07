@@ -163,6 +163,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
 /obj/effect/mapping_error,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "W" = (
@@ -1401,7 +1402,7 @@ a
 X
 X
 X
-j
+R
 "}
 (27,1,1) = {"
 R
@@ -1447,7 +1448,7 @@ a
 a
 a
 a
-X
+a
 R
 "}
 (28,1,1) = {"
@@ -1493,8 +1494,8 @@ a
 a
 a
 a
-a
-a
+W
+W
 V
 "}
 (29,1,1) = {"
@@ -1540,8 +1541,8 @@ W
 W
 W
 W
-a
-X
+W
+R
 R
 "}
 (30,1,1) = {"

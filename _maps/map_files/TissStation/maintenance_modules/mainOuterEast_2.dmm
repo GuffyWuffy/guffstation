@@ -1,0 +1,1907 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"av" = (
+/obj/structure/fake_stairs/wood/directional/south{
+	color = "#9d9d9d"
+	},
+/obj/structure/railing{
+	dir = 8;
+	color = "#9d9d9d"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"az" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"ba" = (
+/obj/structure/mineral_door/wood{
+	color = "#979797";
+	name = "\improper The Downward Spiral"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"bF" = (
+/obj/structure/fake_stairs/wood/directional/north{
+	color = "#303030"
+	},
+/obj/structure/railing{
+	dir = 4;
+	color = "#303030"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"eZ" = (
+/obj/structure/transit_tube/curved{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"gN" = (
+/obj/structure/fake_stairs/wood/directional/south{
+	color = "#ababab"
+	},
+/obj/structure/railing{
+	dir = 8;
+	color = "#ababab"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"hj" = (
+/obj/structure/fake_stairs/wood/directional/west{
+	color = "#5e5e5e"
+	},
+/obj/structure/railing{
+	dir = 1;
+	color = "#5e5e5e"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"hH" = (
+/obj/structure/fake_stairs/wood/directional/north{
+	color = "#e9e9e9"
+	},
+/obj/structure/railing{
+	dir = 4;
+	color = "#e9e9e9"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"ih" = (
+/turf/closed/wall/mineral/wood,
+/area/station/maintenance/starboard/central)
+"im" = (
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"io" = (
+/obj/structure/fake_stairs/wood/directional/west{
+	color = "#cdcdcd"
+	},
+/obj/structure/railing{
+	dir = 1;
+	color = "#cdcdcd"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"it" = (
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/airless,
+/area/station/asteroid)
+"iy" = (
+/obj/structure/fake_stairs/wood/directional/north,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"jt" = (
+/obj/structure/fake_stairs/wood/directional/west{
+	color = "#c6c6c6"
+	},
+/obj/structure/railing{
+	dir = 1;
+	color = "#c6c6c6"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"kF" = (
+/obj/structure/fake_stairs/wood/directional/north{
+	color = "#777777"
+	},
+/obj/structure/railing{
+	dir = 4;
+	color = "#777777"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"kM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"kX" = (
+/obj/structure/fake_stairs/wood/directional/north{
+	color = "#f1f1f1"
+	},
+/obj/structure/railing{
+	dir = 4;
+	color = "#f1f1f1"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"lF" = (
+/turf/open/floor/wood/large{
+	color = "#646464"
+	},
+/area/station/maintenance/starboard/central)
+"lR" = (
+/obj/structure/transit_tube/horizontal,
+/obj/structure/window/reinforced/tinted/fulltile,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"of" = (
+/obj/structure/fake_stairs/wood/directional/north{
+	color = "#e2e2e2"
+	},
+/obj/structure/railing{
+	dir = 4;
+	color = "#e2e2e2"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"oL" = (
+/turf/template_noop,
+/area/template_noop)
+"ps" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"pR" = (
+/obj/structure/transit_tube/curved{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"sm" = (
+/obj/structure/transit_tube/diagonal/crossing/topleft,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"sn" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"sL" = (
+/obj/structure/transit_tube/curved,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"ub" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"ug" = (
+/turf/closed/wall,
+/area/station/maintenance/starboard/central)
+"uh" = (
+/obj/structure/fake_stairs/wood/directional/east{
+	color = "#8a8a8a"
+	},
+/obj/structure/railing{
+	color = "#8a8a8a"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"uw" = (
+/obj/structure/fake_stairs/wood/directional/west{
+	color = "#d4d4d4"
+	},
+/obj/structure/railing{
+	dir = 1;
+	color = "#d4d4d4"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"vI" = (
+/turf/open/floor/wood/large{
+	color = "#dbdbdb"
+	},
+/area/station/maintenance/starboard/central)
+"xC" = (
+/turf/open/floor/wood/large{
+	color = "#979797"
+	},
+/area/station/maintenance/starboard/central)
+"yB" = (
+/obj/structure/fake_stairs/wood/directional/east{
+	color = "#838383"
+	},
+/obj/structure/railing{
+	color = "#838383"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"yT" = (
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
+/area/station/asteroid)
+"zg" = (
+/turf/open/floor/wood/large{
+	color = "#353535"
+	},
+/area/station/maintenance/starboard/central)
+"zr" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"zD" = (
+/obj/structure/fake_stairs/wood/directional/west{
+	color = "#585858"
+	},
+/obj/structure/railing{
+	dir = 1;
+	color = "#585858"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"zL" = (
+/obj/structure/transit_tube/curved/flipped{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"Bn" = (
+/turf/open/floor/wood/large{
+	color = "#b8b8b8"
+	},
+/area/station/maintenance/starboard/central)
+"Cp" = (
+/turf/open/floor/wood/large{
+	color = "#525252"
+	},
+/area/station/maintenance/starboard/central)
+"DZ" = (
+/obj/item/paper/fluff/downward_spiral,
+/turf/open/floor/wood/large{
+	color = "#2a2a2a"
+	},
+/area/station/maintenance/starboard/central)
+"Eb" = (
+/obj/structure/fake_stairs/wood/directional/west{
+	color = "#bfbfbf"
+	},
+/obj/structure/railing{
+	dir = 1;
+	color = "#bfbfbf"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"Ej" = (
+/obj/structure/fake_stairs/wood/directional/south{
+	color = "#a4a4a4"
+	},
+/obj/structure/railing{
+	dir = 8;
+	color = "#a4a4a4"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"EN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/transit_tube/crossing/horizontal,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"FB" = (
+/obj/modular_map_connector,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"FW" = (
+/obj/machinery/door/airlock/maintenance,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"Gm" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"GM" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"HK" = (
+/obj/structure/fake_stairs/wood/directional/north{
+	color = "#f8f8f8"
+	},
+/obj/structure/railing{
+	dir = 4;
+	color = "#f8f8f8"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"Ik" = (
+/obj/structure/fake_stairs/wood/directional/east{
+	color = "#909090"
+	},
+/obj/structure/railing{
+	color = "#909090"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"JN" = (
+/turf/open/floor/wood/large{
+	color = "#404040"
+	},
+/area/station/maintenance/starboard/central)
+"Kc" = (
+/turf/open/misc/asteroid/airless,
+/area/station/asteroid)
+"KC" = (
+/obj/structure/transit_tube/curved{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"KR" = (
+/obj/structure/fake_stairs/wood/directional/south{
+	color = "#b2b2b2"
+	},
+/obj/structure/railing{
+	dir = 8;
+	color = "#b2b2b2"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"Mj" = (
+/obj/structure/fake_stairs/wood/directional/east{
+	color = "#3b3b3b"
+	},
+/obj/structure/railing{
+	color = "#3b3b3b"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"Nk" = (
+/obj/structure/transit_tube/curved/flipped{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"Oy" = (
+/turf/closed/mineral/random/stationside/asteroid/porus,
+/area/station/asteroid)
+"OA" = (
+/obj/structure/fake_stairs/wood/directional/north{
+	color = "#6a6a6a"
+	},
+/obj/structure/railing{
+	dir = 4;
+	color = "#6a6a6a"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"QB" = (
+/obj/structure/transit_tube/crossing/horizontal,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"QW" = (
+/turf/closed/wall,
+/area/station/maintenance/starboard/aft)
+"Rc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"RD" = (
+/obj/machinery/light/floor/broken{
+	color = "#2a2a2a"
+	},
+/turf/open/floor/wood/large{
+	color = "#2a2a2a"
+	},
+/area/station/maintenance/starboard/central)
+"Sc" = (
+/obj/structure/transit_tube/crossing,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"SH" = (
+/turf/open/floor/wood/large{
+	color = "#7d7d7d"
+	},
+/area/station/maintenance/starboard/central)
+"Tm" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"WJ" = (
+/obj/structure/transit_tube/diagonal/crossing,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+"WV" = (
+/obj/structure/fake_stairs/wood/directional/south{
+	color = "#464646"
+	},
+/obj/structure/railing{
+	dir = 8;
+	color = "#464646"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"XM" = (
+/turf/open/floor/wood/large{
+	color = "#2a2a2a"
+	},
+/area/station/maintenance/starboard/central)
+"YU" = (
+/obj/structure/fake_stairs/wood/directional/south{
+	color = "#4c4c4c"
+	},
+/obj/structure/railing{
+	dir = 8;
+	color = "#4c4c4c"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"Zy" = (
+/obj/structure/fake_stairs/wood/directional/north{
+	color = "#707070"
+	},
+/obj/structure/railing{
+	dir = 4;
+	color = "#707070"
+	},
+/turf/open/floor/wood/large,
+/area/station/maintenance/starboard/central)
+"ZL" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
+
+(1,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
+(2,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+FB
+oL
+oL
+oL
+oL
+oL
+"}
+(3,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+Tm
+Tm
+Tm
+oL
+oL
+oL
+"}
+(4,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+Tm
+im
+im
+ug
+oL
+oL
+"}
+(5,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+im
+im
+im
+eZ
+im
+im
+QB
+im
+im
+im
+Tm
+im
+im
+ug
+oL
+oL
+"}
+(6,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+im
+im
+im
+im
+sm
+im
+QB
+im
+im
+im
+Tm
+im
+im
+ug
+QW
+oL
+"}
+(7,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+im
+im
+im
+im
+im
+pR
+QB
+im
+im
+im
+Tm
+im
+im
+im
+ug
+Oy
+"}
+(8,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+lR
+lR
+ug
+im
+im
+Tm
+im
+im
+im
+ug
+Oy
+"}
+(9,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+QB
+QB
+ug
+im
+im
+Tm
+im
+im
+im
+ug
+Oy
+"}
+(10,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+QB
+QB
+FW
+im
+im
+Tm
+im
+im
+im
+ug
+Oy
+"}
+(11,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+QB
+QB
+ug
+im
+im
+Tm
+im
+im
+ug
+Oy
+Oy
+"}
+(12,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+QB
+QB
+ug
+im
+im
+Tm
+im
+im
+ug
+Oy
+Kc
+"}
+(13,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+QB
+QB
+ug
+im
+im
+Tm
+im
+im
+ug
+Oy
+Kc
+"}
+(14,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+QB
+QB
+ug
+im
+im
+Tm
+im
+ug
+ug
+Oy
+Kc
+"}
+(15,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+sn
+im
+im
+im
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+lR
+lR
+ug
+im
+im
+Tm
+im
+ug
+Oy
+Oy
+Oy
+"}
+(16,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+az
+im
+im
+im
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+im
+im
+im
+im
+im
+QB
+QB
+im
+im
+im
+Tm
+ug
+ug
+Oy
+Kc
+oL
+"}
+(17,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+ub
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+kM
+kM
+EN
+EN
+Tm
+Tm
+Tm
+Tm
+ug
+Oy
+Oy
+Kc
+oL
+"}
+(18,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+ub
+im
+im
+im
+im
+im
+im
+im
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+im
+im
+im
+QB
+QB
+im
+im
+im
+ug
+ug
+Oy
+Oy
+Kc
+oL
+"}
+(19,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+ub
+im
+im
+im
+im
+im
+im
+im
+ba
+iy
+HK
+kX
+hH
+of
+vI
+ih
+im
+im
+im
+QB
+QB
+im
+im
+im
+ug
+Oy
+Kc
+Kc
+Kc
+oL
+"}
+(20,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+ub
+im
+im
+im
+im
+im
+im
+im
+ih
+SH
+kF
+Zy
+OA
+lF
+uw
+ih
+im
+im
+im
+QB
+QB
+im
+im
+ug
+ug
+Oy
+Kc
+Kc
+oL
+oL
+"}
+(21,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+ub
+im
+im
+im
+im
+im
+im
+im
+ih
+yB
+zg
+bF
+XM
+hj
+io
+ih
+im
+im
+ug
+lR
+lR
+ug
+im
+ug
+Oy
+Oy
+Kc
+Kc
+oL
+oL
+"}
+(22,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+ub
+im
+im
+im
+im
+im
+im
+im
+ih
+uh
+Mj
+RD
+DZ
+zD
+jt
+ih
+im
+ug
+ug
+Nk
+Nk
+ug
+ug
+ug
+Oy
+Kc
+Kc
+oL
+oL
+oL
+"}
+(23,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+ub
+im
+im
+im
+im
+im
+im
+im
+ih
+Ik
+JN
+WV
+YU
+Cp
+Eb
+ih
+FW
+ug
+WJ
+WJ
+ug
+ug
+ug
+Oy
+Oy
+Kc
+oL
+oL
+oL
+oL
+"}
+(24,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+ub
+im
+im
+im
+im
+im
+im
+im
+ih
+xC
+av
+Ej
+gN
+KR
+Bn
+ih
+im
+WJ
+WJ
+ug
+ug
+Oy
+Oy
+Oy
+Kc
+Kc
+oL
+oL
+oL
+oL
+"}
+(25,1,1) = {"
+oL
+oL
+oL
+im
+im
+ub
+im
+im
+im
+im
+im
+im
+ug
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+WJ
+WJ
+ug
+ug
+Oy
+Oy
+Oy
+Oy
+Kc
+oL
+oL
+oL
+oL
+oL
+"}
+(26,1,1) = {"
+oL
+oL
+oL
+im
+im
+ub
+im
+im
+im
+im
+im
+ug
+ug
+sL
+Sc
+Sc
+Sc
+Sc
+Sc
+Sc
+KC
+WJ
+ug
+ug
+Oy
+Oy
+Oy
+Oy
+Oy
+Kc
+Kc
+oL
+oL
+oL
+oL
+"}
+(27,1,1) = {"
+oL
+oL
+oL
+im
+im
+ub
+im
+im
+im
+im
+ug
+ug
+WJ
+sL
+Sc
+Sc
+Sc
+Sc
+Sc
+Sc
+KC
+ug
+ug
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Kc
+oL
+oL
+oL
+oL
+oL
+"}
+(28,1,1) = {"
+oL
+oL
+oL
+im
+im
+ub
+im
+im
+im
+im
+ug
+zL
+zL
+ug
+ug
+ug
+ug
+ug
+ug
+ug
+ug
+ug
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Kc
+Kc
+oL
+oL
+oL
+oL
+"}
+(29,1,1) = {"
+oL
+oL
+oL
+im
+im
+ub
+im
+im
+im
+ug
+ug
+oL
+oL
+ug
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Kc
+Kc
+Kc
+Kc
+oL
+oL
+oL
+oL
+oL
+"}
+(30,1,1) = {"
+oL
+oL
+im
+im
+im
+ub
+im
+ug
+ug
+ug
+Oy
+oL
+oL
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
+(31,1,1) = {"
+oL
+im
+im
+Tm
+ZL
+zr
+ug
+ug
+Oy
+Oy
+Oy
+oL
+oL
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Kc
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
+(32,1,1) = {"
+oL
+im
+im
+ZL
+Gm
+ug
+ug
+Oy
+Oy
+Oy
+Oy
+oL
+oL
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Kc
+Kc
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
+(33,1,1) = {"
+oL
+oL
+im
+ps
+ug
+ug
+Oy
+Oy
+Oy
+Oy
+Oy
+oL
+oL
+yT
+Oy
+Oy
+Oy
+Kc
+Kc
+Kc
+Kc
+Kc
+Kc
+Kc
+Kc
+Kc
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
+(34,1,1) = {"
+oL
+oL
+im
+ps
+ug
+Oy
+Oy
+Oy
+Oy
+Oy
+yT
+oL
+oL
+yT
+yT
+Oy
+Kc
+Kc
+Kc
+oL
+oL
+oL
+Kc
+Kc
+Kc
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
+(35,1,1) = {"
+oL
+oL
+im
+ps
+ug
+ug
+Oy
+Oy
+Oy
+yT
+yT
+oL
+oL
+it
+it
+Kc
+Kc
+Kc
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
+(36,1,1) = {"
+oL
+oL
+im
+ps
+im
+ug
+Oy
+Oy
+yT
+it
+it
+oL
+oL
+it
+it
+it
+Kc
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
+(37,1,1) = {"
+oL
+oL
+im
+GM
+Rc
+ug
+Kc
+Kc
+Kc
+it
+it
+oL
+oL
+it
+it
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
+(38,1,1) = {"
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+Kc
+Kc
+Kc
+it
+oL
+oL
+it
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+"}
