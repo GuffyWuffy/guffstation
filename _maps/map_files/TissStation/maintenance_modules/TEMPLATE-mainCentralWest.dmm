@@ -243,6 +243,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
+"F" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/commons/dorms)
 "G" = (
 /turf/template_noop,
 /area/template_noop)
@@ -611,7 +615,7 @@ a
 a
 a
 s
-G
+F
 G
 "}
 (10,1,1) = {"
@@ -638,7 +642,7 @@ s
 s
 s
 s
-G
+F
 G
 "}
 (11,1,1) = {"
@@ -692,7 +696,7 @@ a
 a
 s
 s
-G
+F
 G
 "}
 (13,1,1) = {"
@@ -719,7 +723,7 @@ J
 J
 J
 s
-G
+F
 G
 "}
 (14,1,1) = {"

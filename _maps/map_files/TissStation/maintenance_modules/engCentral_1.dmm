@@ -53,6 +53,9 @@
 "t" = (
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
+"z" = (
+/turf/closed/wall/r_wall,
+/area/template_noop)
 "D" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -132,7 +135,7 @@ R
 R
 R
 t
-t
+z
 R
 R
 R

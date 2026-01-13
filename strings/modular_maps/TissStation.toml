@@ -10,7 +10,7 @@ modules = ["engUpperWest_1.dmm"]
 modules = ["engUpperEast_1.dmm"]
 
 [rooms.mainCentralWest]
-modules = ["mainCentralWest_1.dmm"]
+modules = ["mainCentralWest_1.dmm","mainCentralWest_2.dmm"]
 
 [rooms.mainOuterWest]
 modules = ["mainOuterWest_1.dmm"]
@@ -19,7 +19,7 @@ modules = ["mainOuterWest_1.dmm"]
 modules = ["mainOuterEast_1.dmm","mainOuterEast_2.dmm"]
 
 [rooms.medEast]
-modules = ["medEast_1.dmm"]
+modules = ["medEast_1.dmm","medEast_2.dmm"]
 
 [rooms.medMorgue]
 modules = ["medMorgue_1.dmm"]
