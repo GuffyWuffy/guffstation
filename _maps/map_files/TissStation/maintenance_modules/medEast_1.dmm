@@ -34,10 +34,6 @@
 /obj/effect/spawner/random/trash/janitor_supplies,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
-"g" = (
-/turf/open/floor/plating,
-/turf/closed/wall/r_wall,
-/area/station/maintenance/department/medical)
 "j" = (
 /obj/machinery/power/port_gen/pacman/pre_loaded,
 /turf/open/floor/plating,
@@ -629,7 +625,7 @@ C
 R
 V
 k
-g
+Q
 N
 N
 N

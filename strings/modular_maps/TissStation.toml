@@ -29,3 +29,6 @@ modules = ["medNorth_1.dmm"]
 
 [rooms.medWest]
 modules = ["medWest_1.dmm"]
+
+[rooms.brig]
+modules = ["brig_1.dmm", "brig_2.dmm"]
