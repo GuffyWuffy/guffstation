@@ -61,9 +61,6 @@
 "t" = (
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
-"v" = (
-/turf/closed/wall/r_wall,
-/area/template_noop)
 "y" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/maintenance{
@@ -218,7 +215,7 @@ R
 R
 R
 t
-v
+R
 R
 R
 R
@@ -362,7 +359,7 @@ j
 j
 j
 t
-t
+R
 R
 R
 R
@@ -409,8 +406,8 @@ j
 j
 j
 j
-t
-t
+R
+R
 R
 R
 R
@@ -457,8 +454,8 @@ j
 j
 j
 t
-t
-t
+R
+R
 R
 R
 R
@@ -505,8 +502,8 @@ j
 j
 j
 t
-t
-t
+R
+R
 R
 R
 R
@@ -552,8 +549,8 @@ j
 j
 j
 j
-t
-t
+R
+R
 R
 R
 R
@@ -599,7 +596,7 @@ j
 j
 j
 j
-t
+R
 R
 R
 R
@@ -646,7 +643,7 @@ j
 j
 j
 j
-t
+R
 R
 R
 R
@@ -694,7 +691,7 @@ X
 X
 j
 j
-t
+R
 R
 R
 R
@@ -742,7 +739,7 @@ X
 X
 j
 j
-t
+R
 R
 R
 R
@@ -790,7 +787,7 @@ X
 j
 j
 j
-t
+R
 R
 R
 R
@@ -837,7 +834,7 @@ X
 j
 j
 j
-t
+R
 R
 R
 R
@@ -884,7 +881,7 @@ X
 X
 j
 j
-t
+R
 R
 R
 R
@@ -931,7 +928,7 @@ a
 X
 j
 j
-t
+R
 R
 R
 R
@@ -978,7 +975,7 @@ a
 X
 j
 j
-t
+R
 R
 R
 R
@@ -1213,11 +1210,11 @@ a
 X
 j
 j
-t
 R
 R
-t
-t
+R
+R
+R
 "}
 (23,1,1) = {"
 R
