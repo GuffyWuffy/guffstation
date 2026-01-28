@@ -5,14 +5,6 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/abandoned/engine)
-"bm" = (
-/obj/machinery/power/shuttle_engine/heater{
-	dir = 4
-	},
-/obj/structure/window/reinforced/spawner/directional/west,
-/obj/structure/window/reinforced/spawner/directional/west,
-/turf/open/floor/plating/airless,
-/area/shuttle/abandoned/engine)
 "bt" = (
 /obj/effect/mob_spawn/corpse/human/engineer,
 /obj/item/hatchet,
@@ -47,6 +39,7 @@
 /area/shuttle/abandoned/engine)
 "dC" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/abandoned/engine)
 "dH" = (
@@ -85,6 +78,10 @@
 	},
 /turf/open/misc/snow,
 /area/shuttle/abandoned/engine)
+"kf" = (
+/obj/machinery/light/floor,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/abandoned/engine)
 "lQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
@@ -96,6 +93,18 @@
 "lX" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/engine)
+"mv" = (
+/obj/machinery/light/floor/broken,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/abandoned/engine)
+"mE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/mineral/titanium/white,
 /area/shuttle/abandoned/engine)
 "rG" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -158,6 +167,11 @@
 "yt" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/abandoned/engine)
+"zg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/broken,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/abandoned/engine)
 "An" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/misc/snow,
@@ -170,6 +184,7 @@
 "Bx" = (
 /obj/effect/mob_spawn/corpse/human/engineer,
 /obj/item/stack/sheet/mineral/wood/fifty,
+/obj/machinery/light/floor/broken,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/abandoned/engine)
 "Ca" = (
@@ -379,10 +394,10 @@ yt
 (4,1,1) = {"
 yt
 ST
-vo
+kf
 ic
 Xh
-vo
+mv
 ST
 yt
 "}
@@ -419,7 +434,7 @@ sc
 (8,1,1) = {"
 yt
 ST
-ST
+zg
 Oj
 HG
 Bx
@@ -461,7 +476,7 @@ tQ
 tQ
 yt
 UW
-ug
+mE
 yt
 tQ
 tQ
@@ -573,7 +588,7 @@ cQ
 JO
 JO
 cQ
-bm
+dl
 cQ
 "}
 (24,1,1) = {"

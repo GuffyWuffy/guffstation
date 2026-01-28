@@ -9,6 +9,10 @@
 	"}
 	color = "#2a2a2a"
 
+
+
+/// Tisserand areas
+
 /area/station/service/kitchen/tisserand
 	icon = 'troutstation/icons/area/areas_station.dmi'
 	icon_state = "tiss"
