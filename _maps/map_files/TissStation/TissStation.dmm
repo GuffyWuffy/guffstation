@@ -58151,7 +58151,8 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/airlock/red_alert_access,
-/turf/open/floor/plating)
+/turf/open/floor/plating,
+/area/station/hallway/fore/starboard)
 "uUO" = (
 /obj/machinery/air_sensor/nitrogen_tank,
 /turf/open/floor/engine/n2,
