@@ -6428,26 +6428,6 @@
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/circuit,
 /area/station/ai/upload/chamber)
-"csR" = (
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile{
-	dir = 1
-	},
-/obj/machinery/door/poddoor/preopen{
-	id = "cmoprivacy";
-	name = "CMO Office"
-	},
-/obj/effect/spawner/structure/window,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/side{
-	dir = 4
-	},
-/area/station/command/heads_quarters/cmo)
 "csY" = (
 /obj/effect/turf_decal/trimline/purple/filled/corner{
 	dir = 4
@@ -6826,26 +6806,6 @@
 /obj/machinery/meter/monitored/waste_loop,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
-"cyE" = (
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile{
-	dir = 8
-	},
-/obj/machinery/door/poddoor/preopen{
-	id = "cmoprivacy";
-	name = "CMO Office"
-	},
-/obj/effect/spawner/structure/window,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/side{
-	dir = 4
-	},
-/area/station/command/heads_quarters/cmo)
 "cyK" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 1
@@ -43248,16 +43208,13 @@
 /turf/open/floor/wood,
 /area/station/service/theater)
 "pAp" = (
-/obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/door/poddoor/preopen{
 	id = "cmoprivacy";
 	name = "CMO Office"
 	},
 /obj/effect/spawner/structure/window,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/side{
-	dir = 1
-	},
+/turf/open/floor/plating,
 /area/station/command/heads_quarters/cmo)
 "pAq" = (
 /obj/item/kirbyplants/photosynthetic,
@@ -44727,8 +44684,8 @@
 /obj/machinery/door/window/right/directional/north{
 	req_access = list("eva")
 	},
-/obj/structure/window/spawner/directional/north{
-	dir = 4
+/obj/structure/window/spawner/directional/east{
+	pixel_x = 4
 	},
 /obj/structure/rack,
 /obj/item/tank/jetpack/carbondioxide{
@@ -54339,18 +54296,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/medical/walkway)
-"tIQ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment,
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/neutral/opposingcorners{
-	dir = 1;
-	color = "#36d9ca"
-	},
-/turf/open/floor/iron/cafeteria,
-/area/station/commons/dorms)
 "tIU" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood/corner,
@@ -80127,9 +80072,9 @@ oCc
 oCc
 kRZ
 oCc
-cyE
-csR
-csR
+pAp
+pAp
+pAp
 oCc
 qUI
 fOo
@@ -94515,7 +94460,7 @@ fhM
 fhM
 eKv
 jVH
-tIQ
+ctA
 kJD
 ctA
 ctA
