@@ -232,9 +232,7 @@
 	},
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
-/area/station/hallway/primary/port{
-	name = "\improper Medical Walkway"
-	})
+/area/station/medical/walkway)
 "D" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10

@@ -109,9 +109,7 @@
 /obj/effect/spawner/structure/window,
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
-/area/station/hallway/primary/central/aft{
-	name = "\improper Tube Room"
-	})
+/area/station/hallway/tube)
 "x" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -136,9 +134,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
-/area/station/hallway/primary/central/aft{
-	name = "\improper Tube Room"
-	})
+/area/station/hallway/tube)
 "B" = (
 /obj/structure/transit_tube/diagonal,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,

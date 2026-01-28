@@ -47,9 +47,7 @@
 /obj/effect/spawner/structure/window,
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
-/area/station/hallway/primary/central/aft{
-	name = "\improper Tube Room"
-	})
+/area/station/hallway/tube)
 "m" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
@@ -58,9 +56,7 @@
 /obj/structure/cable,
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
-/area/station/hallway/primary/port{
-	name = "\improper Medical Walkway"
-	})
+/area/station/medical/walkway)
 "n" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -102,9 +98,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
-/area/station/hallway/primary/central/aft{
-	name = "\improper Tube Room"
-	})
+/area/station/hallway/tube)
 "E" = (
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
