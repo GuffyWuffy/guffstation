@@ -14,7 +14,6 @@
 	color = "#0066FF"
 	},
 /obj/machinery/duct,
-/obj/machinery/shower/directional/south,
 /obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/white/small,
 /area/station/commons/fitness/recreation/pool)
@@ -495,12 +494,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "zb" = (
-/obj/machinery/shower/directional/south,
 /obj/effect/turf_decal/tile/neutral/full{
 	color = "#0066FF"
 	},
-/obj/machinery/duct,
 /obj/structure/fluff/shower_drain,
+/obj/machinery/duct,
 /turf/open/floor/iron/white/small,
 /area/station/commons/fitness/recreation/pool)
 "zm" = (
@@ -758,7 +756,6 @@
 /obj/effect/turf_decal/tile/neutral/full{
 	color = "#0066FF"
 	},
-/obj/machinery/duct,
 /obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/white/small,
 /area/station/commons/fitness/recreation/pool)
@@ -951,7 +948,6 @@
 	color = "#0066FF"
 	},
 /obj/machinery/light/floor,
-/obj/machinery/duct,
 /obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/white/small,
 /area/station/commons/fitness/recreation/pool)
