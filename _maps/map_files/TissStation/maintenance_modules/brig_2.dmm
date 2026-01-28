@@ -37,6 +37,19 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
+"i" = (
+/obj/structure/chair/sofa/bamboo{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/wood,
+/area/station/commons/fitness/recreation/sauna)
 "j" = (
 /obj/structure/sign/poster/contraband/free_tonto/directional/south,
 /obj/structure/chair/sofa/bamboo{
@@ -221,9 +234,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
-"D" = (
-/turf/closed/wall,
-/area/template_noop)
 "F" = (
 /obj/modular_map_connector,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -231,19 +241,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
-"G" = (
-/obj/structure/chair/sofa/bamboo{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/obj/machinery/light/small/dim/directional/east,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/station/commons/fitness/recreation/sauna)
 "H" = (
 /obj/machinery/digital_clock/directional/north,
 /obj/effect/turf_decal/siding/wood,
@@ -265,9 +262,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
-"J" = (
-/turf/closed/wall/r_wall,
-/area/template_noop)
 "K" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
 /obj/structure/railing{
@@ -899,8 +893,8 @@ a
 a
 r
 B
+i
 N
-G
 N
 Z
 o
@@ -920,12 +914,12 @@ a
 a
 a
 a
-D
-D
-D
-D
-D
-J
+r
+r
+r
+r
+r
+o
 o
 z
 a

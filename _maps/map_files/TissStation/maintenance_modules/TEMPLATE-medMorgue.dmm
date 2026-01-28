@@ -72,10 +72,9 @@
 /area/station/maintenance/department/medical/morgue)
 "s" = (
 /obj/structure/plasticflaps/opaque,
-/obj/machinery/door/window/left/directional/west{
+/obj/machinery/door/window/left/directional/south{
 	name = "MuleBot Access";
-	req_access = list("shipping");
-	dir = 2
+	req_access = list("shipping")
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/navbeacon{

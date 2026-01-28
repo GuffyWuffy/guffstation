@@ -140,7 +140,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/station/commons/dorms)
 "kz" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -302,9 +302,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
 "xi" = (
-/obj/effect/spawner/random/structure/barricade,
 /obj/machinery/door/airlock/maintenance,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/spawner/random/structure/barricade/crude,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
 "xM" = (
@@ -633,7 +633,7 @@
 "Zz" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/station/commons/fitness)
 "ZY" = (
 /turf/open/space/basic,
 /area/space)

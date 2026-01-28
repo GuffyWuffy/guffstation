@@ -90,7 +90,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/station/maintenance/department/engine)
 "J" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment{

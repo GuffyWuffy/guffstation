@@ -123,9 +123,6 @@
 "D" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/maintenance/department/medical)
-"E" = (
-/turf/closed/wall/rock/porous,
-/area/template_noop)
 "F" = (
 /obj/structure/transit_tube/crossing/horizontal,
 /turf/open/misc/asteroid,
@@ -491,7 +488,7 @@ N
 N
 N
 N
-E
+r
 x
 x
 N

@@ -447,12 +447,7 @@
 /area/station/maintenance/department/crew_quarters/bar)
 "uy" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/disposalpipe/segment{
-	name = "Tramway";
-	resistance_flags = 115;
-	desc = "The line on which the tram runs.";
-	layer = 10002
-	},
+/obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating,

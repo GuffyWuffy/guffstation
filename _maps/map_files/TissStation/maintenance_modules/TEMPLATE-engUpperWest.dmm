@@ -100,16 +100,6 @@
 /obj/structure/transit_tube/crossing/horizontal,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
-"E" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/obj/structure/cable,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/station/maintenance/port/aft)
 "H" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -137,11 +127,6 @@
 /obj/structure/plasticflaps/opaque,
 /obj/effect/turf_decal/bot,
 /obj/effect/landmark/firealarm_sanity,
-/obj/machinery/door/window/left/directional/west{
-	name = "MuleBot Access";
-	req_access = list("shipping");
-	dir = 1
-	},
 /obj/effect/mapping_error,
 /turf/open/floor/iron,
 /area/station/maintenance/port/aft)
@@ -939,7 +924,7 @@ q
 q
 q
 q
-E
+W
 e
 e
 e
