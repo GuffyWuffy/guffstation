@@ -27810,7 +27810,7 @@
 "jVD" = (
 /obj/effect/decal/cleanable/ants{
 	name = "normal anteater food";
-	desc = s
+	desc = "I promise this is normal ants. Normal ants for a normal anteater. Not at all tampered with in any way. An anteater can eat these without worry. They are absolutely normal ants which one can eat without a care in the world. Ants for anteaters!"
 	},
 /turf/open/floor/engine,
 /area/station/science/explab)
@@ -43625,7 +43625,7 @@
 /obj/machinery/camera/emp_proof{
 	dir = 9;
 	network = list("ss13","engineering");
-	c_tag = s
+	c_tag = "Engineering - Atmospherics Mix Chamber"
 	},
 /turf/open/floor/engine/vacuum,
 /area/station/engineering/atmos)
