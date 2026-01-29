@@ -2,51 +2,31 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
-"j" = (
-/obj/effect/mapping_helpers/airlock/access/all/security/brig,
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Security Maintenance Hatch"
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/space)
 "k" = (
 /turf/open/misc/asteroid/airless,
-/area/space)
+/area/station/asteroid)
 "o" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
-/area/space)
+/area/station/asteroid)
 "v" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/space)
+/area/station/maintenance/department/security/brig)
 "z" = (
 /turf/closed/wall/r_wall,
-/area/space)
+/area/station/maintenance/department/security/brig)
 "A" = (
 /turf/open/floor/plating,
-/area/space)
+/area/station/maintenance/department/security/brig)
 "F" = (
 /obj/modular_map_connector,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/space)
-"V" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/all/security/brig,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/space)
+/area/station/maintenance/department/security/brig)
 
 (1,1,1) = {"
 a
@@ -210,7 +190,7 @@ a
 a
 "}
 (8,1,1) = {"
-V
+a
 F
 v
 v
@@ -242,7 +222,7 @@ a
 a
 a
 a
-j
+a
 a
 a
 A
