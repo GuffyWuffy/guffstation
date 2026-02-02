@@ -56944,12 +56944,12 @@
 /area/station/ai/satellite/foyer)
 "sML" = (
 /obj/docking_port/stationary{
-	name = "Tisserand emergency evac bay";
 	dir = 8;
-	width = 32;
-	height = 18;
-	shuttle_id = "emergency_gay2";
-	dwidth = 12
+	dwidth = 9;
+	height = 25;
+	name = "Tisserand emergency evac bay";
+	shuttle_id = "emergency_home";
+	width = 29
 	},
 /turf/open/space/basic,
 /area/space)
@@ -62131,12 +62131,6 @@
 /obj/machinery/requests_console/auto_name/directional/south,
 /turf/open/floor/iron/kitchen,
 /area/station/service/theater_dressing)
-"uBz" = (
-/obj/structure/transit_tube/diagonal/topleft,
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
 "uBM" = (
 /obj/machinery/status_display/ai/directional/north,
 /turf/open/floor/circuit,
@@ -69523,6 +69517,15 @@
 /obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/smooth_large,
 /area/station/security/execution/transfer)
+"wWz" = (
+/obj/structure/chair,
+/obj/docking_port/stationary{
+	name = "Tisserand emergency evac bay";
+	dir = 8;
+	shuttle_id = "emergency_home"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/exit/departure_lounge)
 "wWM" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/grassy/style_random,
@@ -94783,7 +94786,7 @@ szI
 rCh
 pjP
 pZy
-szI
+wWz
 rCh
 xbi
 xeM
@@ -99858,7 +99861,7 @@ elN
 dgI
 aVe
 aVe
-uBz
+mLB
 dXF
 elN
 elN

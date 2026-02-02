@@ -9,7 +9,8 @@
 	},
 /obj/machinery/button/flasher{
 	pixel_x = -26;
-	pixel_y = -6
+	pixel_y = -6;
+	id = "shuttleflash"
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape)
@@ -56,9 +57,6 @@
 /obj/machinery/camera/autoname/directional/east,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
-"dW" = (
-/turf/open/misc/asteroid,
-/area/space)
 "dX" = (
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/mineral/titanium,
@@ -144,11 +142,6 @@
 /mob/living/basic/skitterer,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
-"od" = (
-/obj/structure/sign/poster/official/moth_hardhat/directional/east,
-/obj/machinery/light/directional/east,
-/turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/escape)
 "oX" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/escape)
@@ -196,9 +189,6 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
-"to" = (
-/turf/open/floor/plating,
-/area/shuttle/escape)
 "tu" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
@@ -211,6 +201,8 @@
 /obj/effect/turf_decal/delivery/white{
 	color = "#000000"
 	},
+/obj/structure/sign/poster/official/moth_hardhat/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
 "tP" = (
@@ -269,10 +261,6 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/purple,
-/area/shuttle/escape)
-"xf" = (
-/obj/structure/sign/warning/hot_temp/directional/west,
-/turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
 "xm" = (
 /turf/open/floor/mineral/plastitanium,
@@ -466,7 +454,6 @@
 	},
 /obj/structure/closet/crate/internals,
 /obj/structure/extinguisher_cabinet/directional/west,
-/obj/structure/sign/poster/official/cleanliness/directional/north,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "Jh" = (
@@ -540,7 +527,6 @@
 /area/shuttle/escape)
 "Ll" = (
 /obj/machinery/wall_healer/free/directional/north,
-/obj/machinery/light/dim/directional/west,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
 "Lq" = (
@@ -623,6 +609,7 @@
 /obj/effect/turf_decal/delivery/white{
 	color = "#000000"
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
 "Lu" = (
@@ -646,9 +633,6 @@
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/leafy,
 /obj/structure/flora/bush/flowers_pp/style_random,
-/obj/structure/flora/bush/large/style_random{
-	pixel_y = 0
-	},
 /obj/structure/flora/bush/flowers_br/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
 /obj/machinery/light/dim/directional/west,
@@ -686,6 +670,7 @@
 /obj/effect/turf_decal/delivery/white{
 	color = "#000000"
 	},
+/obj/structure/sign/warning/hot_temp/directional/west,
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
 "Op" = (
@@ -742,10 +727,6 @@
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
-"SB" = (
-/obj/machinery/power/shuttle_engine/huge,
-/turf/open/floor/plating,
-/area/shuttle/escape)
 "Tm" = (
 /obj/structure/chair{
 	dir = 4
@@ -761,18 +742,6 @@
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
-"TU" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/obj/structure/flora/bush/grassy/style_random,
-/obj/structure/flora/grass/jungle/b/style_random,
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/structure/flora/bush/leafy,
-/obj/structure/flora/bush/flowers_yw/style_random,
-/obj/structure/flora/bush/large/style_random{
-	pixel_y = 0
-	},
-/turf/open/misc/grass/jungle/station,
-/area/shuttle/escape)
 "Ub" = (
 /obj/effect/spawner/random/maintenance/no_decals,
 /turf/open/misc/asteroid,
@@ -787,9 +756,6 @@
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/leafy,
 /obj/structure/flora/bush/flowers_pp/style_random,
-/obj/structure/flora/bush/large/style_random{
-	pixel_y = 0
-	},
 /turf/open/misc/grass/jungle/station,
 /area/shuttle/escape)
 "UX" = (
@@ -810,7 +776,8 @@
 	dir = 8
 	},
 /obj/machinery/flasher/directional/east{
-	pixel_y = 4
+	pixel_y = 4;
+	id = "shuttleflash"
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape)
@@ -824,7 +791,7 @@
 /area/shuttle/escape)
 "VU" = (
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "Wr" = (
 /obj/structure/chair,
 /turf/open/floor/mineral/plastitanium/red,
@@ -864,6 +831,7 @@
 	id_tag = "stasis2"
 	},
 /obj/machinery/light/dim/directional/west,
+/obj/structure/sign/poster/official/cleanliness/directional/west,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "Zv" = (
@@ -938,14 +906,14 @@ Do
 VU
 Do
 ZB
-oX
+OY
 oX
 OY
 Np
 Np
 OY
 oX
-oX
+OY
 ZB
 ZB
 VU
@@ -974,7 +942,7 @@ ZB
 ZB
 Do
 ZB
-oX
+OY
 oX
 HD
 YP
@@ -983,7 +951,7 @@ EP
 cG
 dr
 oX
-oX
+OY
 OY
 VU
 VU
@@ -992,7 +960,7 @@ VU
 VU
 VU
 ZB
-oX
+OY
 OY
 Np
 Np
@@ -1019,7 +987,7 @@ MX
 MX
 MX
 vM
-xf
+Ue
 Oj
 gH
 md
@@ -1028,7 +996,7 @@ VU
 (5,1,1) = {"
 VU
 ZB
-oX
+OY
 oX
 WM
 uA
@@ -1037,7 +1005,7 @@ oX
 ZB
 Do
 VU
-oX
+OY
 oX
 Vf
 CN
@@ -1070,7 +1038,7 @@ mg
 un
 un
 AA
-oX
+OY
 oX
 VU
 VU
@@ -1102,7 +1070,7 @@ VU
 (7,1,1) = {"
 VU
 ZB
-oX
+OY
 mg
 Fp
 gF
@@ -1117,7 +1085,7 @@ KY
 UN
 Oc
 Lu
-Vf
+Pu
 oX
 ZB
 Do
@@ -1129,11 +1097,11 @@ tP
 OY
 yj
 Ue
-od
+Ue
 tu
 oX
 OY
-dW
+Do
 VU
 "}
 (8,1,1) = {"
@@ -1143,7 +1111,7 @@ oX
 GY
 RJ
 sL
-TU
+Oc
 Ru
 dG
 Do
@@ -1167,10 +1135,10 @@ oX
 Lq
 kr
 oX
-oX
-oX
+OY
+OY
 Do
-dW
+Do
 VU
 "}
 (9,1,1) = {"
@@ -1190,9 +1158,9 @@ Vf
 lK
 wS
 Ku
-Pu
+Vf
 oX
-oX
+OY
 Do
 VU
 VU
@@ -1203,7 +1171,7 @@ ML
 OY
 oX
 oX
-oX
+OY
 ZB
 ZB
 Do
@@ -1228,7 +1196,7 @@ Vf
 Vf
 ZD
 oX
-oX
+OY
 ZB
 VU
 VU
@@ -1242,7 +1210,7 @@ ZB
 ZB
 Do
 Do
-dW
+Do
 VU
 VU
 VU
@@ -1255,7 +1223,7 @@ VP
 Gr
 Vf
 Op
-oX
+OY
 oX
 VU
 Do
@@ -1264,21 +1232,21 @@ oX
 OY
 gv
 OY
-oX
+OY
 ZB
 VU
 VU
 Do
 ZB
-oX
+OY
 oX
 OY
 Do
 Np
 VU
 VU
-dW
-dW
+Do
+Do
 VU
 VU
 VU
@@ -1287,7 +1255,7 @@ VU
 (12,1,1) = {"
 VU
 ZB
-oX
+OY
 oX
 nN
 oX
@@ -1306,7 +1274,7 @@ VU
 VU
 Do
 ZB
-oX
+OY
 OY
 Nd
 OY
@@ -1325,7 +1293,7 @@ VU
 VU
 ZB
 ZB
-oX
+OY
 oX
 oX
 VU
@@ -1342,13 +1310,13 @@ oX
 oX
 VU
 Do
-oX
+OY
 oX
 si
 wS
 gC
 Vf
-oX
+OY
 ZB
 Do
 VU
@@ -1367,7 +1335,7 @@ ZB
 VU
 VU
 ZB
-oX
+OY
 oX
 oX
 oX
@@ -1403,29 +1371,29 @@ VU
 VU
 VU
 ZB
-oX
+OY
 oX
 AJ
 aW
 Tm
 Zv
 Ld
-Vf
 ZD
+Vf
 Wx
-oX
+OY
 oX
 VU
 oX
-Vf
+TR
 qO
 hZ
 Vf
 Jh
 gH
-to
-to
-SB
+md
+VU
+VU
 VU
 VU
 VU
@@ -1439,7 +1407,7 @@ VU
 VU
 Do
 ZB
-oX
+OY
 oX
 Wr
 xm
@@ -1449,7 +1417,7 @@ xm
 OY
 oX
 oX
-TR
+Vf
 Jh
 OY
 Np
@@ -1460,9 +1428,9 @@ hZ
 wB
 Jh
 gH
-to
-to
-to
+md
+VU
+VU
 VU
 VU
 VU
@@ -1486,7 +1454,7 @@ xm
 xm
 JP
 oX
-Vf
+TR
 Vf
 gv
 Do
@@ -1497,9 +1465,9 @@ hZ
 Vf
 Jh
 gH
-to
-to
-to
+md
+VU
+VU
 VU
 VU
 VU
@@ -1514,7 +1482,7 @@ VU
 Do
 Do
 oX
-oX
+OY
 oX
 Ka
 VJ
@@ -1535,8 +1503,8 @@ Vf
 KO
 oX
 OY
-ZB
-ZB
+Do
+VU
 VU
 VU
 VU
@@ -1552,7 +1520,7 @@ VU
 VU
 Do
 ZB
-oX
+OY
 oX
 oX
 oX
@@ -1571,7 +1539,7 @@ OY
 aY
 OY
 oX
-ZB
+Do
 Do
 VU
 VU
