@@ -151,12 +151,28 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
+"E" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central)
 "F" = (
 /obj/structure/transit_tube/curved/flipped{
 	dir = 8
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
+"G" = (
+/obj/machinery/door/airlock/maintenance,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/oil/slippery,
+/obj/effect/mapping_error,
+/turf/open/floor/plating,
+/area/station/commons/storage/tools)
 "L" = (
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/machinery/door/airlock/maintenance,
@@ -1297,8 +1313,8 @@ X
 X
 "}
 (30,1,1) = {"
-X
-X
+G
+o
 U
 U
 U
@@ -1335,8 +1351,8 @@ X
 "}
 (31,1,1) = {"
 X
-U
-U
+E
+E
 o
 z
 h

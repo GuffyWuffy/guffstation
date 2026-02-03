@@ -515,6 +515,8 @@
 
 #undef EMAG_LOCKED_SHUTTLE_COST
 
+//troutstation edit start
+
 /datum/map_template/shuttle/emergency/gay
 	suffix = "gay2"
 	name = "Gay Emergency Shuttle"
@@ -529,3 +531,5 @@
 	admin_notes = "A bit tight."
 	credit_cost = CARGO_CRATE_VALUE * 10
 	occupancy_limit = "50"
+
+//troutstation edit end

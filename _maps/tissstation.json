@@ -6,7 +6,15 @@
 	"shuttles": {
 		"emergency": "emergency_tiss",
 		"ferry": "ferry_fancy",
-		"cargo": "cargo_catwalk",
+		"cargo": "cargo_tiss",
 		"whiteship": "whiteship_tiss"
+	},
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/commons/park"]
+		},
+		"Captain": {
+			"special_charter": "asteroid"
+		}
 	}
 }

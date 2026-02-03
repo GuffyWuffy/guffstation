@@ -16,8 +16,7 @@
 /area/station/service/kitchen/tisserand
 	icon = 'troutstation/icons/area/areas_station.dmi'
 	icon_state = "tiss"
-	name = "\improper The Kitchen"
-	icon_state = "kitchen"
+	name = "\improper Kitchen"
 
 /area/station/service/kitchen/tisserand/Initialize(mapload)
 	. = ..()

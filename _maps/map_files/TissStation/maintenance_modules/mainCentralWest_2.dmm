@@ -156,6 +156,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/duct,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "il" = (
@@ -214,6 +216,16 @@
 /area/station/maintenance/department/crew_quarters/bar)
 "jc" = (
 /obj/structure/sign/poster/random/directional/south,
+/turf/open/floor/plating,
+/area/station/maintenance/department/crew_quarters/dorms)
+"jg" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "jH" = (
@@ -324,6 +336,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "oi" = (
@@ -332,6 +347,7 @@
 	dir = 5
 	},
 /obj/machinery/duct,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "oS" = (
@@ -356,6 +372,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/spawner/random/structure/steam_vent,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "pt" = (
@@ -433,6 +451,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "tO" = (
@@ -615,7 +636,9 @@
 /turf/open/floor/plastic,
 /area/station/commons/fitness/recreation/pool)
 "Di" = (
-/obj/structure/fermenting_barrel,
+/obj/structure/fermenting_barrel{
+	anchored = 1
+	},
 /obj/item/clothing/neck/fake_heretic_amulet{
 	pixel_y = 9
 	},
@@ -647,6 +670,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
+"ED" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/duct,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/crew_quarters/dorms)
 "EL" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -763,6 +795,15 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/plastic,
 /area/station/commons/fitness/recreation/pool)
+"LT" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/station/maintenance/department/crew_quarters/dorms)
 "Mo" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -875,6 +916,8 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "TA" = (
@@ -940,6 +983,7 @@
 	dir = 4
 	},
 /obj/machinery/duct,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "XU" = (
@@ -1247,7 +1291,7 @@ Ft
 Zp
 og
 rU
-Tx
+jg
 YP
 Bn
 xa
@@ -1274,7 +1318,7 @@ Zc
 Zc
 Zc
 JF
-Tx
+LT
 YP
 rT
 xa
@@ -1301,7 +1345,7 @@ Zc
 Zc
 Zc
 pw
-Tx
+LT
 YP
 mU
 xa
@@ -1409,7 +1453,7 @@ Zc
 Zc
 Zc
 vx
-hP
+ED
 uy
 Nf
 fJ
