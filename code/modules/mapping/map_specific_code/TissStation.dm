@@ -9,7 +9,17 @@
 	"}
 	color = "#2a2a2a"
 
+/mob/living/basic/pet/penguin/emperor/jettin
+	name = "Jettin"
+	desc = "The Quartermaster's pet penguin. Incapable of learning tricks, and is the master of his own destiny."
+	gender = MALE
+	gold_core_spawnable = NO_SPAWN
+	unique_pet = TRUE
 
+/obj/structure/bed/dogbed/jettin
+	desc = "Jettin's bed. I'm sure he'd prefer a steamy bath."
+	name = "Jettin's bed"
+	anchored = TRUE
 
 /// Tisserand areas
 
@@ -106,3 +116,13 @@
 	icon = 'troutstation/icons/area/areas_station.dmi'
 	icon_state = "tiss"
 	name = "\improper Cargo Walkway"
+
+/area/station/maintenance/department/science/south
+	icon = 'troutstation/icons/area/areas_station.dmi'
+	icon_state = "tiss"
+	name = "\improper South Science Maintenance"
+
+/area/station/maintenance/department/science/west
+	icon = 'troutstation/icons/area/areas_station.dmi'
+	icon_state = "tiss"
+	name = "\improper West Science Maintenance"

@@ -14,7 +14,7 @@
 			"additional_cqc_areas": ["/area/station/commons/park"]
 		},
 		"Captain": {
-			"special_charter": "asteroid"
+			"special_charter": "asteroid cluster"
 		}
 	}
 }

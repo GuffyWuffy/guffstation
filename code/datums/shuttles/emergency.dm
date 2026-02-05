@@ -530,6 +530,6 @@
 	description = "A shuttle made up of 5 individual asteroids, haphazardly stitched together. It's a bit sucks."
 	admin_notes = "A bit tight."
 	credit_cost = CARGO_CRATE_VALUE * 10
-	occupancy_limit = "50"
+	occupancy_limit = "45"
 
 //troutstation edit end

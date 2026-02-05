@@ -296,6 +296,8 @@
 /area/shuttle/abandoned/engine)
 "NW" = (
 /obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/power_store/cell/high,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/abandoned/engine)
 "Oj" = (
@@ -359,6 +361,11 @@
 	dir = 4
 	},
 /turf/open/misc/sandy_dirt,
+/area/shuttle/abandoned/engine)
+"ZS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/extinguisher_cabinet/directional/north,
+/turf/open/floor/mineral/titanium/white,
 /area/shuttle/abandoned/engine)
 
 (1,1,1) = {"
@@ -433,7 +440,7 @@ sc
 "}
 (8,1,1) = {"
 yt
-ST
+ZS
 zg
 Oj
 HG
