@@ -397,6 +397,12 @@
 /obj/machinery/power/port_gen/pacman/pre_loaded,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
+"EL" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/crew_quarters/dorms)
 "Fm" = (
 /obj/effect/spawner/random/structure/table_or_rack,
 /obj/effect/spawner/random/entertainment/colorful_grenades{
@@ -505,6 +511,13 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
+"Lq" = (
+/obj/machinery/duct,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/crew_quarters/bar)
 "Lv" = (
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
@@ -569,6 +582,9 @@
 /turf/open/floor/hay,
 /area/station/maintenance/department/crew_quarters/bar)
 "Rd" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/bar)
 "RL" = (
@@ -1056,7 +1072,7 @@ os
 os
 os
 os
-CZ
+Lq
 wv
 In
 at
@@ -1146,7 +1162,7 @@ kP
 Ku
 Ox
 mm
-XM
+EL
 os
 os
 os

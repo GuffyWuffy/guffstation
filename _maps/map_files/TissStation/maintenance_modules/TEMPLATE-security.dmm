@@ -141,16 +141,6 @@
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
-"I" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/station/maintenance/department/security)
 "J" = (
 /obj/effect/mapping_helpers/airlock/access/any/security/maintenance,
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -163,16 +153,6 @@
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/station/security/prison/visit)
-"L" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/obj/structure/cable,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/station/maintenance/department/security)
 "N" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -519,7 +499,7 @@ G
 G
 G
 G
-I
+P
 G
 G
 a
@@ -1350,7 +1330,7 @@ k
 X
 X
 X
-L
+N
 Q
 m
 m

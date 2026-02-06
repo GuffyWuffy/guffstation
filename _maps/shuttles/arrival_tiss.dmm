@@ -45,11 +45,25 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/green/diagonal_centre{
+/obj/effect/turf_decal/trimline/white/arrow_ccw{
+	dir = 8;
+	color = "#ff99fc";
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light/end,
-/turf/open/floor/iron/dark/diagonal,
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/green/arrow_cw{
+	dir = 4;
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/green/mid_joiner{
+	alpha = 200;
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/arrival)
 "hC" = (
 /obj/effect/turf_decal/stripes/end{
@@ -62,17 +76,25 @@
 /area/shuttle/arrival)
 "jU" = (
 /obj/structure/railing/corner,
-/obj/effect/turf_decal/tile/neutral/diagonal_centre{
+/obj/effect/turf_decal/trimline/white/arrow_ccw{
+	dir = 9;
 	color = "#ff99fc";
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
-	dir = 4
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 1
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light/corner{
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
 	dir = 8
 	},
-/turf/open/floor/iron/dark/diagonal,
+/obj/effect/turf_decal/trimline/green/corner{
+	alpha = 200
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/arrival)
 "kr" = (
 /obj/structure/railing/corner{
@@ -102,13 +124,51 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/arrival)
 "nk" = (
-/obj/effect/turf_decal/tile/green/diagonal_centre{
+/obj/effect/turf_decal/trimline/green/filled{
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/trimline/green/filled/mid_joiner{
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/green/filled/mid_joiner{
+	alpha = 200;
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/green/filled/mid_joiner{
+	alpha = 200;
 	dir = 4
 	},
-/turf/open/floor/iron/dark/diagonal,
+/obj/effect/turf_decal/trimline/green/filled/mid_joiner{
+	alpha = 200;
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/white{
+	color = "#ff99fc";
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/light/end{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
 /area/shuttle/arrival)
 "nJ" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -145,16 +205,25 @@
 /obj/structure/railing/corner{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/green/diagonal_centre{
+/obj/effect/turf_decal/trimline/white/arrow_ccw{
+	dir = 6;
+	color = "#ff99fc";
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
-	dir = 8
+/obj/effect/turf_decal/trimline/green/corner{
+	alpha = 200;
+	dir = 1
 	},
-/turf/open/floor/iron/dark/diagonal,
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/arrival)
 "vz" = (
 /obj/structure/flora/bush/fullgrass/style_random,
@@ -231,16 +300,26 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/green/diagonal_centre{
-	alpha = 200
+/obj/effect/turf_decal/trimline/white/arrow_cw{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 5
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/trimline/green/corner{
+	alpha = 200;
 	dir = 8
 	},
-/turf/open/floor/iron/dark/diagonal,
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/arrival)
 "Cn" = (
 /obj/machinery/door/airlock/titanium{
@@ -253,13 +332,25 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/green/diagonal_centre{
+/obj/effect/turf_decal/trimline/white/arrow_cw{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/green/arrow_ccw{
+	dir = 4;
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light/end{
-	dir = 1
+/obj/effect/turf_decal/trimline/green/mid_joiner{
+	alpha = 200;
+	dir = 4
 	},
-/turf/open/floor/iron/dark/diagonal,
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/arrival)
 "Dy" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_centre{
@@ -310,20 +401,57 @@
 /obj/effect/turf_decal/siding/thinplating_new/light{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/diagonal,
-/area/shuttle/arrival)
-"GD" = (
-/obj/effect/turf_decal/tile/neutral/diagonal_centre{
-	color = "#ff99fc";
-	alpha = 200
-	},
 /obj/effect/turf_decal/siding/thinplating_new/light{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/turf/open/floor/iron/dark/diagonal,
+/area/shuttle/arrival)
+"GD" = (
+/obj/effect/turf_decal/trimline/white/filled{
+	color = "#ff99fc";
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/white/filled/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/white/filled/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/filled/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/white/filled/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
 	dir = 8
 	},
-/turf/open/floor/iron/dark/diagonal,
+/obj/effect/turf_decal/trimline/green{
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/green/mid_joiner{
+	alpha = 200;
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/green/mid_joiner{
+	alpha = 200;
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/green/mid_joiner{
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/green/mid_joiner{
+	alpha = 200;
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/light/end{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
 /area/shuttle/arrival)
 "GJ" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -337,9 +465,7 @@
 /obj/effect/turf_decal/tile/green/diagonal_centre{
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
-	dir = 10
-	},
+/obj/effect/turf_decal/siding/thinplating_new/light/end,
 /turf/open/floor/iron/dark/diagonal,
 /area/shuttle/arrival)
 "JB" = (
@@ -362,17 +488,25 @@
 /obj/structure/railing/corner{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/neutral/diagonal_centre{
+/obj/effect/turf_decal/trimline/white/arrow_cw{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
 	color = "#ff99fc";
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/green/corner{
+	alpha = 200;
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light/corner{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/diagonal,
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/arrival)
 "KN" = (
 /obj/structure/flora/bush/fullgrass/style_random,
@@ -468,8 +602,8 @@
 /obj/effect/turf_decal/tile/green/diagonal_centre{
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light{
-	dir = 9
+/obj/effect/turf_decal/siding/thinplating_new/light/end{
+	dir = 1
 	},
 /turf/open/floor/iron/dark/diagonal,
 /area/shuttle/arrival)
@@ -564,12 +698,25 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/neutral/diagonal_centre{
+/obj/effect/turf_decal/trimline/white/arrow_cw{
 	color = "#ff99fc";
+	alpha = 200;
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/green/arrow_ccw{
+	dir = 8;
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light/end,
-/turf/open/floor/iron/dark/diagonal,
+/obj/effect/turf_decal/trimline/green/mid_joiner{
+	alpha = 200;
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/arrival)
 "YI" = (
 /obj/structure/railing/corner{
@@ -588,14 +735,25 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/neutral/diagonal_centre{
+/obj/effect/turf_decal/trimline/white/arrow_ccw{
+	dir = 4;
 	color = "#ff99fc";
 	alpha = 200
 	},
-/obj/effect/turf_decal/siding/thinplating_new/light/end{
-	dir = 1
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	color = "#ff99fc";
+	alpha = 200;
+	dir = 4
 	},
-/turf/open/floor/iron/dark/diagonal,
+/obj/effect/turf_decal/trimline/green/arrow_cw{
+	dir = 8;
+	alpha = 200
+	},
+/obj/effect/turf_decal/trimline/green/mid_joiner{
+	alpha = 200;
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/arrival)
 "ZX" = (
 /obj/structure/chair/comfy/shuttle{

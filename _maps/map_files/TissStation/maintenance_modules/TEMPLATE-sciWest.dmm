@@ -263,16 +263,6 @@
 "X" = (
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/west)
-"Z" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/station/maintenance/department/science/west)
 
 (1,1,1) = {"
 D
@@ -817,7 +807,7 @@ Q
 X
 X
 Q
-Z
+O
 D
 D
 D

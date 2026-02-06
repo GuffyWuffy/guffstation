@@ -14,6 +14,11 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
+"c" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "d" = (
 /obj/item/radio/intercom/prison/directional/south,
 /obj/structure/chair/sofa/bamboo{
@@ -26,6 +31,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
+"e" = (
+/obj/machinery/space_heater,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "f" = (
 /obj/structure/chair/sofa/bamboo{
 	dir = 1
@@ -37,6 +46,15 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
+"g" = (
+/obj/structure/table,
+/obj/item/flashlight/lantern,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
+"h" = (
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "i" = (
 /obj/structure/chair/sofa/bamboo{
 	dir = 8
@@ -102,6 +120,11 @@
 "o" = (
 /turf/closed/wall/r_wall,
 /area/station/commons/fitness/recreation/sauna)
+"p" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/mechanical,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "q" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -127,6 +150,10 @@
 "r" = (
 /turf/closed/wall,
 /area/station/commons/fitness/recreation/sauna)
+"s" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "t" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
@@ -162,6 +189,10 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
+"x" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "y" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -234,6 +265,24 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
+"C" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Mining Station Maintenance"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/brig,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
+"D" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
+"E" = (
+/obj/structure/rack,
+/obj/item/clothing/head/costume/tv_head,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "F" = (
 /obj/modular_map_connector,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -262,6 +311,13 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
+"J" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/spawner/random/structure/steam_vent,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "K" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
 /obj/structure/railing{
@@ -304,6 +360,10 @@
 /obj/item/reagent_containers/cup/bucket/wooden,
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
+"M" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "N" = (
 /obj/structure/chair/sofa/bamboo{
 	dir = 8
@@ -351,9 +411,23 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/station/commons/fitness/recreation/sauna)
+"Q" = (
+/turf/closed/wall,
+/area/station/maintenance/department/security/brig)
 "R" = (
 /turf/template_noop,
 /area/station/commons/fitness/recreation/sauna)
+"S" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
+"T" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "U" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/turf_decal/siding/wood,
@@ -366,6 +440,12 @@
 /area/station/commons/fitness/recreation/sauna)
 "V" = (
 /turf/closed/wall/r_wall,
+/area/station/maintenance/department/security/brig)
+"W" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "X" = (
 /obj/effect/turf_decal/siding/wood{
@@ -496,9 +576,9 @@ z
 m
 V
 V
-k
-k
-k
+g
+h
+x
 V
 V
 V
@@ -518,12 +598,12 @@ a
 z
 m
 V
+E
 k
-k
-k
-k
-k
-k
+T
+W
+M
+s
 V
 z
 a
@@ -541,12 +621,12 @@ a
 z
 m
 V
-k
-k
-k
-k
-k
-k
+Q
+Q
+Q
+S
+D
+c
 V
 z
 z
@@ -564,12 +644,12 @@ V
 V
 V
 V
+e
 k
-k
-k
-k
-k
-k
+Q
+C
+Q
+p
 V
 z
 z
@@ -584,15 +664,15 @@ a
 a
 F
 v
+J
 v
 v
 v
 v
 v
 v
-v
-k
-k
+Q
+Q
 V
 m
 z
