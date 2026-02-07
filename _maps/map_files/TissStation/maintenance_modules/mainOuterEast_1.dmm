@@ -330,6 +330,7 @@
 /obj/effect/landmark/navigate_destination{
 	location = "Boxing Ring"
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/eighties,
 /area/station/commons/fitness/recreation/bowling)
 "oK" = (
@@ -1179,6 +1180,16 @@
 	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/wood/large,
+/area/station/commons/fitness/recreation/bowling)
+"Zz" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/eighties,
 /area/station/commons/fitness/recreation/bowling)
 "ZY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2373,7 +2384,7 @@ lU
 lU
 lU
 YT
-rf
+Zz
 ta
 ta
 jN

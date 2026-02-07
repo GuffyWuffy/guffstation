@@ -55,7 +55,7 @@
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/unres/delayed,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/station/maintenance/starboard/central)
 "bE" = (
 /obj/structure/railing{
 	color = "#0000AA";
