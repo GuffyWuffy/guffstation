@@ -21,7 +21,16 @@
 	name = "Jettin's bed"
 	anchored = TRUE
 
-/// Tisserand areas
+/turf/open/floor/wood/bowling
+	desc = "Careful! The bowling lane is oiled regularly!"
+	name = "Bowling Lane"
+
+/turf/open/floor/wood/bowling/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/wet_floor, TURF_WET_LUBE, INFINITY, 0, INFINITY, TRUE)
+
+
+/// Areas
 
 /area/station/service/kitchen/tisserand
 	icon = 'troutstation/icons/area/areas_station.dmi'
@@ -126,3 +135,8 @@
 	icon = 'troutstation/icons/area/areas_station.dmi'
 	icon_state = "tiss"
 	name = "\improper West Science Maintenance"
+
+/area/station/commons/fitness/recreation/bowling
+	icon = 'troutstation/icons/area/areas_station.dmi'
+	icon_state = "tiss"
+	name = "\improper Bowling Alley"

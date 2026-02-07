@@ -216,9 +216,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "JN" = (
-/obj/effect/spawner/random/trash/grille_or_waste,
+/obj/effect/spawner/random/structure/grille,
 /turf/template_noop,
-/area/template_noop)
+/area/station/maintenance/starboard/aft)
 "LR" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /obj/effect/spawner/random/maintenance/no_decals/two,
@@ -261,7 +261,7 @@
 "Ss" = (
 /obj/structure/window/reinforced/tinted/fulltile,
 /turf/template_noop,
-/area/template_noop)
+/area/station/maintenance/starboard/aft)
 "Sz" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)

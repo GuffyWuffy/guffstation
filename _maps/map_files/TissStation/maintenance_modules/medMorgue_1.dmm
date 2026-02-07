@@ -5,12 +5,35 @@
 "b" = (
 /turf/closed/wall/r_wall,
 /area/station/maintenance/department/medical/morgue)
+"c" = (
+/obj/effect/spawner/random/clothing/gloves,
+/obj/structure/rack,
+/obj/effect/spawner/random/engineering/flashlight,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"d" = (
+/obj/effect/spawner/random/engineering/tank,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
 "e" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"f" = (
+/obj/structure/table,
+/obj/item/plate,
+/obj/item/food/drug/opium/raw,
+/obj/item/organ/liver{
+	pixel_x = -3
+	},
+/obj/item/organ/eyes{
+	pixel_x = 4;
+	pixel_y = 4
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
@@ -42,8 +65,16 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
+"j" = (
+/obj/effect/spawner/random/structure/closet_empty/crate/with_loot,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
 "k" = (
 /obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"l" = (
+/obj/effect/spawner/random/trash/graffiti,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
 "m" = (
@@ -51,8 +82,23 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
+"n" = (
+/obj/effect/spawner/random/trash/moisture_trap,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
 "p" = (
 /obj/structure/falsewall,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"q" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/power/apc/auto_name/directional/south,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"s" = (
+/obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
 "t" = (
@@ -70,12 +116,31 @@
 "v" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
+"w" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/spawner/random/structure/steam_vent,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
 "x" = (
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"B" = (
+/obj/effect/spawner/random/trash/grime,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"D" = (
+/obj/structure/chair/stool/directional/east,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
 "G" = (
 /obj/structure/sign/poster/contraband/syndiemoth/directional/south,
 /obj/item/disk/nuclear/fake/obvious,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"I" = (
+/obj/machinery/portable_atmospherics/canister/anesthetic_mix,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
 "K" = (
@@ -84,16 +149,62 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
+"L" = (
+/obj/structure/closet/crate/trashcart/filled,
+/obj/effect/spawner/random/medical/memeorgans,
+/obj/effect/spawner/random/medical/memeorgans,
+/obj/effect/spawner/random/medical/memeorgans,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"M" = (
+/obj/structure/closet/crate/coffin,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"N" = (
+/obj/effect/spawner/random/trash/grille_or_waste,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
 "O" = (
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
+"P" = (
+/obj/structure/tank_holder/extinguisher,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
 "S" = (
 /turf/closed/wall,
+/area/station/maintenance/department/medical/morgue)
+"T" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/spawner/random/structure/steam_vent,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"U" = (
+/obj/structure/table,
+/obj/item/plate,
+/obj/item/food/drug/meth_crystal,
+/obj/item/organ/lungs{
+	pixel_x = -2
+	},
+/obj/item/organ/appendix{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
 "W" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/spawner/random/structure/grille,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"Y" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
 
@@ -176,7 +287,7 @@ a
 a
 u
 u
-x
+P
 S
 a
 a
@@ -210,10 +321,10 @@ a
 a
 a
 x
-x
+j
 S
 S
-u
+w
 a
 a
 a
@@ -246,7 +357,7 @@ a
 a
 a
 u
-x
+B
 b
 b
 m
@@ -264,8 +375,8 @@ a
 a
 a
 u
-x
-x
+S
+l
 b
 W
 a
@@ -283,9 +394,9 @@ a
 a
 u
 x
-x
-x
-x
+D
+D
+l
 a
 a
 a
@@ -300,9 +411,9 @@ a
 a
 a
 u
-x
-x
-x
+S
+f
+U
 S
 a
 a
@@ -317,8 +428,8 @@ a
 a
 a
 a
-u
-x
+q
+S
 a
 a
 a
@@ -336,7 +447,7 @@ a
 a
 a
 u
-x
+L
 a
 a
 a
@@ -477,7 +588,7 @@ a
 "}
 (22,1,1) = {"
 a
-x
+N
 e
 a
 a
@@ -495,7 +606,7 @@ a
 "}
 (23,1,1) = {"
 a
-x
+d
 e
 a
 a
@@ -513,10 +624,10 @@ a
 "}
 (24,1,1) = {"
 a
-x
+N
 e
 S
-x
+M
 t
 x
 S
@@ -531,12 +642,12 @@ a
 "}
 (25,1,1) = {"
 a
-x
+Y
 e
 S
-x
+M
 t
-x
+c
 S
 v
 v
@@ -552,9 +663,9 @@ a
 a
 e
 S
-x
+M
 t
-x
+I
 S
 v
 v
@@ -572,7 +683,7 @@ g
 i
 k
 K
-x
+n
 S
 v
 O
@@ -586,7 +697,7 @@ a
 (28,1,1) = {"
 a
 a
-e
+T
 S
 S
 S
@@ -605,7 +716,7 @@ a
 a
 a
 e
-x
+l
 p
 G
 S
@@ -623,7 +734,7 @@ a
 a
 a
 e
-x
+j
 S
 S
 S
@@ -641,7 +752,7 @@ a
 a
 a
 e
-x
+B
 S
 S
 v
@@ -657,7 +768,7 @@ a
 "}
 (32,1,1) = {"
 a
-x
+s
 h
 x
 S
