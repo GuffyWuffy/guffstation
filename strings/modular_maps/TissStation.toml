@@ -32,3 +32,6 @@ modules = ["medWest_1.dmm"]
 
 [rooms.brig]
 modules = ["brig_1.dmm", "brig_2.dmm"]
+
+[rooms.disposals]
+modules = ["disposals_1.dmm", "disposals_2.dmm"]
