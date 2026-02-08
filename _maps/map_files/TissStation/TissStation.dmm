@@ -28529,10 +28529,6 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/dark/herringbone,
 /area/station/medical/virology)
-"iJZ" = (
-/mob/living/basic/pet/penguin/emperor/shamebrero,
-/turf/open/space/basic,
-/area/space)
 "iKa" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/libraryconsole/bookmanagement,
@@ -53671,10 +53667,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig)
-"qpO" = (
-/obj/item/antique,
-/turf/open/space/basic,
-/area/space)
 "qqi" = (
 /obj/structure/closet/crate/secure/weapon{
 	desc = "A secure clothing crate.";
@@ -63834,10 +63826,6 @@
 /obj/effect/spawner/random/food_or_drink/any_snack_or_beverage,
 /turf/open/floor/carpet/royalblue,
 /area/station/command/heads_quarters/captain)
-"tCM" = (
-/obj/item/book_of_babel,
-/turf/open/space/basic,
-/area/space)
 "tCQ" = (
 /obj/effect/turf_decal/stripes{
 	dir = 1
@@ -66413,6 +66401,7 @@
 /area/station/hallway/secondary/recreation)
 "urC" = (
 /obj/effect/spawner/random/trash/box,
+/obj/effect/spawner/random/maintenance/no_decals/eight,
 /turf/open/floor/plating,
 /area/station/maintenance/central/greater)
 "urE" = (
@@ -70734,6 +70723,7 @@
 	color = "#36d9ca"
 	},
 /obj/structure/noticeboard/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms)
 "vIm" = (
@@ -71579,14 +71569,6 @@
 "vVC" = (
 /turf/closed/wall,
 /area/station/security/brig)
-"vVD" = (
-/obj/item/clothing/suit/armor/durability/gaywatermelon,
-/obj/item/food/gaywatermelonslice,
-/obj/item/food/gaywatermelonmush,
-/obj/item/food/grown/gaywatermelon,
-/obj/item/seeds/watermelon/gay,
-/turf/open/space/basic,
-/area/space)
 "vVN" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -72512,10 +72494,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/aft)
-"wjX" = (
-/obj/item/taster,
-/turf/open/space/basic,
-/area/space)
 "wkd" = (
 /turf/closed/wall,
 /area/station/security/prison/mess)
@@ -98604,7 +98582,7 @@ hQX
 jkB
 nTh
 kTo
-vKC
+jsE
 ccy
 ccy
 ccy
@@ -98861,7 +98839,7 @@ hQX
 pDU
 vvW
 nft
-vKC
+jsE
 ccy
 ccy
 ccy
@@ -99118,8 +99096,8 @@ ggm
 wFx
 jVs
 kXP
-vKC
-vKC
+jsE
+jsE
 ccy
 ccy
 ccy
@@ -99376,7 +99354,7 @@ iXk
 lss
 nKp
 jVs
-vKC
+jsE
 ccy
 ccy
 ccy
@@ -99633,7 +99611,7 @@ xyJ
 xMh
 twl
 ydp
-vKC
+jsE
 ccy
 ccy
 ccy
@@ -99890,8 +99868,8 @@ dcx
 iXk
 lGY
 dcx
-vKC
-vKC
+jsE
+jsE
 ccy
 ccy
 vKC
@@ -100148,7 +100126,7 @@ eJA
 lIK
 wIp
 fwr
-vKC
+jsE
 ccy
 ccy
 vKC
@@ -100405,8 +100383,8 @@ jVs
 wFx
 kXP
 caj
-vKC
-vKC
+jsE
+jsE
 dWl
 aOL
 aOL
@@ -100663,7 +100641,7 @@ hfM
 uXP
 wIp
 xyJ
-aOL
+wxk
 vSR
 ebW
 ebW
@@ -100920,8 +100898,8 @@ jVs
 iXk
 fGC
 jVs
-aOL
-aOL
+wxk
+wxk
 ebW
 ebW
 ebW
@@ -101178,8 +101156,8 @@ xyJ
 lIK
 twl
 xyJ
-aOL
-aOL
+wxk
+wxk
 ebW
 ebW
 ebW
@@ -101436,7 +101414,7 @@ iXk
 lGY
 dcx
 jVs
-aOL
+wxk
 ebW
 ebW
 ebW
@@ -101693,8 +101671,8 @@ eJA
 vbd
 jVs
 eJA
-aOL
-aOL
+wxk
+wxk
 ebW
 ebW
 ebW
@@ -101951,7 +101929,7 @@ sBn
 dVF
 jVs
 dcx
-aOL
+wxk
 ebW
 ebW
 ebW
@@ -102208,8 +102186,8 @@ xyJ
 wFx
 xTp
 iMi
-aOL
-aOL
+wxk
+wxk
 ebW
 ebW
 ebW
@@ -102466,8 +102444,8 @@ iXk
 lss
 tMF
 fzW
-aOL
-aOL
+wxk
+wxk
 ebW
 ebW
 ebW
@@ -102724,8 +102702,8 @@ iXk
 nsD
 xyJ
 jVs
-aOL
-aOL
+wxk
+wxk
 ebW
 ebW
 ebW
@@ -102982,8 +102960,8 @@ mrF
 uMG
 vqu
 xyJ
-aOL
-aOL
+wxk
+wxk
 ebW
 ebW
 ebW
@@ -103053,7 +103031,7 @@ sSX
 enm
 rlc
 xUn
-sTW
+enm
 vIl
 enm
 bvS
@@ -103240,8 +103218,8 @@ ljh
 etL
 vqu
 nDg
-aOL
-aOL
+wxk
+wxk
 ebW
 ebW
 aOL
@@ -103498,7 +103476,7 @@ ljh
 uMG
 xyJ
 mjJ
-aOL
+wxk
 ebW
 ebW
 aOL
@@ -103755,8 +103733,8 @@ wpO
 vGU
 uMG
 jVs
-aOL
-aOL
+wxk
+wxk
 wFk
 aOL
 sGl
@@ -108343,9 +108321,9 @@ elN
 elN
 elN
 elN
-iJZ
 elN
-wjX
+elN
+elN
 cIV
 uDM
 bya
@@ -108606,7 +108584,7 @@ vDP
 knx
 elN
 wdz
-vVD
+elN
 xNo
 qNA
 rEb
@@ -109123,7 +109101,7 @@ aAM
 nng
 elN
 qQt
-tCM
+elN
 uET
 pNH
 gyj
@@ -109380,7 +109358,7 @@ csE
 ecW
 fNE
 jdW
-qpO
+elN
 uFr
 oOM
 aWW
@@ -118413,8 +118391,8 @@ ePE
 xJT
 kkh
 mgE
-qSD
-qSD
+fRI
+fRI
 neb
 qSD
 qSD
@@ -118668,9 +118646,9 @@ npZ
 jjK
 jUB
 sgo
-qSD
-qSD
-qSD
+fRI
+fRI
+fRI
 neb
 neb
 neb
@@ -118924,8 +118902,8 @@ oyI
 khG
 xOZ
 wQL
-qSD
-qSD
+fRI
+fRI
 neb
 neb
 neb
@@ -119180,8 +119158,8 @@ mZE
 ePE
 hCG
 pgP
-qSD
-qSD
+fRI
+fRI
 neb
 neb
 neb
@@ -119436,8 +119414,8 @@ ePE
 ePE
 kUr
 mgE
-qSD
-qSD
+fRI
+fRI
 neb
 neb
 neb
@@ -119692,8 +119670,8 @@ jjK
 ruD
 fhJ
 sgo
-qSD
-qSD
+fRI
+fRI
 neb
 neb
 neb
@@ -119948,8 +119926,8 @@ nTt
 mgE
 dBp
 apL
-qSD
-qSD
+fRI
+fRI
 neb
 neb
 neb
@@ -120202,10 +120180,10 @@ vnk
 kUr
 vnk
 mgE
-jEs
-jEs
-jEs
-jEs
+lHf
+lHf
+lHf
+lHf
 neb
 neb
 neb
@@ -120457,9 +120435,9 @@ vnk
 pgP
 fhJ
 sgo
-jEs
-jEs
-jEs
+lHf
+lHf
+lHf
 ibN
 ibN
 aFP
@@ -120711,10 +120689,10 @@ bUk
 bHW
 lDK
 oTf
-jEs
-jEs
-jEs
-jEs
+lHf
+lHf
+lHf
+lHf
 ibN
 ibN
 ibN
@@ -120966,9 +120944,9 @@ oxn
 oxn
 wcD
 mgE
-jEs
-jEs
-jEs
+lHf
+lHf
+lHf
 ibN
 ibN
 ibN
@@ -121221,9 +121199,9 @@ vDZ
 sgo
 apL
 sgo
-jEs
-jEs
-jEs
+lHf
+lHf
+lHf
 ibN
 ibN
 ibN
@@ -121473,12 +121451,12 @@ ngH
 kBc
 xYZ
 sgo
-jEs
-jEs
-jEs
-jEs
-jEs
-jEs
+lHf
+lHf
+lHf
+lHf
+lHf
+lHf
 ibN
 ibN
 ibN
@@ -121728,9 +121706,9 @@ hTW
 rTi
 rTi
 lMN
-jEs
-jEs
-jEs
+lHf
+lHf
+lHf
 ibN
 ibN
 ibN
@@ -121985,7 +121963,7 @@ sQS
 tdV
 rTi
 fMP
-jEs
+lHf
 ibN
 ibN
 ibN

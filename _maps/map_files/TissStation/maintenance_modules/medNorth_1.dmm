@@ -8,8 +8,33 @@
 "b" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
+"d" = (
+/obj/effect/spawner/random/structure/grille,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"e" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"g" = (
+/obj/effect/spawner/random/engineering/canister,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
 "i" = (
 /obj/structure/falsewall,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"j" = (
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"m" = (
+/obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "n" = (
@@ -25,11 +50,44 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
+"r" = (
+/obj/structure/closet,
+/obj/effect/spawner/random/maintenance/no_decals/three,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
 "t" = (
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"u" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "v" = (
 /turf/closed/wall/r_wall,
+/area/station/maintenance/department/medical)
+"w" = (
+/obj/structure/railing,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"y" = (
+/obj/effect/spawner/random/structure/shipping_container/gas,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"z" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"A" = (
+/obj/structure/closet,
+/obj/effect/spawner/random/maintenance,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"B" = (
+/obj/effect/spawner/random/structure/tank_holder,
+/turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "C" = (
 /obj/structure/cable,
@@ -38,6 +96,28 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"D" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/plumbed{
+	dir = 8;
+	name = "service water reservoir"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"E" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "F" = (
@@ -49,6 +129,24 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
+"G" = (
+/obj/structure/closet,
+/obj/effect/spawner/random/maintenance/no_decals/four,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"I" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"K" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"N" = (
+/obj/structure/closet,
+/obj/effect/spawner/random/maintenance/no_decals/two,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
 "P" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -56,6 +154,12 @@
 /obj/structure/disposalpipe/junction/flip{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"Q" = (
+/obj/effect/spawner/random/structure/grille,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "R" = (
@@ -66,11 +170,30 @@
 /obj/item/clothing/head/costume/party/festive,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
+"S" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"V" = (
+/obj/effect/spawner/random/structure/closet_maintenance,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
 "W" = (
 /turf/template_noop,
 /area/template_noop)
 "X" = (
 /turf/closed/wall,
+/area/station/maintenance/department/medical)
+"Y" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "Z" = (
 /turf/open/misc/asteroid/airless,
@@ -180,9 +303,9 @@ X
 X
 X
 X
-t
+d
 a
-a
+e
 W
 W
 W
@@ -201,10 +324,10 @@ Z
 b
 X
 a
-a
-a
-a
-a
+e
+e
+e
+e
 t
 W
 W
@@ -223,12 +346,12 @@ W
 Z
 b
 X
-a
+e
+Q
+N
 t
 t
-t
-t
-t
+B
 W
 W
 W
@@ -246,7 +369,7 @@ W
 b
 X
 X
-a
+e
 W
 W
 W
@@ -268,8 +391,8 @@ W
 b
 b
 X
-t
-a
+z
+e
 W
 W
 W
@@ -291,8 +414,8 @@ W
 b
 X
 X
-t
-a
+V
+e
 W
 W
 W
@@ -313,8 +436,8 @@ W
 W
 b
 X
-a
-a
+e
+e
 a
 W
 W
@@ -336,7 +459,7 @@ W
 Z
 b
 X
-a
+e
 X
 X
 W
@@ -359,7 +482,7 @@ W
 b
 b
 X
-a
+e
 X
 R
 W
@@ -382,7 +505,7 @@ Z
 b
 b
 X
-a
+e
 X
 i
 W
@@ -405,8 +528,8 @@ Z
 b
 b
 X
-a
-a
+e
+e
 a
 W
 W
@@ -473,15 +596,15 @@ Z
 b
 b
 X
+g
 t
-t
-t
-a
-t
-t
-t
-t
-t
+y
+e
+K
+w
+G
+A
+D
 W
 W
 W
@@ -496,21 +619,21 @@ Z
 b
 b
 X
+g
 t
 t
-t
+e
 a
 a
-a
-a
-a
-a
+e
+e
+e
 W
 W
 W
 W
 W
-F
+E
 W
 "}
 (20,1,1) = {"
@@ -519,10 +642,10 @@ b
 b
 b
 X
-t
-t
-t
-t
+K
+K
+K
+S
 X
 X
 X
@@ -542,10 +665,10 @@ b
 b
 b
 X
+A
+K
+K
 t
-t
-t
-X
 b
 b
 b
@@ -568,7 +691,7 @@ b
 X
 b
 X
-b
+X
 b
 b
 b
@@ -578,8 +701,8 @@ b
 b
 b
 X
-t
-F
+I
+E
 W
 "}
 (23,1,1) = {"
@@ -601,7 +724,7 @@ b
 b
 b
 X
-t
+m
 C
 W
 "}
@@ -624,8 +747,8 @@ b
 b
 X
 X
-t
-q
+u
+Y
 W
 "}
 (25,1,1) = {"
@@ -646,8 +769,8 @@ W
 b
 X
 X
-t
-t
+r
+K
 q
 W
 "}
@@ -668,9 +791,9 @@ W
 b
 b
 X
-t
-t
-t
+j
+K
+K
 q
 W
 "}
