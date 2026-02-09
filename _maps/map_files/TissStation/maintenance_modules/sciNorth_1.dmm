@@ -173,7 +173,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/airalarm/directional/east,
+/obj/machinery/airalarm/directional/east{
+	name = "Whirling-In-Rags Room #1 Air Alarm"
+	},
 /turf/open/floor/iron/white/diagonal,
 /area/station/maintenance/department/science/xenobiology)
 "of" = (
@@ -253,7 +255,9 @@
 	color = "#98a37f"
 	},
 /obj/machinery/light/small/directional/south,
-/obj/machinery/airalarm/directional/south,
+/obj/machinery/airalarm/directional/south{
+	name = "Whirling-In-Rags Room #2 Air Alarm"
+	},
 /turf/open/floor/iron/white/diagonal,
 /area/station/maintenance/department/science/xenobiology)
 "vP" = (
@@ -357,6 +361,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small/dim/directional/south,
 /turf/open/floor/iron,
+/area/station/maintenance/department/science/xenobiology)
+"Cc" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/landmark/firealarm_sanity,
+/turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
 "CP" = (
 /obj/item/clothing/under/rank/security/detective/kim,
@@ -2359,7 +2368,7 @@ CP
 ul
 Jo
 Dx
-sP
+Cc
 eb
 bV
 gF

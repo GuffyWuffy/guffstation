@@ -722,6 +722,10 @@
 	pixel_x = 6;
 	pixel_y = 5
 	},
+/obj/item/clothing/gloves/boxing/golden{
+	pixel_x = -11;
+	pixel_y = 8
+	},
 /turf/open/floor/iron/sepia,
 /area/station/maintenance/starboard/central)
 "Cp" = (

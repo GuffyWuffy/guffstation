@@ -71,6 +71,14 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plasma,
 /area/station/maintenance/cocoon)
+"er" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/firealarm_sanity,
+/turf/open/floor/plating,
+/area/station/maintenance/department/science/west)
 "fe" = (
 /obj/structure/steps/directional/east{
 	color = "#c551e0"
@@ -1583,7 +1591,7 @@ Ck
 qA
 qA
 qA
-qA
+er
 Ck
 qA
 qA
