@@ -149,3 +149,8 @@
 	icon = 'troutstation/icons/area/areas_station.dmi'
 	icon_state = "tiss"
 	name = "\improper Bowling Alley"
+
+/area/station/maintenance/cocoon
+	icon = 'troutstation/icons/area/areas_station.dmi'
+	icon_state = "tiss"
+	name = "\improper The Cocoon"

@@ -30,7 +30,7 @@
 /area/station/maintenance/department/engine)
 "cg" = (
 /obj/structure/closet/emcloset,
-/turf/open/floor/plating,
+/turf/open/misc/beach/sand,
 /area/station/maintenance/department/engine)
 "cF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -47,9 +47,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "cU" = (
-/obj/structure/chair,
-/obj/item/toy/plush/shark,
-/turf/open/floor/plating,
+/turf/open/misc/beach/coast,
 /area/station/maintenance/department/engine)
 "dB" = (
 /obj/structure/cable,
@@ -59,6 +57,9 @@
 "ez" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
+"eJ" = (
+/turf/open/misc/beach/sand,
+/area/station/maintenance/department/engine)
 "gy" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/machinery/door/airlock/maintenance,
@@ -191,9 +192,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "tZ" = (
-/obj/structure/table,
-/obj/item/clothing/suit/hooded/shork_costume,
-/turf/open/floor/plating,
+/turf/open/water/beach,
 /area/station/maintenance/department/engine)
 "vm" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
@@ -228,6 +227,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
+"ze" = (
+/obj/item/clothing/suit/hooded/shork_costume,
+/turf/open/misc/beach/coast/corner,
+/area/station/maintenance/department/engine)
 "zg" = (
 /mob/living/basic/clown/lube,
 /turf/open/floor/plating,
@@ -257,7 +260,9 @@
 	dir = 4
 	},
 /obj/effect/landmark/generic_maintenance_landmark,
-/turf/open/floor/plating,
+/obj/structure/chair,
+/obj/item/toy/plush/shark,
+/turf/open/misc/beach/sand,
 /area/station/maintenance/department/engine)
 "BB" = (
 /obj/structure/sign/poster/random/directional/south,
@@ -280,6 +285,12 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/damaged_window,
 /turf/open/floor/plating,
+/area/station/maintenance/department/engine)
+"Dw" = (
+/obj/item/clothing/suit/hooded/shark_costume,
+/turf/open/misc/beach/coast/corner{
+	dir = 1
+	},
 /area/station/maintenance/department/engine)
 "DO" = (
 /obj/machinery/door/airlock{
@@ -336,7 +347,7 @@
 "Ik" = (
 /obj/structure/closet/emcloset,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plating,
+/turf/open/misc/beach/sand,
 /area/station/maintenance/department/engine)
 "IV" = (
 /obj/effect/mapping_helpers/broken_floor,
@@ -352,9 +363,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "Jk" = (
-/obj/item/clothing/head/hooded/shark_hood,
-/obj/structure/table,
-/turf/open/floor/plating,
+/turf/open/misc/beach/coast{
+	dir = 4
+	},
 /area/station/maintenance/department/engine)
 "JK" = (
 /obj/structure/cable,
@@ -407,6 +418,10 @@
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
+"NZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/misc/beach/sand,
+/area/station/maintenance/department/engine)
 "OI" = (
 /obj/effect/spawner/random/structure/crate,
 /turf/open/floor/plating,
@@ -421,7 +436,7 @@
 "QO" = (
 /obj/structure/closet/emcloset,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/plating,
+/turf/open/misc/beach/sand,
 /area/station/maintenance/department/engine)
 "Rp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -477,9 +492,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "XQ" = (
-/obj/structure/table,
-/obj/item/clothing/suit/hooded/shark_costume,
-/turf/open/floor/plating,
+/turf/open/misc/beach/coast{
+	dir = 8
+	},
 /area/station/maintenance/department/engine)
 "Ye" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1555,8 +1570,8 @@ BY
 cF
 si
 Ik
-bU
-bU
+eJ
+ze
 Jk
 BY
 BY
@@ -1649,8 +1664,8 @@ BY
 cF
 si
 QO
-Ye
-bU
+NZ
+Dw
 XQ
 BY
 BY

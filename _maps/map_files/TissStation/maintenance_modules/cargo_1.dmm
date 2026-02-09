@@ -520,6 +520,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
+"Dq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "Dz" = (
 /obj/structure/railing,
 /turf/open/floor/plating,
@@ -1914,7 +1920,7 @@ Tb
 Fb
 mh
 mh
-mh
+Dq
 Bg
 Bg
 Bg
