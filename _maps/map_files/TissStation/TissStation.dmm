@@ -6319,6 +6319,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
+/obj/effect/landmark/start/detective,
 /turf/open/floor/iron/vaporwave,
 /area/station/security/detectives_office)
 "bZx" = (
@@ -8588,10 +8589,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/medical/walkway)
-"cIV" = (
-/obj/item/pneumatic_cannon/ghetto,
-/turf/open/space/basic,
-/area/space)
 "cJa" = (
 /obj/machinery/light/floor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -16618,7 +16615,6 @@
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/start/detective,
 /turf/open/floor/wood/parquet,
 /area/station/security/detectives_office)
 "feC" = (
@@ -31378,7 +31374,6 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/obj/effect/landmark/start/detective,
 /turf/open/floor/iron/vaporwave,
 /area/station/security/detectives_office)
 "jBo" = (
@@ -45461,10 +45456,6 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/ce)
-"nLf" = (
-/obj/item/soil_sack,
-/turf/open/space/basic,
-/area/space)
 "nLk" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/door/window/left/directional/north{
@@ -55560,10 +55551,6 @@
 	dir = 4
 	},
 /area/station/engineering/atmos)
-"qVq" = (
-/obj/item/gun/energy/laser/luxurypaywall,
-/turf/open/space/basic,
-/area/space)
 "qVz" = (
 /turf/open/floor/engine{
 	name = "Holodeck Projector Floor"
@@ -66918,10 +66905,6 @@
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron/white,
 /area/station/hallway/secondary/entry)
-"uyO" = (
-/mob/living/basic/mad_piano,
-/turf/open/space/basic,
-/area/space)
 "uyR" = (
 /obj/modular_map_root/tissstation{
 	name = "mainNorthEast";
@@ -72078,13 +72061,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/mineral/plastitanium,
 /area/station/security/armory)
-"wdz" = (
-/obj/item/clothing/suit/jacket/det_suit/disco,
-/obj/item/clothing/suit/jacket/det_suit/kim,
-/obj/item/clothing/gloves/kim,
-/obj/item/clothing/neck/tie/disco,
-/turf/open/space/basic,
-/area/space)
 "wdA" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 8
@@ -75106,10 +75082,6 @@
 	},
 /turf/open/floor/iron/white/smooth_half,
 /area/station/cargo/miningfoundry)
-"xbt" = (
-/obj/item/clothing/glasses/salesman,
-/turf/open/space/basic,
-/area/space)
 "xbB" = (
 /obj/machinery/processor/slime{
 	pixel_y = 5
@@ -108336,7 +108308,7 @@ elN
 elN
 elN
 elN
-cIV
+elN
 uDM
 elN
 kxq
@@ -108595,7 +108567,7 @@ elN
 elN
 knx
 elN
-wdz
+elN
 elN
 elN
 qNA
@@ -108855,7 +108827,7 @@ uTk
 elN
 slD
 vwa
-xbt
+elN
 mxg
 iwc
 alH
@@ -109104,10 +109076,10 @@ elN
 elN
 elN
 elN
-uyO
 elN
-nLf
-qVq
+elN
+elN
+elN
 eAR
 aAM
 nng

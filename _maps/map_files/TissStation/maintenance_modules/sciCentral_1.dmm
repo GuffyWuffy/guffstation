@@ -402,6 +402,7 @@
 "UW" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance/no_decals/eight,
+/obj/item/pneumatic_cannon/ghetto,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/central)
 "UX" = (

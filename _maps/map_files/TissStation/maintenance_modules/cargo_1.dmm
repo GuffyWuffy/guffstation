@@ -662,6 +662,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
+"Qc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/molten_object/large,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "Qx" = (
 /obj/machinery/power/port_gen/pacman/pre_loaded,
 /turf/open/floor/plating,
@@ -2593,7 +2598,7 @@ bE
 dM
 sv
 tT
-mh
+Qc
 sv
 sv
 mh
