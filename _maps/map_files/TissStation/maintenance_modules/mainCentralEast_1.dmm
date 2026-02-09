@@ -216,10 +216,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/central/lesser)
 "BD" = (
-/obj/modular_map_root/tissstation{
-	name = "mainCentralEast";
-	key = "mainCentralEast"
-	},
+/obj/modular_map_connector,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
