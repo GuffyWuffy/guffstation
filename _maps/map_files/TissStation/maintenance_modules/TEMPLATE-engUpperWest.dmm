@@ -24,6 +24,16 @@
 /obj/modular_map_connector,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
+"i" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/port/aft)
 "k" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -69,6 +79,14 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/station/maintenance/port/aft)
+"w" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
 "x" = (
@@ -576,12 +594,12 @@ Y
 Y
 Y
 Y
-T
-e
-e
-e
-e
-e
+B
+q
+q
+w
+Z
+i
 e
 Y
 Y
@@ -617,12 +635,12 @@ Y
 Y
 Y
 Y
+Y
+Y
+Y
+Y
+Y
 B
-q
-q
-Z
-Z
-Z
 Z
 b
 Y

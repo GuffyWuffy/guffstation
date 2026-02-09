@@ -29,6 +29,15 @@
 	. = ..()
 	AddComponent(/datum/component/wet_floor, TURF_WET_LUBE, INFINITY, 0, INFINITY, TRUE)
 
+/obj/effect/spawner/random/food_or_drink/guffin
+	name = "mcguffin spawner"
+	icon_state = "donut"
+	spawn_loot_chance = 90
+	loot = list(
+		/obj/item/food/burger/mcguffin = 3,
+		/obj/item/food/burger/rootguffin = 1,
+	)
+
 
 /// Areas
 

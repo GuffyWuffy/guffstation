@@ -52,6 +52,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/stone,
 /area/station/maintenance/port/central)
 "gp" = (
@@ -71,6 +72,14 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/light/very_dim/directional/east,
 /turf/open/floor/plating,
+/area/station/maintenance/port/central)
+"iF" = (
+/obj/structure/transit_tube/crossing/horizontal,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/stone,
 /area/station/maintenance/port/central)
 "iL" = (
 /obj/machinery/door/airlock/external,
@@ -118,6 +127,9 @@
 	desc = "You know what they say, a smile better suits a hero!"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/trap/stun{
+	alpha = 10
+	},
 /turf/open/floor/stone,
 /area/station/maintenance/port/central)
 "pW" = (
@@ -1205,7 +1217,7 @@ Hy
 Hy
 GL
 bq
-bO
+iF
 PX
 pU
 fF

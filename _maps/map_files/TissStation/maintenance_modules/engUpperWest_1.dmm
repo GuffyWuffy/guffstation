@@ -140,6 +140,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
 "hb" = (
@@ -515,6 +516,12 @@
 /obj/effect/spawner/random/engineering/tank,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
+"YV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/landmark/generic_maintenance_landmark,
+/turf/open/floor/plating,
+/area/station/maintenance/port/aft)
 "ZD" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -883,9 +890,9 @@ fe
 fe
 Ih
 HK
-Ql
+Yr
 HK
-Ql
+ao
 HK
 xR
 fe
@@ -922,12 +929,12 @@ fe
 fe
 fe
 fe
-Ih
-HK
-Yr
-HK
-ao
-HK
+dV
+CZ
+CZ
+ZD
+pG
+bc
 Vw
 fe
 fe
@@ -963,12 +970,12 @@ fe
 fe
 fe
 fe
+fe
+fe
+fe
+fe
+fe
 dV
-CZ
-CZ
-ZD
-pG
-ZD
 pG
 fe
 fe
@@ -1228,7 +1235,7 @@ Ce
 ul
 Uk
 eh
-sc
+YV
 tL
 es
 tQ

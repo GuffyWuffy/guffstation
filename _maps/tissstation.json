@@ -16,5 +16,6 @@
 		"Captain": {
 			"special_charter": "asteroid cluster"
 		}
-	}
+	},
+	"bonus_weakpoints": 2
 }

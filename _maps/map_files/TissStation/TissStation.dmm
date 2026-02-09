@@ -20501,10 +20501,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/cmo)
-"gpT" = (
-/obj/item/toy/windup_toolbox,
-/turf/open/space/basic,
-/area/space)
 "gqh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -22745,6 +22741,9 @@
 /obj/structure/railing/corner,
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 8
+	},
+/obj/effect/spawner/random/food_or_drink/guffin{
+	pixel_y = 19
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
@@ -31317,10 +31316,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/prison/visit)
-"jAG" = (
-/obj/item/v8_engine,
-/turf/open/space/basic,
-/area/space)
 "jAI" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -46088,10 +46083,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
-"nVG" = (
-/mob/living/basic/pet/dog/dolby,
-/turf/open/space/basic,
-/area/space)
 "nWd" = (
 /obj/structure/window/reinforced/tinted/spawner/directional/west{
 	pixel_x = -4
@@ -68588,6 +68579,7 @@
 	},
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/food/burger/rootguffin,
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/commissary)
 "uXM" = (
@@ -108579,7 +108571,7 @@ elN
 elN
 elN
 ccN
-jAG
+elN
 vDP
 knx
 elN
@@ -108835,7 +108827,7 @@ elN
 elN
 elN
 elN
-nVG
+elN
 ltk
 ucH
 ufu
@@ -109093,7 +109085,7 @@ elN
 elN
 elN
 uyO
-gpT
+elN
 nLf
 qVq
 eAR
