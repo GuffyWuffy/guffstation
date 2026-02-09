@@ -26,9 +26,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"bB" = (
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/station/maintenance/disposal)
 "bE" = (
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/glass/reinforced,
@@ -180,7 +177,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/closed/wall/r_wall/plastitanium/nodiagonal,
+/turf/template_noop,
 /area/station/maintenance/disposal)
 "lS" = (
 /obj/effect/spawner/random/structure/crate,
@@ -402,9 +399,6 @@
 /obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"vI" = (
-/turf/open/floor/mineral/titanium/tiled/blue,
-/area/station/maintenance/disposal)
 "vU" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -456,7 +450,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/modular_map_root,
+/obj/modular_map_connector,
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -549,18 +543,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"Fj" = (
-/turf/open/floor/plating,
-/area/station/maintenance/disposal)
 "Gm" = (
 /obj/effect/spawner/random/structure/table_or_rack,
 /obj/effect/spawner/random/engineering/material,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"GQ" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/station/maintenance/disposal)
 "GR" = (
 /obj/effect/spawner/random/structure/closet_empty/crate,
 /obj/effect/spawner/random/maintenance/no_decals/two,
@@ -580,9 +568,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"Ih" = (
-/turf/open/floor/mineral/titanium/tiled/purple,
-/area/station/maintenance/disposal)
 "Io" = (
 /obj/effect/decal/cleanable/greenglow/filled,
 /obj/item/stack/sheet/mineral/uranium/five,
@@ -597,9 +582,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"IY" = (
-/turf/closed/wall/r_wall/plastitanium/nodiagonal,
-/area/station/maintenance/disposal)
 "Jf" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -767,9 +749,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"VP" = (
-/turf/open/floor/mineral/titanium/tiled/yellow,
-/area/station/maintenance/disposal)
 "VR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -1484,10 +1463,10 @@ MP
 MP
 MP
 MP
-IY
-Fj
-Fj
-IY
+fm
+fm
+fm
+fm
 MP
 MP
 MP
@@ -1520,11 +1499,11 @@ UK
 MP
 MP
 MP
-IY
-IY
-bB
-Ih
-IY
+fm
+fm
+fm
+fm
+fm
 MP
 MP
 MP
@@ -1554,16 +1533,16 @@ fm
 Bg
 up
 UK
-IY
-IY
-IY
-IY
-bB
-bB
-vI
-IY
-IY
-IY
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
 MP
 MP
 MP
@@ -1591,16 +1570,16 @@ fm
 pI
 up
 hW
-IY
-bB
-bB
-bB
-bB
-Ih
-vI
-vI
-vI
-IY
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
 MP
 MP
 MP
@@ -1628,16 +1607,16 @@ fm
 pI
 up
 hW
-IY
-bB
-GQ
-GQ
-bB
-Ih
-vI
-vI
-vI
-IY
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
 MP
 MP
 MP
@@ -1665,16 +1644,16 @@ fm
 nD
 up
 Bg
-IY
-bB
-GQ
-GQ
-bB
-Ih
-vI
-vI
-vI
-IY
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
 UK
 UK
 UK
@@ -1702,16 +1681,16 @@ fm
 Bg
 up
 sv
-IY
-bB
-bB
-bB
-bB
-Ih
-vI
-vI
-vI
-IY
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
 ri
 Bg
 wD
@@ -1739,16 +1718,16 @@ fm
 Iq
 VR
 sv
-IY
-VP
-VP
-IY
-bB
-Ih
-vI
-vI
-vI
-IY
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
+fm
 mu
 bF
 wg
@@ -1779,13 +1758,13 @@ sv
 Bg
 Tb
 Bg
-IY
-IY
+fm
+fm
 kP
-IY
-IY
-IY
-IY
+fm
+fm
+fm
+fm
 os
 pc
 GR
