@@ -154,3 +154,8 @@
 	icon = 'troutstation/icons/area/areas_station.dmi'
 	icon_state = "tiss"
 	name = "\improper The Cocoon"
+
+/area/station/security/detectives_office/rags
+	icon = 'troutstation/icons/area/areas_station.dmi'
+	icon_state = "tiss"
+

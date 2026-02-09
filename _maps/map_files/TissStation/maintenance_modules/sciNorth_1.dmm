@@ -212,7 +212,7 @@
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/machinery/space_heater,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/dim/directional/east,
+/obj/machinery/light/small/directional/east,
 /obj/structure/sign/poster/contraband/random/directional/east,
 /turf/open/floor/iron/white/diagonal,
 /area/station/maintenance/department/science/xenobiology)
@@ -250,10 +250,7 @@
 /area/station/maintenance/department/science/xenobiology)
 "ul" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
-/obj/structure/chair/comfy/lime{
-	dir = 4;
-	color = "#98a37f"
-	},
+/obj/structure/closet/secure_closet/detective,
 /obj/machinery/light/small/directional/south,
 /obj/machinery/airalarm/directional/south{
 	name = "Whirling-In-Rags Room #2 Air Alarm"
@@ -271,7 +268,7 @@
 	pixel_x = 12;
 	list_reagents = list(/datum/reagent/consumable/ethanol/wine = 1);
 	name = "Commodore Red";
-	desc = "This magnum-sized bottle of "\Commodore Red\" is empty."
+	desc = "This magnum-sized bottle of "\CommodoreRed\" is empty."
 	},
 /turf/open/floor/iron/white/diagonal,
 /area/station/maintenance/department/science/xenobiology)
@@ -374,7 +371,7 @@
 /obj/item/clothing/glasses/regular/kim,
 /obj/item/clothing/shoes/jackboots/kim,
 /obj/item/clothing/under/rank/security/detective/kim,
-/obj/structure/closet/cabinet,
+/obj/structure/closet,
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /turf/open/floor/iron/white/diagonal,
 /area/station/maintenance/department/science/xenobiology)
@@ -548,9 +545,8 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
 "Qc" = (
-/obj/structure/table/wood,
-/obj/item/language_manual/codespeak_manual{
-	pixel_x = -6
+/obj/machinery/computer/records/security{
+	dir = 8
 	},
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/carpet,
@@ -638,7 +634,7 @@
 "XK" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/structure/table/wood,
-/obj/machinery/light/small/dim/directional/south,
+/obj/machinery/light/small/directional/south,
 /obj/item/reagent_containers/cup/glass/bottle/whiskey{
 	list_reagents = list(/datum/reagent/consumable/ethanol/whiskey = 5);
 	pixel_y = 7;

@@ -40,7 +40,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
 "dA" = (
-/obj/modular_map_root/tissstation,
+/obj/modular_map_connector,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)

@@ -153,7 +153,9 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/reagent_containers/cup/glass/drinkingglass/filled/cola,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled/cola{
+	pixel_y = 6
+	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
@@ -1003,9 +1005,6 @@
 	},
 /turf/open/floor/plastic,
 /area/station/commons/fitness/recreation/bowling)
-"Rk" = (
-/turf/open/floor/wood/bowling,
-/area/station/asteroid)
 "Rr" = (
 /obj/effect/spawner/random/structure/crate_loot,
 /obj/effect/spawner/random/engineering/tool_advanced,
@@ -2461,7 +2460,7 @@ GC
 LZ
 ta
 ta
-Rk
+jN
 jN
 jN
 mm
