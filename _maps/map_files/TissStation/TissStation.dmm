@@ -9387,7 +9387,6 @@
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /obj/machinery/camera/emp_proof{
-	dir = 5;
 	network = list("ss13","engine");
 	c_tag = "Engineering - Main #3"
 	},
@@ -16718,7 +16717,8 @@
 /obj/machinery/photocopier/prebuilt,
 /obj/machinery/camera/directional/west{
 	c_tag = "Civilian - Library #2";
-	dir = 5
+	dir = 2;
+	pixel_x = 23
 	},
 /obj/structure/sign/calendar/directional/south,
 /turf/open/floor/wood,
