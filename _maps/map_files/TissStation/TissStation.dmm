@@ -851,7 +851,7 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "amS" = (
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "AI Tram"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/general,
@@ -10732,7 +10732,7 @@
 /area/station/service/hydroponics/garden)
 "dpX" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Science Division Access"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -11609,7 +11609,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/fore/port)
 "dCo" = (
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Xenobiology Lab"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/general,
@@ -11933,7 +11933,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/walkway)
 "dIa" = (
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
 /obj/effect/turf_decal/siding/corner{
 	dir = 4
@@ -15325,7 +15325,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
 	dir = 4
 	},
-/obj/machinery/door/airlock/research,
+/obj/machinery/door/airlock/science,
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance_storage,
 /obj/machinery/door/firedoor/heavy,
 /obj/structure/disposalpipe/segment,
@@ -15857,7 +15857,7 @@
 	},
 /area/station/hallway/secondary/entry)
 "eRM" = (
-/obj/machinery/door/airlock/research/glass{
+/obj/machinery/door/airlock/science/glass{
 	name = "Test Chamber"
 	},
 /obj/effect/turf_decal/delivery,
@@ -17385,7 +17385,7 @@
 /turf/open/floor/plating,
 /area/station/hallway/primary/tram/sciai)
 "fpn" = (
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Science Division Access"
 	},
 /obj/machinery/door/poddoor/preopen{
@@ -19598,7 +19598,7 @@
 /area/station/commons/storage/primary)
 "fXg" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/research,
+/obj/machinery/door/airlock/science,
 /obj/effect/mapping_helpers/airlock/access/all/medical/pharmacy,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/purple/fourcorners,
@@ -22143,7 +22143,7 @@
 /area/station/cargo/warehouse)
 "gMr" = (
 /obj/effect/mapping_helpers/airlock/access/all/science/xenobio,
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Xenobiology Lab"
 	},
 /obj/effect/turf_decal/tile/purple/full,
@@ -23709,7 +23709,7 @@
 /area/station/medical/medbay)
 "hni" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/genetics,
 /obj/effect/turf_decal/siding/purple/corner{
 	dir = 8
@@ -24014,7 +24014,7 @@
 /area/station/ai/satellite/interior)
 "hqV" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/general,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -24718,7 +24718,7 @@
 /area/station/security/walkway)
 "hCH" = (
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance_storage,
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -26351,7 +26351,7 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/morgue)
 "iaM" = (
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible,
@@ -28366,7 +28366,7 @@
 /turf/closed/wall/r_wall,
 /area/station/command/vault)
 "iDO" = (
-/obj/machinery/door/airlock/research/glass{
+/obj/machinery/door/airlock/science/glass{
 	name = "Test Chamber"
 	},
 /obj/effect/turf_decal/delivery,
@@ -30101,7 +30101,7 @@
 /turf/open/floor/iron,
 /area/station/medical/walkway)
 "jgv" = (
-/obj/machinery/door/airlock/research/glass{
+/obj/machinery/door/airlock/science/glass{
 	name = "Test Chamber"
 	},
 /obj/effect/turf_decal/delivery,
@@ -30692,7 +30692,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms)
 "joX" = (
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Science Division Access"
 	},
 /obj/machinery/door/poddoor/preopen{
@@ -31045,7 +31045,7 @@
 /area/station/medical/virology/walkway)
 "jsA" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/genetics,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -31412,7 +31412,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/miningfoundry)
 "jxC" = (
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/machinery/atmospherics/pipe/heat_exchanging/junction/layer2{
 	dir = 8
 	},
@@ -40459,7 +40459,7 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "mey" = (
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/dark/diagonal_edge,
@@ -42962,7 +42962,7 @@
 /turf/open/floor/iron/textured_large,
 /area/station/security/execution/transfer)
 "mTM" = (
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Science Division Access"
 	},
 /obj/machinery/door/poddoor/preopen{
@@ -46620,7 +46620,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/hfr_room)
 "nZH" = (
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	glass = 1;
 	name = "Slime Euthanization Chamber";
 	opacity = 0
@@ -51211,7 +51211,7 @@
 /turf/open/floor/plating,
 /area/station/service/hydroponics/garden)
 "pwl" = (
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Experimentation Lab"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/general,
@@ -55920,7 +55920,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Science Division Access"
 	},
 /obj/machinery/door/firedoor,
@@ -56228,7 +56228,7 @@
 /area/station/security/brig)
 "qYS" = (
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
-/obj/machinery/door/airlock/research,
+/obj/machinery/door/airlock/science,
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/structure/cable,
@@ -56515,7 +56515,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
 "rcS" = (
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -57137,7 +57137,7 @@
 /turf/open/floor/iron/dark,
 /area/station/ai/satellite/maintenance)
 "rnP" = (
-/obj/machinery/door/airlock/research,
+/obj/machinery/door/airlock/science,
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance_storage,
 /obj/machinery/door/firedoor/heavy,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -58371,7 +58371,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/customs)
 "rKn" = (
-/obj/machinery/door/airlock/research/glass{
+/obj/machinery/door/airlock/science/glass{
 	name = "Test Chamber"
 	},
 /obj/effect/turf_decal/delivery,
@@ -61089,7 +61089,7 @@
 /turf/open/floor/iron,
 /area/station/security/brig)
 "sBO" = (
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Burn Chamber Maintenance"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -62163,7 +62163,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
 	dir = 4
 	},
-/obj/machinery/door/airlock/research,
+/obj/machinery/door/airlock/science,
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance_storage,
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/turf_decal/tile/purple/fourcorners,
@@ -63309,7 +63309,7 @@
 /area/station/command/heads_quarters/cmo)
 "tlp" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/general,
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -65459,7 +65459,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "tWn" = (
-/obj/machinery/door/airlock/research,
+/obj/machinery/door/airlock/science,
 /obj/effect/mapping_helpers/airlock/access/all/science/research,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -65752,7 +65752,7 @@
 "uaZ" = (
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
-/obj/machinery/door/airlock/research/glass,
+/obj/machinery/door/airlock/science/glass,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -71098,7 +71098,7 @@
 /area/station/service/library/lounge)
 "vHS" = (
 /obj/effect/mapping_helpers/airlock/access/all/science/xenobio,
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Xenobiology Lab"
 	},
 /obj/effect/turf_decal/tile/purple/full,
@@ -72964,7 +72964,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "wky" = (
-/obj/machinery/door/airlock/research{
+/obj/machinery/door/airlock/science{
 	name = "Science Division Access"
 	},
 /obj/machinery/door/poddoor/preopen{
