@@ -45,6 +45,13 @@
 /obj/effect/spawner/random/structure/steam_vent,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
+"m" = (
+/obj/effect/landmark/generic_maintenance_landmark,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/plastic,
+/area/station/maintenance/department/medical)
 "n" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -447,7 +454,7 @@ a
 a
 U
 u
-u
+m
 C
 u
 u
@@ -474,7 +481,7 @@ a
 U
 u
 u
-u
+c
 u
 u
 u
