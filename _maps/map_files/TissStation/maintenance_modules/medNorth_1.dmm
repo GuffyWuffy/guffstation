@@ -58,12 +58,6 @@
 "t" = (
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
-"u" = (
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical)
 "v" = (
 /turf/closed/wall/r_wall,
 /area/station/maintenance/department/medical)
@@ -747,7 +741,7 @@ b
 b
 X
 X
-u
+K
 Y
 W
 "}
