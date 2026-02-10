@@ -89,10 +89,6 @@
 /obj/effect/spawner/random/structure/grille,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
-"mD" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall,
-/area/station/maintenance/department/security)
 "ok" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -524,7 +520,7 @@ EN
 cV
 Xz
 NN
-mD
+cV
 cV
 cV
 cV

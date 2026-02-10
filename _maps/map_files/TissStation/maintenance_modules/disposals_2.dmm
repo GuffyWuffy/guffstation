@@ -226,7 +226,6 @@
 	pixel_y = -6
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating/rust,
 /area/station/maintenance/disposal)
 "J" = (
@@ -263,12 +262,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating/rust,
-/area/station/maintenance/disposal)
-"O" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/r_wall/rust,
 /area/station/maintenance/disposal)
 "P" = (
 /obj/structure/disposalpipe/segment,
@@ -325,6 +319,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating/rust,
 /area/station/maintenance/disposal)
 "W" = (
@@ -378,7 +373,7 @@ a
 G
 G
 G
-O
+G
 y
 k
 Z
@@ -416,7 +411,7 @@ M
 j
 f
 H
-k
+f
 u
 r
 e
@@ -428,7 +423,7 @@ L
 o
 q
 n
-f
+k
 E
 w
 v

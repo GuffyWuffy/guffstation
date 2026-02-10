@@ -7125,12 +7125,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
-"cof" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/wall/r_wall/plastitanium/nodiagonal,
-/area/station/maintenance/disposal)
 "cos" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hazardvest,
@@ -7700,9 +7694,6 @@
 /area/station/command/corporate_showroom)
 "cvq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/transport/destination_sign/indicator/directional/east{
-	configured_transport_id = "tiss_1"
-	},
 /obj/machinery/button/transport/tram/directional/east{
 	id = 2;
 	specific_transport_id = "tiss_1"
@@ -16522,9 +16513,6 @@
 /obj/machinery/button/transport/tram/directional/east{
 	id = 1;
 	specific_transport_id = "tiss_1"
-	},
-/obj/machinery/transport/destination_sign/indicator/directional/east{
-	configured_transport_id = "tiss_1"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
@@ -70959,9 +70947,6 @@
 "vMC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/transport/destination_sign/indicator/directional/west{
-	configured_transport_id = "tiss_1"
-	},
 /obj/machinery/button/transport/tram/directional/west{
 	id = 2;
 	specific_transport_id = "tiss_1"
@@ -78278,9 +78263,6 @@
 /obj/machinery/button/transport/tram/directional/west{
 	id = 1;
 	specific_transport_id = "tiss_1"
-	},
-/obj/machinery/transport/destination_sign/indicator/directional/west{
-	configured_transport_id = "tiss_1"
 	},
 /turf/open/floor/iron/white,
 /area/station/hallway/primary/tram/sciai)
@@ -91806,7 +91788,7 @@ ccy
 ccy
 dRt
 dRt
-cof
+dRt
 dRt
 dRt
 dRt

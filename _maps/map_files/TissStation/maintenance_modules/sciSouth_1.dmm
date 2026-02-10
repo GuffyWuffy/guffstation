@@ -425,6 +425,8 @@
 /area/station/maintenance/department/science/south)
 "Us" = (
 /obj/effect/spawner/random/engineering/atmospherics_portable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/south)
 "UG" = (
