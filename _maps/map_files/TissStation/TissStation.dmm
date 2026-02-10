@@ -16143,6 +16143,14 @@
 /obj/structure/transit_tube/station/dispenser/reverse/flipped{
 	dir = 1
 	},
+/obj/effect/turf_decal/stripes/white/end{
+	dir = 8;
+	color = "#0099ff"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "tubular";
+	name = "Tube Shutter"
+	},
 /turf/open/floor/iron/large,
 /area/station/cargo/lobby)
 "eVH" = (
@@ -19922,7 +19930,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/supply/mining,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/tile/brown/full,
-/obj/effect/landmark/navigate_destination,
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/miningdock)
@@ -27993,7 +28000,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/medical/pharmacy,
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /obj/effect/mapping_helpers/airlock/autoname,
-/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
 "izl" = (
@@ -32014,6 +32020,13 @@
 	},
 /turf/open/floor/iron/dark/herringbone,
 /area/station/security/office)
+"jHU" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/effect/landmark/navigate_destination{
+	location = "Pharmacy"
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/lobby)
 "jHX" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
@@ -33224,6 +33237,14 @@
 /obj/effect/turf_decal/tile/dark_green/full,
 /obj/structure/transit_tube/station/dispenser/reverse{
 	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/end{
+	color = "#0099ff";
+	dir = 1
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "tubular";
+	name = "Tube Shutter"
 	},
 /turf/open/floor/iron/large,
 /area/station/cargo/lobby)
@@ -42046,6 +42067,9 @@
 	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/effect/landmark/navigate_destination{
+	location = "Mining"
+	},
 /turf/open/floor/iron/white,
 /area/station/cargo/miningdock)
 "mEs" = (
@@ -44770,7 +44794,9 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock/autoname,
-/obj/effect/landmark/navigate_destination,
+/obj/effect/landmark/navigate_destination{
+	location = "Research Director's Office"
+	},
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/rd)
 "nuq" = (
@@ -44861,7 +44887,6 @@
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 1
 	},
-/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
 "nwn" = (
@@ -52017,7 +52042,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/obj/effect/landmark/navigate_destination,
+/obj/effect/landmark/navigate_destination{
+	location = "Armory"
+	},
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/mineral/plastitanium/red,
 /area/station/security/armory)
@@ -63110,6 +63137,14 @@
 /obj/effect/turf_decal/tile/blue/full,
 /obj/structure/transit_tube/station/dispenser/reverse{
 	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/end{
+	color = "#0099ff";
+	dir = 1
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "tubular";
+	name = "Tube Shutter"
 	},
 /turf/open/floor/iron/large,
 /area/station/cargo/lobby)
@@ -95328,7 +95363,7 @@ fpa
 gWA
 kxz
 lTB
-rzR
+jHU
 mcU
 dBV
 wMp
