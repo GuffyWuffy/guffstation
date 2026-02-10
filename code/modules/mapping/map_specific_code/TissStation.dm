@@ -155,7 +155,7 @@
 	icon_state = "tiss"
 	name = "\improper The Cocoon"
 
-/area/station/security/detectives_office/rags
+/area/station/maintenance/rags
 	icon = 'troutstation/icons/area/areas_station.dmi'
 	icon_state = "tiss"
 	name = "\improper Whirling-in-Rags"

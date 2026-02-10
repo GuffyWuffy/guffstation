@@ -650,10 +650,6 @@
 	},
 /turf/open/floor/plating/rust,
 /area/station/maintenance/starboard/central)
-"yT" = (
-/obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating,
-/area/station/asteroid)
 "zg" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -2359,7 +2355,7 @@ Oy
 Oy
 oL
 oL
-yT
+it
 Oy
 Oy
 Oy
@@ -2393,11 +2389,11 @@ Oy
 Oy
 Oy
 Oy
-yT
+it
 oL
 oL
-yT
-yT
+it
+it
 Oy
 Kc
 Kc
@@ -2429,8 +2425,8 @@ ug
 Oy
 Oy
 Oy
-yT
-yT
+it
+it
 oL
 oL
 it
@@ -2465,7 +2461,7 @@ Kw
 ug
 Oy
 Oy
-yT
+it
 it
 it
 oL

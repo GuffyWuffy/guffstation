@@ -12,7 +12,7 @@
 /obj/machinery/light/small/broken/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/small,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "cH" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "TV Room"
@@ -28,41 +28,41 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "dZ" = (
 /obj/machinery/door/airlock/wood{
 	name = "Bathroom"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/small,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "eb" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
 "fa" = (
 /turf/open/floor/carpet,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "fd" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "gd" = (
 /obj/structure/chair/wood{
 	dir = 4
 	},
 /obj/effect/landmark/start/detective,
 /turf/open/floor/carpet,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "gx" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bookcase/random/adult,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "gF" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
@@ -81,7 +81,7 @@
 /obj/structure/table/wood,
 /obj/item/photo/old,
 /turf/open/floor/carpet/green,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "jv" = (
 /obj/machinery/door/airlock/wood{
 	name = "Whirling-In-Rags Room #2"
@@ -96,7 +96,7 @@
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "jQ" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/effect/decal/cleanable/dirt,
@@ -105,7 +105,7 @@
 /obj/effect/landmark/start/hangover,
 /obj/effect/landmark/start/detective,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "kl" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
@@ -122,7 +122,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/green,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "mK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -131,7 +131,7 @@
 	pixel_y = -10
 	},
 /turf/open/floor/iron/white/small,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "mM" = (
 /obj/structure/railing/corner,
 /turf/open/floor/plating,
@@ -139,7 +139,7 @@
 "nc" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "ne" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -151,12 +151,12 @@
 /obj/effect/spawner/random/trash/crushed_can,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "nq" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/structure/cable,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "nu" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/broken_floor,
@@ -173,7 +173,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "ob" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/effect/decal/cleanable/dirt,
@@ -184,7 +184,7 @@
 	name = "Whirling-In-Rags Room #1 Air Alarm"
 	},
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "of" = (
 /obj/machinery/shower/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -197,7 +197,7 @@
 	},
 /obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/white/small,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "or" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
@@ -214,7 +214,7 @@
 /obj/structure/door_assembly/door_assembly_wood,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "qr" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/machinery/space_heater,
@@ -222,14 +222,14 @@
 /obj/machinery/light/small/directional/east,
 /obj/structure/sign/poster/contraband/random/directional/east,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "ro" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "rZ" = (
 /obj/machinery/door/airlock/wood{
 	name = "Whirling-In-Rags Room #1"
@@ -244,17 +244,17 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "sc" = (
 /obj/structure/transit_tube/curved,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
 "sp" = (
 /turf/closed/wall,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "sM" = (
 /turf/closed/wall/r_wall,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "sP" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
@@ -263,7 +263,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/small,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "tS" = (
 /obj/machinery/power/port_gen/pacman/pre_loaded,
 /turf/open/floor/plating,
@@ -276,7 +276,7 @@
 	name = "Whirling-In-Rags Room #2 Air Alarm"
 	},
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "vP" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/effect/spawner/random/trash/deluxe_garbage,
@@ -291,7 +291,7 @@
 	desc = "This magnum-sized bottle of "\CommodoreRed\" is empty."
 	},
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "vS" = (
 /obj/structure/closet/crate/trashcart/filled,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -312,7 +312,7 @@
 	c_tag = "Whirling-In-Rags Room #1"
 	},
 /turf/open/floor/carpet/green,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "xf" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating/airless,
@@ -337,7 +337,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "yW" = (
 /obj/item/bedsheet/brown{
 	pixel_x = -6;
@@ -354,7 +354,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "zd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -394,7 +394,7 @@
 /obj/structure/closet,
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Dd" = (
 /obj/structure/railing,
 /turf/open/floor/plating,
@@ -405,7 +405,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Dx" = (
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
@@ -417,7 +417,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "EM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/spawner/random/structure/steam_vent,
@@ -464,7 +464,7 @@
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/green,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Ia" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -488,7 +488,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Jo" = (
 /turf/closed/wall,
 /area/station/maintenance/department/science/xenobiology)
@@ -497,7 +497,7 @@
 /obj/effect/spawner/random/trash/cigbutt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Ko" = (
 /obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
@@ -511,7 +511,7 @@
 "Ld" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "LV" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/structure/bookcase/random/nonfiction,
@@ -519,7 +519,7 @@
 	c_tag = "Whirling-In-Rags Room #2"
 	},
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "MV" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -527,7 +527,7 @@
 	},
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Nb" = (
 /obj/structure/transit_tube,
 /turf/open/floor/plating,
@@ -573,19 +573,19 @@
 	},
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/carpet,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "QA" = (
 /obj/machinery/computer/records/medical{
 	dir = 8
 	},
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/carpet,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Rd" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/damaged_window,
 /turf/open/floor/plating,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Rm" = (
 /obj/structure/railing{
 	dir = 1
@@ -599,7 +599,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Tb" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/structure/chair/comfy/lime{
@@ -607,13 +607,13 @@
 	color = "#98a37f"
 	},
 /turf/open/floor/carpet/green,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Ts" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/small,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "TB" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
@@ -625,7 +625,7 @@
 	pixel_y = -4
 	},
 /turf/open/floor/carpet,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Ug" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/misc/asteroid/airless,
@@ -638,7 +638,7 @@
 	pixel_x = 2
 	},
 /turf/open/floor/carpet,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "UT" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/effect/spawner/random/trash/cigbutt,
@@ -648,7 +648,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/item/clothing/shoes/discoshoes,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "VO" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -675,18 +675,18 @@
 	pixel_x = 5
 	},
 /turf/open/floor/carpet/green,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "XN" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "Yt" = (
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/west,
 /turf/open/floor/iron/white/diagonal,
-/area/station/security/detectives_office/rags)
+/area/station/maintenance/rags)
 "ZD" = (
 /obj/effect/spawner/random/structure/crate,
 /turf/open/floor/plating,

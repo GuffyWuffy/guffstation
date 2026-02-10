@@ -194,6 +194,9 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
+"wg" = (
+/turf/open/floor/plating/airless,
+/area/station/maintenance/port/central)
 "xt" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
@@ -1188,7 +1191,7 @@ Vb
 bq
 pW
 bq
-tx
+wg
 GL
 "}
 (22,1,1) = {"
@@ -1224,7 +1227,7 @@ fF
 iL
 tx
 IL
-tx
+wg
 GL
 "}
 (23,1,1) = {"
@@ -1260,7 +1263,7 @@ Vb
 bq
 tx
 bq
-tx
+wg
 GL
 "}
 (24,1,1) = {"

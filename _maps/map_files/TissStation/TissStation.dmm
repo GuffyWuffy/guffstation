@@ -6208,6 +6208,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/security/lobby)
 "bXL" = (
@@ -7402,7 +7403,8 @@
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/grass/lavaland{
 	desc = "Upon closer examination, it's still dirt.";
-	name = "dirt"
+	name = "dirt";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/security/prison/garden)
 "csa" = (
@@ -7696,7 +7698,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/button/transport/tram/directional/east{
 	id = 2;
-	specific_transport_id = "tiss_1"
+	specific_transport_id = "tiss_1";
+	pixel_y = 12
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai/satellite/foyer)
@@ -8380,7 +8383,8 @@
 /obj/structure/cable,
 /turf/open/floor/grass/lavaland{
 	desc = "Upon closer examination, it's still dirt.";
-	name = "dirt"
+	name = "dirt";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/commons/park)
 "cGw" = (
@@ -9045,6 +9049,7 @@
 /obj/effect/turf_decal/tile/red/fourcorners,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/security/lobby)
 "cQM" = (
@@ -10985,6 +10990,7 @@
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
 /area/station/science/lobby)
 "dtL" = (
@@ -14413,7 +14419,10 @@
 "ewL" = (
 /obj/structure/transport/linear/tram,
 /obj/structure/thermoplastic/light,
-/obj/machinery/door/airlock/tram,
+/obj/machinery/door/airlock/tram{
+	transport_linked_id = "tiss_1";
+	req_access = list("rd","tcoms")
+	},
 /turf/open/floor/plating,
 /area/station/hallway/primary/tram/sciai)
 "ewU" = (
@@ -15563,6 +15572,7 @@
 "ePb" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/security/walkway)
 "ePh" = (
@@ -20668,7 +20678,8 @@
 /obj/structure/cable,
 /turf/open/floor/grass/lavaland{
 	desc = "Upon closer examination, it's still dirt.";
-	name = "dirt"
+	name = "dirt";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/commons/park)
 "gtn" = (
@@ -28096,7 +28107,8 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/grass/lavaland{
 	desc = "Upon closer examination, it's still dirt.";
-	name = "dirt"
+	name = "dirt";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/commons/park)
 "iDq" = (
@@ -28191,6 +28203,7 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/security/walkway)
 "iEq" = (
@@ -32896,6 +32909,7 @@
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/structure/disposalpipe/segment,
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
 /area/station/science/lobby)
 "kad" = (
@@ -33135,7 +33149,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/grass/lavaland{
 	desc = "Upon closer examination, it's still dirt.";
-	name = "dirt"
+	name = "dirt";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/security/prison/garden)
 "kdH" = (
@@ -36827,7 +36842,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/grass/lavaland{
 	desc = "Upon closer examination, it's still dirt.";
-	name = "dirt"
+	name = "dirt";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/security/prison/garden)
 "lhm" = (
@@ -39965,7 +39981,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/grass/lavaland{
 	desc = "Upon closer examination, it's still dirt.";
-	name = "dirt"
+	name = "dirt";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/security/prison/garden)
 "mca" = (
@@ -46720,6 +46737,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
 /area/station/science/lobby)
 "ojb" = (
@@ -46873,6 +46891,7 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/security/lobby)
 "olY" = (
@@ -63667,6 +63686,13 @@
 	},
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
+"tAU" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron,
+/area/station/security/walkway)
 "tBa" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -65603,6 +65629,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/light/floor,
+/obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron,
 /area/station/security/walkway)
 "ufQ" = (
@@ -65698,6 +65725,7 @@
 	},
 /obj/structure/sign/departments/security/directional/north,
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/security/walkway)
 "uhC" = (
@@ -70949,7 +70977,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/button/transport/tram/directional/west{
 	id = 2;
-	specific_transport_id = "tiss_1"
+	specific_transport_id = "tiss_1";
+	pixel_y = 12
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai/satellite/foyer)
@@ -78655,7 +78684,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/grass/lavaland{
 	desc = "Upon closer examination, it's still dirt.";
-	name = "dirt"
+	name = "dirt";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/station/commons/park)
 "yiM" = (
@@ -118276,7 +118306,7 @@ nTt
 ePE
 xJT
 kkh
-mgE
+tAU
 fRI
 fRI
 neb

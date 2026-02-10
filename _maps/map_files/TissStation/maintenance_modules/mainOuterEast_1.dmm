@@ -275,10 +275,6 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
-"mm" = (
-/obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating,
-/area/station/asteroid)
 "mM" = (
 /obj/effect/turf_decal/tile/dark/half{
 	dir = 8
@@ -2393,7 +2389,7 @@ jN
 jN
 lU
 lU
-mm
+HO
 jN
 jN
 jN
@@ -2427,11 +2423,11 @@ jN
 jN
 jN
 jN
-mm
+HO
 lU
 lU
-mm
-mm
+HO
+HO
 jN
 PY
 PY
@@ -2463,8 +2459,8 @@ ta
 jN
 jN
 jN
-mm
-mm
+HO
+HO
 lU
 lU
 HO
@@ -2499,7 +2495,7 @@ YT
 ta
 jN
 jN
-mm
+HO
 HO
 HO
 lU
