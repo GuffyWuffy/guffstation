@@ -106,6 +106,10 @@
 /obj/effect/landmark/start/detective,
 /turf/open/floor/iron/white/diagonal,
 /area/station/maintenance/rags)
+"jV" = (
+/obj/effect/landmark/generic_maintenance_landmark,
+/turf/open/floor/plating,
+/area/station/maintenance/department/science/xenobiology)
 "kl" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
@@ -130,6 +134,7 @@
 	pixel_x = 11;
 	pixel_y = -10
 	},
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron/white/small,
 /area/station/maintenance/rags)
 "mM" = (
@@ -1571,7 +1576,7 @@ Jo
 Dx
 Dx
 NI
-Dx
+jV
 cH
 Ky
 Dx

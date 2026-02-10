@@ -833,6 +833,7 @@
 	dir = 4;
 	color = "#0066FF"
 	},
+/obj/item/radio/intercom/directional/west,
 /turf/open/floor/plastic,
 /area/station/commons/fitness/recreation/pool)
 "OB" = (

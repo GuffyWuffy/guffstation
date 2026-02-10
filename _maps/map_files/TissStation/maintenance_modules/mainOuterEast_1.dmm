@@ -699,6 +699,7 @@
 /area/station/maintenance/starboard/central)
 "EZ" = (
 /obj/structure/chair/stool/directional/south,
+/obj/item/radio/intercom/directional/east,
 /turf/open/floor/eighties,
 /area/station/commons/fitness/recreation/bowling)
 "Ff" = (
