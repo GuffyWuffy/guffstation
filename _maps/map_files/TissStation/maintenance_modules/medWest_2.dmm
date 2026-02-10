@@ -82,18 +82,6 @@
 /obj/structure/sign/poster/contraband/random/directional/south,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
-"iJ" = (
-/obj/machinery/door/airlock/external{
-	name = "Escape Pod Bay";
-	space_dir = 8
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical)
 "iW" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -804,7 +792,7 @@ Hc
 JP
 JP
 JP
-iJ
+JP
 JP
 JP
 jy
