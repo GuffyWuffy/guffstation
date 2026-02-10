@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
 "bv" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -8,6 +14,10 @@
 /obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
 /obj/effect/mapping_helpers/airlock/unres/delayed,
 /turf/open/floor/iron/cafeteria,
+/area/station/maintenance/department/medical)
+"dB" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "dJ" = (
 /obj/structure/sign/poster/official/no_erp/directional/west,
@@ -161,6 +171,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
+"tN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/structure/sign/poster/contraband/random/directional/east,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
 "ug" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/sign/poster/contraband/random/directional/south,
@@ -288,13 +306,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
-"DL" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment,
+"Fh" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/contraband/random/directional/east,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "Hc" = (
@@ -768,8 +782,8 @@ JP
 JP
 JP
 zj
-sJ
-sJ
+bq
+Fh
 jy
 zM
 TU
@@ -796,7 +810,7 @@ JP
 JP
 jy
 jy
-sJ
+Fh
 jy
 jy
 jy
@@ -823,7 +837,7 @@ sJ
 kI
 jy
 jy
-sJ
+Fh
 sJ
 sJ
 YD
@@ -850,7 +864,7 @@ sJ
 sJ
 mh
 jy
-Wx
+dB
 Wx
 jy
 zl
@@ -870,9 +884,9 @@ JP
 JP
 ZT
 kW
-DL
 kW
-wZ
+kW
+tN
 kW
 kW
 kW
