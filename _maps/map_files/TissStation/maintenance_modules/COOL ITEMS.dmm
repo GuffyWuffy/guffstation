@@ -3,21 +3,8 @@
 /obj/item/clothing/suit/caution,
 /turf/open/space/basic,
 /area/space)
-"b" = (
-/obj/item/clothing/shoes/swagshoes,
-/turf/open/space/basic,
-/area/space)
-"d" = (
-/obj/item/firing_pin/dna/dredd,
-/obj/item/firing_pin/clown,
-/turf/open/space/basic,
-/area/space)
 "e" = (
 /obj/structure/votebox,
-/turf/open/space/basic,
-/area/space)
-"h" = (
-/obj/item/clothing/glasses/prism_glasses,
 /turf/open/space/basic,
 /area/space)
 "j" = (
@@ -26,10 +13,6 @@
 /area/space)
 "n" = (
 /obj/structure/mounted_gun/organ_gun,
-/turf/open/space/basic,
-/area/space)
-"o" = (
-/obj/item/food/roast_dinner,
 /turf/open/space/basic,
 /area/space)
 "p" = (
@@ -56,10 +39,6 @@
 /obj/item/toy/waterballoon,
 /turf/open/space/basic,
 /area/space)
-"w" = (
-/obj/item/disk/computer/virus/clown,
-/turf/open/space/basic,
-/area/space)
 "y" = (
 /obj/item/clothing/accessory/skilt,
 /obj/item/clothing/accessory/skullcodpiece,
@@ -72,7 +51,7 @@
 /turf/open/space/basic,
 /area/space)
 "A" = (
-/obj/item/clothing/suit/space/freedom,
+/obj/item/firing_pin/dna/dredd,
 /turf/open/space/basic,
 /area/space)
 "B" = (
@@ -81,12 +60,6 @@
 /area/space)
 "E" = (
 /obj/structure/spider/effigy,
-/turf/open/space/basic,
-/area/space)
-"G" = (
-/obj/item/food/drug/meth_crystal,
-/obj/item/food/drug/opium,
-/obj/item/food/drug/saturnx,
 /turf/open/space/basic,
 /area/space)
 "H" = (
@@ -140,24 +113,12 @@
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/space/basic,
 /area/space)
-"S" = (
-/obj/item/extendohand/acme,
-/turf/open/space/basic,
-/area/space)
 "T" = (
 /obj/item/broken_missile,
 /turf/open/space/basic,
 /area/space)
 "V" = (
 /obj/structure/fluff/empty_terrarium,
-/turf/open/space/basic,
-/area/space)
-"W" = (
-/obj/item/clothing/glasses/sunglasses/gar,
-/obj/item/clothing/glasses/sunglasses/gar/giga,
-/obj/item/clothing/glasses/sunglasses/gar/giga/red,
-/obj/item/clothing/glasses/sunglasses/gar/orange,
-/obj/item/clothing/glasses/material/mining/gar,
 /turf/open/space/basic,
 /area/space)
 "X" = (
@@ -177,10 +138,10 @@
 H
 H
 H
-o
-G
-p
-T
+H
+H
+H
+H
 K
 Z
 A
@@ -189,10 +150,10 @@ A
 H
 H
 H
-P
-d
-a
-W
+H
+H
+H
+H
 Y
 E
 N
@@ -201,10 +162,10 @@ N
 H
 H
 H
-O
-S
-w
-h
+H
+H
+H
+H
 X
 Q
 V
@@ -214,9 +175,9 @@ H
 H
 H
 H
-z
-q
-y
+H
+H
+H
 B
 n
 j
@@ -226,9 +187,9 @@ H
 H
 H
 H
-b
-v
-I
+H
+H
+H
 e
 J
 s
@@ -242,8 +203,8 @@ H
 H
 H
 H
-H
-H
+p
+T
 "}
 (7,1,1) = {"
 H
@@ -254,8 +215,8 @@ H
 H
 H
 H
-H
-H
+a
+z
 "}
 (8,1,1) = {"
 H
@@ -266,8 +227,8 @@ H
 H
 H
 H
-H
-H
+P
+O
 "}
 (9,1,1) = {"
 H
@@ -278,8 +239,8 @@ H
 H
 H
 H
-H
-H
+q
+y
 "}
 (10,1,1) = {"
 H
@@ -290,6 +251,6 @@ H
 H
 H
 H
-H
-H
+v
+I
 "}

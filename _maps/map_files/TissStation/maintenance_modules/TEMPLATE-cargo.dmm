@@ -22,9 +22,6 @@
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/space)
-"e" = (
-/turf/open/floor/plating,
-/area/station/maintenance/disposal)
 "f" = (
 /obj/effect/mapping_helpers/mail_sorting/supply/disposals,
 /obj/structure/disposalpipe/sorting/mail/flip{
@@ -41,9 +38,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"h" = (
-/turf/open/floor/mineral/titanium/tiled/yellow,
-/area/station/maintenance/disposal)
 "i" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -96,9 +90,6 @@
 /obj/structure/transit_tube/crossing,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"q" = (
-/turf/closed/wall/r_wall/plastitanium/nodiagonal,
-/area/station/maintenance/disposal)
 "r" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -161,9 +152,6 @@
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/space)
-"z" = (
-/turf/open/floor/mineral/titanium/tiled/blue,
-/area/station/maintenance/disposal)
 "A" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -234,9 +222,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"J" = (
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/station/maintenance/disposal)
 "K" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -277,9 +262,6 @@
 /obj/effect/mapping_error,
 /turf/open/floor/plating,
 /area/space)
-"R" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/station/maintenance/disposal)
 "S" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -292,7 +274,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/closed/wall/r_wall/plastitanium/nodiagonal,
+/turf/template_noop,
 /area/station/maintenance/disposal)
 "U" = (
 /obj/structure/cable,
@@ -325,9 +307,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"Y" = (
-/turf/open/floor/mineral/titanium/tiled/purple,
-/area/station/maintenance/disposal)
 "Z" = (
 /obj/structure/transit_tube/crossing,
 /obj/structure/disposalpipe/segment{
@@ -1020,10 +999,10 @@ O
 O
 O
 O
-q
-e
-e
-q
+B
+B
+B
+B
 O
 O
 O
@@ -1056,11 +1035,11 @@ F
 O
 O
 O
-q
-q
-J
-Y
-q
+B
+B
+B
+B
+B
 O
 O
 O
@@ -1090,16 +1069,16 @@ B
 a
 E
 F
-q
-q
-q
-q
-J
-J
-z
-q
-q
-q
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
 O
 O
 O
@@ -1127,16 +1106,16 @@ B
 a
 E
 a
-q
-J
-J
-J
-J
-Y
-z
-z
-z
-q
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
 O
 O
 O
@@ -1164,16 +1143,16 @@ B
 a
 E
 a
-q
-J
-R
-R
-J
-Y
-z
-z
-z
-q
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
 O
 O
 O
@@ -1201,16 +1180,16 @@ B
 a
 E
 a
-q
-J
-R
-R
-J
-Y
-z
-z
-z
-q
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
 F
 F
 F
@@ -1238,16 +1217,16 @@ B
 a
 E
 a
-q
-J
-J
-J
-J
-Y
-z
-z
-z
-q
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
 a
 a
 a
@@ -1275,16 +1254,16 @@ B
 a
 E
 a
-q
-h
-h
-q
-J
-Y
-z
-z
-z
-q
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
 a
 a
 a
@@ -1315,13 +1294,13 @@ a
 a
 v
 a
-q
-q
+B
+B
 T
-q
-q
-q
-q
+B
+B
+B
+B
 a
 a
 a
