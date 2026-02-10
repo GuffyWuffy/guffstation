@@ -3662,7 +3662,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/access/any/supply/bit_den,
 /obj/effect/mapping_helpers/airlock/autoname,
-/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/bluespace,
 /area/station/cargo/bitrunning/den)
 "bgn" = (
@@ -14010,6 +14009,7 @@
 /area/station/cargo/miningdock)
 "epw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/wood,
 /area/station/service/library)
 "epC" = (
@@ -24723,7 +24723,6 @@
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/autoname,
-/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/storage)
 "hCT" = (
@@ -30726,6 +30725,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/landmark/navigate_destination{
+	location = "Gravity Generator"
+	},
 /turf/open/floor/iron,
 /area/station/engineering/lobby)
 "jph" = (
@@ -33883,7 +33885,6 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/airlock/autoname,
-/obj/effect/landmark/navigate_destination,
 /turf/open/floor/wood,
 /area/station/service/library)
 "kjY" = (
@@ -34932,7 +34933,6 @@
 "kAP" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public,
-/obj/effect/landmark/navigate_destination,
 /obj/effect/decal/cleanable/blood/oil/slippery,
 /obj/effect/mapping_helpers/airlock/autoname,
 /obj/effect/turf_decal/tile/yellow/opposingcorners{
@@ -44285,8 +44285,8 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/effect/landmark/navigate_destination,
 /obj/effect/mapping_helpers/airlock/autoname,
+/obj/effect/landmark/navigate_destination/atmos,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "nog" = (
@@ -46278,7 +46278,7 @@
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /obj/effect/mapping_helpers/airlock/autoname,
-/obj/effect/landmark/navigate_destination,
+/obj/effect/landmark/navigate_destination/techstorage,
 /turf/open/floor/iron/dark,
 /area/station/engineering/storage/tech)
 "nUg" = (
@@ -47452,6 +47452,12 @@
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
+"opD" = (
+/obj/effect/landmark/navigate_destination{
+	location = "Psychologist"
+	},
+/turf/open/floor/carpet/blue,
+/area/station/medical/psychology)
 "opF" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -48174,9 +48180,6 @@
 	color = "#3e6588"
 	},
 /area/station/command/heads_quarters/hop)
-"oAF" = (
-/turf/open/floor/plating,
-/area/station/service/janitor)
 "oAS" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/light/cold/directional/west,
@@ -54189,7 +54192,9 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock/autoname,
-/obj/effect/landmark/navigate_destination,
+/obj/effect/landmark/navigate_destination{
+	location = "Psychology"
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/psychology)
 "qrQ" = (
@@ -64285,6 +64290,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/full,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
 "tDw" = (
@@ -65405,7 +65411,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/trimline/red/end,
-/obj/effect/landmark/navigate_destination,
+/obj/effect/landmark/navigate_destination{
+	location = "Head of Security's Office"
+	},
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/hos)
@@ -69200,6 +69208,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/commons/storage/tools)
 "vcN" = (
@@ -69330,7 +69339,7 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/full,
 /obj/effect/mapping_helpers/airlock/autoname,
-/obj/effect/landmark/navigate_destination,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
 "veo" = (
@@ -69505,6 +69514,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/construction/mining/aux_base)
+"vfU" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/navigate_destination,
+/turf/open/floor/iron/dark,
+/area/station/science/ordnance/storage)
 "vgf" = (
 /obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
@@ -70030,6 +70044,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/firealarm/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/cargo/bitrunning/den)
 "vpc" = (
@@ -70186,7 +70201,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/red/fourcorners,
-/obj/effect/landmark/navigate_destination,
+/obj/effect/landmark/navigate_destination/chemfactory,
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry/minisat)
@@ -83193,7 +83208,7 @@ iAJ
 lod
 sEl
 sEl
-sEl
+xKM
 ewt
 sEl
 xKM
@@ -88616,7 +88631,7 @@ uDa
 nNV
 joN
 uvB
-yhR
+opD
 nVb
 xLn
 nYQ
@@ -106077,7 +106092,7 @@ lVv
 vNB
 cMN
 fSP
-oAF
+oSt
 oSt
 fSP
 fSP
@@ -134126,7 +134141,7 @@ wUx
 lPq
 jSz
 wEJ
-uOs
+vfU
 uOs
 ifk
 gER
