@@ -33,17 +33,7 @@
 /turf/open/floor/plating,
 /area/station/security/execution/education)
 "aay" = (
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 4
-	},
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/effect/landmark/start/assistant,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/security/lobby)
@@ -3248,6 +3238,15 @@
 /mob/living/basic/bot/cleanbot,
 /turf/open/floor/iron/dark,
 /area/station/ai/satellite/maintenance)
+"baH" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/iron,
+/area/station/security/lobby)
 "baK" = (
 /obj/effect/turf_decal/trimline/blue/filled/end{
 	dir = 8
@@ -10783,17 +10782,7 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/tram/sciai)
 "dqx" = (
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 4
-	},
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/security/lobby)
 "dqK" = (
@@ -11454,6 +11443,9 @@
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 4
 	},
+/obj/structure/chair{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/station/security/lobby)
 "dzH" = (
@@ -12079,8 +12071,6 @@
 /obj/structure/disposalpipe/sorting/mail{
 	dir = 1
 	},
-/obj/structure/railing/corner,
-/obj/effect/turf_decal/tile/red,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -17133,13 +17123,13 @@
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry/minisat)
 "fln" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/obj/structure/flora/bush/grassy/style_random,
-/obj/structure/flora/grass/jungle/b/style_random,
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/structure/flora/bush/leafy,
-/obj/structure/flora/bush/flowers_pp/style_random,
-/turf/open/misc/grass/jungle/station,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron,
 /area/station/security/lobby)
 "flo" = (
 /turf/open/floor/iron/white,
@@ -21461,17 +21451,15 @@
 /turf/open/floor/wood,
 /area/station/command/corporate_showroom)
 "gDb" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/obj/structure/flora/bush/grassy/style_random,
-/obj/structure/flora/grass/jungle/b/style_random,
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/structure/flora/bush/leafy,
-/obj/structure/flora/bush/flowers_yw/style_random,
-/obj/structure/flora/bush/large/style_random{
-	pixel_y = 0
+/obj/structure/sign/poster/official/here_for_your_safety/directional/east,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
 	},
-/obj/structure/sign/poster/official/random/directional/east,
-/turf/open/misc/grass/jungle/station,
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron,
 /area/station/security/lobby)
 "gDj" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -36372,15 +36360,18 @@
 /turf/open/floor/iron/large,
 /area/station/cargo/storage)
 "kUO" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/obj/structure/flora/bush/grassy/style_random,
-/obj/structure/flora/grass/jungle/b/style_random,
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/structure/flora/bush/leafy,
-/obj/structure/flora/bush/flowers_pp/style_random,
-/obj/structure/sign/poster/official/here_for_your_safety/directional/east,
-/obj/machinery/light/directional/east,
-/turf/open/misc/grass/jungle/station,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
+	},
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/landmark/start/hangover,
+/obj/structure/sign/poster/official/random/directional/east,
+/turf/open/floor/iron,
 /area/station/security/lobby)
 "kUQ" = (
 /obj/structure/chair{
@@ -46928,9 +46919,6 @@
 /area/station/security/checkpoint/engineering)
 "oeV" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/railing/corner{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/security/lobby)
@@ -54041,6 +54029,9 @@
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/leafy,
 /obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/flora/bush/large/style_random{
+	pixel_y = 0
+	},
 /turf/open/misc/grass/jungle/station,
 /area/station/security/lobby)
 "qpp" = (
@@ -61223,13 +61214,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/security/lobby)
 "sEi" = (
@@ -76510,17 +76498,6 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/cargo/bitrunning/den)
-"xqQ" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/station/security/lobby)
 "xqX" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/spawner/random/structure/crate,
@@ -85650,11 +85627,11 @@ elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
-elN
+ohK
+ohK
+ohK
+ohK
+ohK
 elN
 elN
 elN
@@ -85906,12 +85883,12 @@ elN
 elN
 elN
 elN
+ohK
+ohK
+ohK
 elN
 elN
-elN
-elN
-elN
-elN
+ohK
 elN
 elN
 elN
@@ -86162,10 +86139,10 @@ elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
+ohK
+ohK
+ohK
+xeM
 elN
 elN
 elN
@@ -86419,19 +86396,19 @@ elN
 elN
 elN
 elN
+ohK
+xeM
+ohK
+xeM
 elN
 elN
 elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
+xeM
+xeM
+xeM
 elN
 elN
 elN
@@ -86676,20 +86653,20 @@ elN
 elN
 elN
 elN
+ohK
+xeM
+xeM
+xeM
 elN
 elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
+ohK
+ohK
+ohK
+xeM
+ohK
 elN
 elN
 ohK
@@ -86943,10 +86920,10 @@ elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
+ohK
+ohK
+ohK
+ohK
 elN
 elN
 elN
@@ -87201,8 +87178,8 @@ elN
 elN
 elN
 elN
-elN
-elN
+ohK
+ohK
 elN
 elN
 elN
@@ -87443,8 +87420,8 @@ elN
 elN
 elN
 elN
-elN
-elN
+ohK
+xeM
 elN
 elN
 elN
@@ -87700,6 +87677,8 @@ elN
 elN
 elN
 elN
+ohK
+ohK
 elN
 elN
 elN
@@ -87709,10 +87688,8 @@ elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
+ohK
+xeM
 elN
 elN
 elN
@@ -87958,19 +87935,19 @@ elN
 elN
 elN
 elN
+ohK
+ohK
+xeM
 elN
 elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
+ohK
+ohK
+ohK
+xeM
+ohK
 elN
 elN
 elN
@@ -88215,19 +88192,19 @@ elN
 elN
 elN
 elN
+ohK
+ohK
+xeM
 elN
 elN
 elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
+xeM
+ohK
+ohK
+ohK
 elN
 elN
 elN
@@ -88469,21 +88446,21 @@ elN
 elN
 elN
 elN
+xeM
+ohK
 elN
 elN
 elN
+ohK
+ohK
+ohK
+ohK
 elN
 elN
 elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
-elN
+xeM
+ohK
+ohK
 elN
 elN
 elN
@@ -88725,15 +88702,15 @@ elN
 elN
 elN
 elN
+xeM
+ohK
+ohK
 elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
-elN
+ohK
+xeM
 elN
 elN
 elN
@@ -88982,9 +88959,9 @@ elN
 elN
 elN
 elN
-elN
-elN
-elN
+xeM
+ohK
+ohK
 elN
 elN
 elN
@@ -89238,9 +89215,9 @@ elN
 elN
 elN
 elN
-elN
-elN
-elN
+ohK
+ohK
+ohK
 elN
 elN
 elN
@@ -89495,6 +89472,8 @@ elN
 elN
 elN
 elN
+xeM
+ohK
 elN
 elN
 elN
@@ -89505,10 +89484,8 @@ elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
+xeM
+ohK
 elN
 elN
 elN
@@ -89752,6 +89729,8 @@ ohK
 elN
 elN
 elN
+xeM
+ohK
 elN
 elN
 elN
@@ -89761,11 +89740,9 @@ elN
 elN
 elN
 elN
-elN
-elN
-elN
-elN
-elN
+xeM
+ohK
+ohK
 elN
 elN
 elN
@@ -90019,9 +89996,9 @@ elN
 elN
 elN
 elN
-elN
-elN
-elN
+xeM
+ohK
+ohK
 elN
 elN
 elN
@@ -90276,8 +90253,8 @@ elN
 elN
 elN
 elN
-elN
-elN
+ohK
+ohK
 elN
 elN
 elN
@@ -124556,7 +124533,7 @@ oWm
 eQK
 dxr
 dKb
-xqQ
+aay
 aay
 dqx
 oeV
@@ -124812,7 +124789,7 @@ kfB
 sjy
 ihU
 fNV
-fTs
+baH
 fln
 gDb
 kUO

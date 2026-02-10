@@ -65,26 +65,6 @@
 "H" = (
 /turf/open/space/basic,
 /area/space)
-"I" = (
-/obj/item/clothing/head/costume/jester{
-	greyscale_colors = "#7f9aba#e76970";
-	name = "Jesterville Funny Furry Freaks Cap";
-	desc = "Part of the uniform of the baseball team the Jesterville Funny Furry Freaks."
-	},
-/obj/item/clothing/shoes/jester_shoes{
-	greyscale_colors = "#7f9aba#e76970";
-	desc = "Part of the uniform of the baseball team the Jesterville Funny Furry Freaks.";
-	name = "Jesterville Funny Furry Freaks Shoes"
-	},
-/obj/item/clothing/under/rank/civilian/clown/jester{
-	greyscale_colors = "#7f9aba#e76970";
-	desc = "Part of the uniform of the baseball team the Jesterville Funny Furry Freaks.";
-	name = "Jesterville Funny Furry Freaks Suit"
-	},
-/obj/item/melee/baseball_bat,
-/obj/item/toy/beach_ball/baseball,
-/turf/open/space/basic,
-/area/space)
 "J" = (
 /obj/structure/pinata,
 /turf/open/space/basic,
@@ -190,7 +170,7 @@ H
 H
 H
 H
-e
+H
 J
 s
 "}
@@ -252,5 +232,5 @@ H
 H
 H
 v
-I
+e
 "}

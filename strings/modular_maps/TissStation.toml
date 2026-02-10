@@ -46,7 +46,7 @@ modules = ["medMorgue_1.dmm"]
 modules = ["medNorth_1.dmm"]
 
 [rooms.medWest]
-modules = ["medWest_1.dmm"]
+modules = ["medWest_1.dmm","medWest_2.dmm"]
 
 [rooms.sciCentral]
 modules = ["sciCentral_1.dmm"]
