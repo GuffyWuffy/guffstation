@@ -8661,9 +8661,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/main)
-"cJs" = (
-/turf/closed/mineral/random/stationside/asteroid/porus,
-/area/space)
 "cJu" = (
 /obj/machinery/holopad/secure,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -84246,7 +84243,7 @@ xeM
 xeM
 xeM
 ohK
-cJs
+ohK
 elN
 elN
 elN
@@ -84502,7 +84499,7 @@ elN
 elN
 elN
 elN
-cJs
+ohK
 elN
 elN
 elN
