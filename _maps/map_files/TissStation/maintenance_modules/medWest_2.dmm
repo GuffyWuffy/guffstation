@@ -339,7 +339,7 @@
 	name = "Akari's Locker"
 	},
 /obj/item/clothing/shoes/sneakers/white{
-	greyscale_colors = #f7a5e1#d67bb4;
+	greyscale_colors = "#f7a5e1#d67bb4";
 	name = "Akari's Shoes"
 	},
 /obj/item/clothing/under/dress/skirt/turtleskirt{
