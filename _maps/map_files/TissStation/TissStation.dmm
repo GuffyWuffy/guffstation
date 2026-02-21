@@ -337,7 +337,7 @@
 	pixel_x = -4;
 	pixel_y = 8
 	},
-/obj/item/stack/medical/gauze{
+/obj/item/stack/medical/wrap/gauze{
 	pixel_x = 8
 	},
 /obj/structure/railing/corner{
@@ -1726,6 +1726,13 @@
 /obj/effect/turf_decal/tile/yellow/full,
 /obj/effect/turf_decal/tile/yellow/full,
 /obj/machinery/light/directional/south,
+/obj/item/electronics/apc{
+	pixel_x = -15
+	},
+/obj/item/electronics/apc{
+	pixel_x = 14;
+	pixel_y = 7
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/engineering/storage/tech)
 "aAo" = (
@@ -8061,11 +8068,64 @@
 /area/station/security/prison)
 "cAP" = (
 /obj/structure/table,
-/obj/item/electronics/apc,
-/obj/item/electronics/airlock,
-/obj/item/plant_analyzer{
-	pixel_y = 4;
-	pixel_x = -18
+/obj/item/stock_parts/subspace/filter{
+	pixel_x = -15
+	},
+/obj/item/stock_parts/subspace/transmitter{
+	pixel_x = -9;
+	pixel_y = 4
+	},
+/obj/item/stock_parts/subspace/treatment{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/stock_parts/subspace/filter{
+	pixel_x = -15
+	},
+/obj/item/stock_parts/subspace/filter{
+	pixel_x = -15
+	},
+/obj/item/stock_parts/subspace/transmitter{
+	pixel_x = -9;
+	pixel_y = 4
+	},
+/obj/item/stock_parts/subspace/treatment{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/stock_parts/subspace/treatment{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/stock_parts/subspace/ansible,
+/obj/item/stock_parts/subspace/ansible,
+/obj/item/stock_parts/subspace/ansible,
+/obj/item/stock_parts/subspace/crystal,
+/obj/item/stock_parts/subspace/crystal,
+/obj/item/stock_parts/subspace/crystal,
+/obj/item/stock_parts/subspace/analyzer{
+	pixel_y = 7;
+	pixel_x = 9
+	},
+/obj/item/stock_parts/subspace/analyzer{
+	pixel_y = 7;
+	pixel_x = 9
+	},
+/obj/item/stock_parts/subspace/analyzer{
+	pixel_y = 7;
+	pixel_x = 9
+	},
+/obj/item/stock_parts/subspace/amplifier{
+	pixel_x = 8;
+	pixel_y = -3
+	},
+/obj/item/stock_parts/subspace/amplifier{
+	pixel_x = 8;
+	pixel_y = -3
+	},
+/obj/item/stock_parts/subspace/amplifier{
+	pixel_x = 8;
+	pixel_y = -3
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/engineering/storage/tech)
@@ -8697,6 +8757,14 @@
 /obj/machinery/newscaster/directional/south,
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
+"cKh" = (
+/obj/machinery/camera/emp_proof{
+	dir = 8;
+	network = list("ss13","engine");
+	c_tag = "Engineering - Supermatter Engine"
+	},
+/turf/open/floor/engine,
+/area/station/engineering/supermatter)
 "cKj" = (
 /obj/machinery/computer/quantum_console{
 	dir = 4
@@ -19941,6 +20009,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/white/end,
 /obj/structure/sign/warning/radiation/rad_area/directional/south,
+/obj/machinery/camera/emp_proof{
+	dir = 8;
+	network = list("ss13","engine");
+	c_tag = "Engineering - Supermatter Pre-Chamber"
+	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "gcV" = (
@@ -24494,6 +24567,10 @@
 /obj/structure/table,
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/power_store/cell/high,
+/obj/item/plant_analyzer{
+	pixel_y = 8;
+	pixel_x = 4
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/engineering/storage/tech)
 "hyD" = (
@@ -38085,6 +38162,7 @@
 "ltj" = (
 /obj/effect/turf_decal/siding/thinplating/end,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/light/no_nightlight/directional/south,
 /turf/open/floor/iron/terracotta,
 /area/station/service/hydroponics/garden)
 "ltl" = (
@@ -40268,20 +40346,6 @@
 	},
 /turf/open/floor/circuit,
 /area/station/ai/satellite/interior)
-"maD" = (
-/obj/structure/window/reinforced/plasma/spawner/directional/south,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/obj/structure/cable/layer1,
-/obj/machinery/power/energy_accumulator/tesla_coil/anchored{
-	cable_layer = 1
-	},
-/obj/machinery/camera/emp_proof{
-	dir = 8;
-	network = list("ss13","engine");
-	c_tag = "Engineering - Supermatter Engine"
-	},
-/turf/open/floor/engine,
-/area/station/engineering/supermatter)
 "maU" = (
 /obj/structure/railing{
 	dir = 4
@@ -42811,7 +42875,7 @@
 /area/station/hallway/secondary/exit/departure_lounge)
 "mPI" = (
 /obj/structure/table/glass,
-/obj/item/stack/sticky_tape/surgical,
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
 /obj/item/stack/medical/bone_gel,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -45807,7 +45871,6 @@
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 6
 	},
-/obj/machinery/light/directional/south,
 /obj/item/radio/intercom/directional/south,
 /turf/open/floor/iron/terracotta,
 /area/station/service/hydroponics/garden)
@@ -67218,6 +67281,10 @@
 	},
 /turf/open/floor/engine,
 /area/station/science/explab)
+"uvd" = (
+/obj/machinery/light/directional/south,
+/turf/open/water/no_planet_atmos/deep,
+/area/station/service/hydroponics/garden)
 "uvg" = (
 /obj/effect/turf_decal/tile/dark_green{
 	dir = 8
@@ -67934,7 +68001,7 @@
 	id_tag = "stasis2"
 	},
 /obj/item/stack/medical/mesh,
-/obj/item/stack/medical/gauze,
+/obj/item/stack/medical/wrap/gauze,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/treatment_center)
 "uFB" = (
@@ -68943,7 +69010,7 @@
 /area/station/engineering/atmos)
 "uTQ" = (
 /obj/structure/table/glass,
-/obj/item/stack/sticky_tape/surgical,
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
 /obj/item/stack/medical/bone_gel,
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -76906,7 +76973,7 @@
 /obj/machinery/vitals_reader/directional/east{
 	id_tag = "stasis1"
 	},
-/obj/item/stack/medical/gauze,
+/obj/item/stack/medical/wrap/gauze,
 /obj/item/stack/medical/suture,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/treatment_center)
@@ -100949,8 +101016,8 @@ fOx
 rMb
 ePt
 fbB
-hGz
-maD
+cKh
+iDq
 uvP
 jaP
 cmm
@@ -117575,7 +117642,7 @@ roe
 dIy
 fnI
 rYs
-sXK
+uvd
 roe
 jEl
 jEl
