@@ -27063,6 +27063,10 @@
 	name = "Virology Break Room"
 	},
 /obj/effect/decal/cleanable/blood/old,
+/obj/effect/mapping_helpers/airlock_note_placer{
+	note_info = "ing in";
+	note_name = "note"
+	},
 /turf/open/floor/iron/smooth_large,
 /area/station/medical/virology)
 "ikz" = (
