@@ -1196,14 +1196,19 @@
 /turf/open/floor/iron,
 /area/station/hallway/fore/port)
 "arB" = (
-/obj/machinery/holopad,
 /obj/item/radio/intercom/directional/east,
 /obj/machinery/camera/directional/north{
 	network = list("ss13","medbay");
 	c_tag = "Medical - Morgue Interior";
 	dir = 4
 	},
-/turf/open/floor/iron/dark/herringbone,
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 1
+	},
+/obj/structure/bodycontainer/morgue/beeper_off{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/morgue)
 "arN" = (
 /obj/effect/turf_decal/tile/dark_green/half/contrasted{
@@ -20439,16 +20444,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/prison/work)
 "gkP" = (
-/obj/effect/turf_decal/siding/dark_blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/mid_joiner{
-	dir = 1
-	},
-/obj/item/kirbyplants/random,
+/obj/machinery/holopad,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/morgue)
 "gkS" = (
@@ -25116,27 +25112,22 @@
 /turf/open/misc/grass/jungle/station,
 /area/station/security/prison)
 "hHc" = (
-/obj/effect/turf_decal/trimline/neutral/end{
-	dir = 4
+/obj/effect/turf_decal/trimline/dark_blue/filled/mid_joiner{
+	dir = 1
 	},
-/obj/effect/turf_decal/trimline/neutral/mid_joiner{
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/trimline/neutral/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/neutral/mid_joiner,
 /obj/effect/turf_decal/trimline/neutral/mid_joiner{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/dark_blue{
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/line{
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/mid_joiner{
 	dir = 1
-	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/mid_joiner{
-	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/morgue)
@@ -26460,12 +26451,6 @@
 /turf/open/floor/wood/parquet,
 /area/station/security/detectives_office)
 "iaI" = (
-/obj/effect/turf_decal/siding/dark_blue/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/dark_blue/filled/corner{
-	dir = 4
-	},
 /obj/effect/turf_decal/trimline/dark_blue/filled/corner{
 	dir = 8
 	},
