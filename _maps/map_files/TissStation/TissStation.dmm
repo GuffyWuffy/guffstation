@@ -4277,6 +4277,7 @@
 /area/station/command/heads_quarters/ce)
 "boQ" = (
 /obj/structure/cable,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/upper)
 "bpp" = (
@@ -8214,6 +8215,19 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/grimy,
 /area/station/security/prison/rec)
+"cBM" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "chem_lockdown";
+	name = "Chemistry Shutters"
+	},
+/obj/machinery/door/window/brigdoor/left/directional/north{
+	name = "Coroner's Office";
+	req_access = list("morgue_secure")
+	},
+/turf/open/floor/plating,
+/area/station/medical/chemistry/walkway)
 "cCh" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -27348,6 +27362,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
+"inP" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plating,
+/area/station/cargo/walkway)
 "inU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -60019,7 +60037,6 @@
 /area/station/ai/satellite/foyer)
 "shP" = (
 /obj/structure/closet/emcloset/anchored,
-/obj/machinery/light/small/directional/north,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/upper)
 "shV" = (
@@ -60947,6 +60964,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/explab)
 "svU" = (
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/station/medical/walkway)
 "svW" = (
@@ -62251,6 +62269,7 @@
 /turf/open/misc/grass/jungle/station,
 /area/station/security/prison)
 "sQn" = (
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/plating,
 /area/station/cargo/walkway)
 "sQp" = (
@@ -63542,7 +63561,9 @@
 /obj/effect/turf_decal/trimline/neutral/mid_joiner{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/dead_body_placer,
+/obj/effect/mapping_helpers/dead_body_placer{
+	bodycount = 6
+	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/morgue)
@@ -64259,6 +64280,10 @@
 "txw" = (
 /turf/closed/wall/r_wall,
 /area/station/security/prison/rec)
+"txE" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plating,
+/area/station/security/walkway)
 "txU" = (
 /obj/structure/bed{
 	dir = 1
@@ -74286,6 +74311,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
+"wAB" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plating,
+/area/station/medical/walkway)
 "wAF" = (
 /obj/effect/landmark/start/cook,
 /turf/open/floor/iron/kitchen,
@@ -79392,6 +79421,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
 "yfo" = (
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/plating,
 /area/station/security/walkway)
 "yfz" = (
@@ -94112,7 +94142,7 @@ dex
 wMj
 gBu
 bwe
-bwe
+cBM
 bwe
 bwe
 bwe
@@ -97168,9 +97198,9 @@ elN
 kqo
 elN
 elN
-elN
-elN
-elN
+rsl
+rsl
+rsl
 rsl
 fAh
 irz
@@ -97426,7 +97456,7 @@ kqo
 elN
 elN
 rsl
-rsl
+wAB
 rsl
 rsl
 fAa
@@ -105583,7 +105613,7 @@ elN
 elN
 elN
 ggm
-ggm
+jVs
 iXk
 pen
 gaC
@@ -105839,7 +105869,7 @@ elN
 elN
 elN
 elN
-elN
+hQX
 hQX
 nmP
 hQX
@@ -106096,8 +106126,8 @@ elN
 elN
 elN
 elN
-elN
 hQX
+inP
 sQn
 hQX
 xeM
@@ -106353,7 +106383,7 @@ elN
 elN
 elN
 elN
-elN
+hQX
 hQX
 oOP
 hQX
@@ -117926,7 +117956,7 @@ elN
 elN
 elN
 elN
-elN
+mLR
 mLR
 jjY
 mLR
@@ -118183,8 +118213,8 @@ elN
 elN
 elN
 elN
-elN
 mLR
+txE
 yfo
 mLR
 ubC
@@ -118440,7 +118470,7 @@ elN
 elN
 elN
 elN
-pmJ
+mLR
 mLR
 cYg
 mLR
@@ -118697,7 +118727,7 @@ elN
 elN
 elN
 pmJ
-pmJ
+mLR
 mKm
 sgo
 sgo
