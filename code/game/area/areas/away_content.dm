@@ -57,3 +57,10 @@ Unused icons for new areas are "awaycontent1" ~ "awaycontent30"
 /area/awaymission/secret/powered/fullbright
 	static_lighting = FALSE
 	base_lighting_alpha = 255
+
+/// Troutstation Edit
+
+/area/awaymission/desertboard
+	name = "The Desert Board"
+	icon_state = "away"
+	sound_environment = SOUND_ENVIRONMENT_PLAIN
