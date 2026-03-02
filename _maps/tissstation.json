@@ -9,11 +9,6 @@
 		"cargo": "cargo_tiss",
 		"whiteship": "whiteship_tiss"
 	},
-	"traits": [
-		{
-			"Linkage": "Grid"
-		}
-	],
 	"job_changes": {
 		"Cook": {
 			"additional_cqc_areas": ["/area/station/commons/park"]
