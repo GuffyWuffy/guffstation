@@ -11568,13 +11568,6 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron,
 /area/station/security/processing)
-"dAn" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/transit_tube/curved{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
-/area/station/asteroid)
 "dAu" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/lavendergrass/style_random,
@@ -16867,14 +16860,6 @@
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron/white,
 /area/station/medical/virology/walkway)
-"ffk" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/any/supply/maintenance,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/airlock/unres/delayed,
-/turf/open/floor/plating,
-/area/station/cargo/walkway)
 "ffA" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -18875,11 +18860,6 @@
 /obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/prison)
-"fJA" = (
-/obj/structure/window/reinforced/tinted/fulltile,
-/obj/structure/transit_tube,
-/turf/open/floor/plating,
-/area/station/maintenance/department/cargo)
 "fJE" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -97390,15 +97370,15 @@ ccy
 ccy
 ccy
 ccy
-fJA
-uDT
-uDT
-uDT
-uDT
-uDT
-uDT
-uDT
-dAn
+ccy
+kYM
+kYM
+kYM
+kYM
+kYM
+kYM
+kYM
+kYM
 key
 eYb
 elN
@@ -97647,15 +97627,15 @@ ccy
 ccy
 ccy
 ccy
-fJA
-uDT
-uDT
-uDT
-uDT
-uDT
-uDT
-uDT
-dAn
+ccy
+kYM
+kYM
+kYM
+kYM
+kYM
+kYM
+kYM
+kYM
 kYM
 elN
 elN
@@ -99180,7 +99160,7 @@ hQX
 jNX
 nav
 rSE
-ffk
+ccy
 ccy
 ccy
 ccy

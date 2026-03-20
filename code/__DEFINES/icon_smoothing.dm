@@ -227,6 +227,7 @@ DEFINE_BITFIELD(smoothing_junction, list(
 
 // Troutstation edit
 #define SMOOTH_GROUP_FLOCK_WALL S_OBJ(88)
+#define SMOOTH_GROUP_STONE_WALLS S_OBJ(89)
 
 /// Performs the work to set smoothing_groups and canSmoothWith.
 /// An inlined function used in both turf/Initialize and atom/Initialize.
