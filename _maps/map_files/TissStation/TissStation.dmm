@@ -42023,7 +42023,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/window/left/directional/west{
 	name = "Delivery Desk";
-	req_access = list("shipping")
+	req_access = list("shipping", "mining")
 	},
 /obj/effect/turf_decal/bot,
 /obj/structure/table/reinforced,
@@ -68355,7 +68355,7 @@
 "uID" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/access/all/security/armory,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
