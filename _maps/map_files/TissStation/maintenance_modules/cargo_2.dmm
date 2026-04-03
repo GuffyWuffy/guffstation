@@ -1,9 +1,12 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ad" = (
-/obj/item/flashlight/flare/torch/on{
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = -15;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
+/obj/structure/bookcase/random,
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "as" = (
@@ -25,6 +28,13 @@
 /obj/structure/transit_tube/crossing,
 /turf/open/floor/plating/airless,
 /area/station/asteroid)
+"aZ" = (
+/turf/closed/wall/mineral/silver,
+/area/station/maintenance/department/cargo)
+"bu" = (
+/obj/item/clothing/head/costume/crown,
+/turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
 "cb" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -40,8 +50,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/item/flashlight/flare/torch/on{
-	pixel_y = -12
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = -12;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
@@ -64,15 +76,67 @@
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
+"et" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
 "eu" = (
 /obj/structure/window/reinforced/tinted/fulltile,
 /obj/structure/transit_tube,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"ff" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/structure/table/wood,
+/obj/item/plate/large,
+/obj/item/food/roast_dinner_lizzy,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled/half_full{
+	pixel_x = -2;
+	pixel_y = 20
+	},
+/turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
+"fB" = (
+/obj/structure/guillotine,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
+"fF" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/spray/syndicate{
+	pixel_y = 4;
+	pixel_x = 7
+	},
+/obj/item/reagent_containers/applicator/pill/maintenance{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/reagent_containers/applicator/pill/maintenance{
+	pixel_x = -4;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/applicator/pill/maintenance{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/applicator/pill/happy{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "fO" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating,
 /area/station/asteroid)
+"fT" = (
+/obj/effect/spawner/random/structure/closet_empty,
+/obj/effect/spawner/random/maintenance/no_decals/seven,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "gk" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -82,15 +146,49 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
+"gq" = (
+/obj/structure/table/wood,
+/obj/structure/chem_separator{
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/cup/beaker/jar{
+	name = "jar";
+	desc = "dont do it"
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"gQ" = (
+/obj/effect/spawner/random/decoration/showcase,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
 "hE" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/template_noop,
 /area/station/maintenance/disposal)
+"hK" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled{
+	list_reagents = list(/datum/reagent/consumable/ethanol/beer = 50);
+	pixel_x = 6;
+	pixel_y = 12
+	},
+/obj/item/plate/small{
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/obj/item/food/roast_slice{
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
 "hQ" = (
-/obj/item/flashlight/flare/torch/on{
-	pixel_y = 22
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = 22;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
@@ -104,6 +202,19 @@
 /obj/machinery/door/airlock/wood/glass,
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
+"hX" = (
+/obj/machinery/space_heater,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
+"ic" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/spawner/random/trash/garbage{
+	spawn_scatter_radius = 1
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "iA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -116,14 +227,20 @@
 /area/station/maintenance/department/cargo)
 "iK" = (
 /obj/structure/disposalpipe/segment,
-/obj/item/flashlight/flare/torch/on{
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = -15;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "iR" = (
 /turf/closed/wall/mineral/stone,
+/area/station/maintenance/department/cargo)
+"jT" = (
+/obj/item/shield/buckler/moonflower,
+/turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "jX" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -133,20 +250,78 @@
 "kN" = (
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
-"lO" = (
-/obj/item/flashlight/flare/torch/on{
+"ld" = (
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = -15;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
+	},
+/obj/structure/statue/drake,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"lq" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled{
+	list_reagents = list(/datum/reagent/consumable/ethanol/beer = 50);
+	pixel_x = 10;
+	pixel_y = 10
+	},
+/obj/item/plate/large,
+/obj/item/food/roast_dinner,
+/turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
+"lN" = (
+/obj/effect/spawner/random/structure/crate_loot,
+/obj/effect/spawner/random/maintenance/no_decals/two,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"lO" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_x = -15;
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
+"mi" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = 22;
+	light_range = 8;
+	light_power = 1.5
+	},
+/turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
+"mA" = (
+/obj/structure/transit_tube/crossing,
+/obj/item/clothing/suit/armor/dragoon,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"mB" = (
+/obj/structure/transit_tube/crossing,
+/obj/item/melee/baton/security/stunsword,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"mZ" = (
+/obj/effect/spawner/random/structure/crate,
+/obj/effect/spawner/random/maintenance/no_decals/two,
+/turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "nI" = (
 /turf/open/floor/carpet/purple,
 /area/station/maintenance/department/cargo)
 "nY" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/spawner/random/structure/table_or_rack,
+/obj/effect/spawner/random/bureaucracy/birthday_wrap,
+/obj/effect/spawner/random/clothing/gloves,
+/obj/effect/spawner/random/entertainment/drugs,
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
@@ -163,11 +338,26 @@
 /area/station/maintenance/department/cargo)
 "oi" = (
 /obj/structure/disposalpipe/segment,
-/obj/item/flashlight/flare/torch/on{
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = -15;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
+"om" = (
+/turf/closed/wall/mineral/gold,
+/area/station/maintenance/department/cargo)
+"oq" = (
+/obj/structure/sign/painting/library,
+/turf/closed/wall/mineral/stone,
+/area/station/maintenance/department/cargo)
+"oR" = (
+/obj/effect/spawner/random/structure/chair_comfy{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
 /area/station/maintenance/department/cargo)
 "oS" = (
 /obj/effect/turf_decal/sand/plating,
@@ -182,16 +372,21 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
+"pc" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
 "pw" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
-"qc" = (
-/obj/structure/chair/comfy{
-	dir = 4;
-	desc = "It looks rather uncomfy, but you will bear this burden for your people."
+"pB" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = -12;
+	light_range = 8;
+	light_power = 1.5
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "ql" = (
 /obj/structure/window/reinforced/tinted/fulltile,
@@ -199,9 +394,11 @@
 /area/station/maintenance/department/cargo)
 "re" = (
 /obj/structure/statue/dragonman,
-/obj/item/flashlight/flare/torch/on{
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = 24;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/mineral/silver,
 /area/station/maintenance/department/cargo)
@@ -211,10 +408,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
-"td" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/modular_map_root/tissstation,
+"sD" = (
+/obj/structure/transit_tube/crossing,
+/obj/item/clothing/head/helmet/dragoon,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"tc" = (
+/obj/structure/fireplace{
+	fuel_added = 3000
+	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "tj" = (
@@ -226,15 +428,43 @@
 /area/station/maintenance/department/cargo)
 "to" = (
 /obj/structure/statue/dragonman,
-/obj/item/flashlight/flare/torch/on{
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = 24;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/mineral/gold,
 /area/station/maintenance/department/cargo)
 "tC" = (
 /obj/effect/spawner/random/decoration/statue,
 /turf/open/floor/mineral/gold,
+/area/station/maintenance/department/cargo)
+"tG" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/fake_stairs/stone{
+	dir = 8
+	},
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = 22;
+	light_range = 8;
+	light_power = 1.5
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"uo" = (
+/obj/structure/transit_tube/crossing,
+/obj/item/spear/skybulge,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"up" = (
+/obj/item/shield/buckler,
+/turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "uI" = (
 /turf/closed/wall/r_wall,
@@ -248,6 +478,41 @@
 	},
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
+"vF" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled{
+	list_reagents = list(/datum/reagent/consumable/ethanol/beer = 50);
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/plate/small{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/food/roast_slice_lizzy{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
+"wf" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled{
+	list_reagents = list(/datum/reagent/consumable/ethanol/beer = 50);
+	pixel_x = -8
+	},
+/obj/item/plate/small{
+	pixel_x = 4
+	},
+/obj/item/food/roast_slice_tofu{
+	pixel_x = 4
+	},
+/turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
 "wz" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -260,11 +525,36 @@
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
+"xe" = (
+/obj/structure/sign/painting/large/library{
+	dir = 1
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"xv" = (
+/obj/structure/fake_stairs/stone,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"xF" = (
+/obj/machinery/door/airlock/wood,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/supply/maintenance,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
 "xQ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
 /turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
+"xU" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_x = 24;
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
+	},
+/turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "xX" = (
 /obj/machinery/door/airlock/wood,
@@ -273,25 +563,64 @@
 "yB" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
+"yC" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled{
+	list_reagents = list(/datum/reagent/consumable/ethanol/beer = 50);
+	pixel_x = -3;
+	pixel_y = 17
+	},
+/obj/item/plate/small,
+/obj/item/food/roast_slice_lizzy,
+/turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
 "yE" = (
 /obj/structure/window/reinforced/fulltile{
 	color = "#2982ff"
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
-"BA" = (
-/obj/item/flashlight/flare/torch/on{
-	pixel_x = 24;
-	pixel_y = 5
+"Bm" = (
+/obj/structure/chair/wood{
+	dir = 4
 	},
+/turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
+"BA" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_x = 24;
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
+	},
+/obj/effect/spawner/random/structure/crate,
+/obj/effect/spawner/random/maintenance/no_decals/two,
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "Cp" = (
 /obj/structure/transit_tube/crossing,
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
+"CI" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
 "CR" = (
 /obj/machinery/door/airlock/wood/glass,
+/turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
+"Db" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = -12;
+	light_range = 8;
+	light_power = 1.5
+	},
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
 "Dm" = (
@@ -301,7 +630,34 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled{
+	list_reagents = list(/datum/reagent/consumable/ethanol/beer = 50);
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/plate/small{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/food/roast_slice{
+	pixel_x = 6;
+	pixel_y = 6
+	},
 /turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
+"Du" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_x = -15;
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"DD" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "Ed" = (
 /obj/structure/disposalpipe/segment{
@@ -310,16 +666,51 @@
 /turf/closed/wall/mineral/stone,
 /area/station/maintenance/department/cargo)
 "EA" = (
-/obj/structure/chair/comfy{
-	dir = 4;
-	desc = "It looks rather uncomfy, but you will bear this burden for your people.";
-	name = "throne"
+/obj/structure/fake_stairs/stone{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"EI" = (
+/obj/item/melee/moonlight_greatsword,
+/turf/open/misc/asteroid/airless,
+/area/station/asteroid)
+"FL" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/obj/structure/sign/painting/large/library{
+	dir = 4
 	},
 /turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
+"FO" = (
+/obj/structure/sign/painting/large/library,
+/turf/closed/wall/mineral/stone,
+/area/station/maintenance/department/cargo)
+"Gx" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = 22;
+	light_range = 8;
+	light_power = 1.5
+	},
+/obj/structure/fake_stairs/stone{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"GL" = (
+/obj/structure/statue/dragonman,
+/turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "GP" = (
 /obj/structure/transit_tube/crossing,
 /turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"Hb" = (
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "Hj" = (
 /obj/structure/cable,
@@ -330,8 +721,21 @@
 	},
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
+"Ia" = (
+/obj/structure/chair/comfy{
+	dir = 4;
+	desc = "It looks rather uncomfy, but you will bear this burden for your people.";
+	name = "throne"
+	},
+/obj/effect/landmark/start/quartermaster,
+/turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
 "Ir" = (
 /turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
+"Is" = (
+/obj/structure/sign/painting/large/library,
+/turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "II" = (
 /obj/structure/disposalpipe/segment{
@@ -342,14 +746,28 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
+"IK" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/fake_stairs/stone{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
 "Jy" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment,
-/obj/item/flashlight/flare/torch/on{
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = 24;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
@@ -365,19 +783,64 @@
 "Kb" = (
 /turf/template_noop,
 /area/template_noop)
+"Kt" = (
+/obj/effect/spawner/random/trash/garbage{
+	spawn_scatter_radius = 1
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "Kv" = (
-/obj/item/flashlight/flare/torch/on{
-	pixel_y = -12
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = -12;
+	light_range = 8;
+	light_power = 1.5
+	},
+/obj/structure/fake_stairs/stone{
+	dir = 8
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
+"Ky" = (
+/obj/structure/table/wood,
+/obj/item/plate/large,
+/obj/item/food/roast_dinner_tofu,
+/turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
+"Lm" = (
+/obj/structure/chair/comfy{
+	dir = 4;
+	desc = "It looks rather uncomfy, but you will bear this burden for your people."
+	},
+/obj/effect/landmark/start/quartermaster,
+/turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
 "Lp" = (
 /obj/structure/statue/dragonman,
-/obj/item/flashlight/flare/torch/on{
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = -15;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/mineral/silver,
+/area/station/maintenance/department/cargo)
+"Lq" = (
+/obj/effect/spawner/random/structure/closet_empty,
+/obj/effect/spawner/random/maintenance/no_decals/four,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
+"Lv" = (
+/obj/structure/table/wood,
+/obj/item/ph_booklet{
+	pixel_y = 6;
+	pixel_x = 5
+	},
+/obj/item/burner/oil{
+	pixel_y = 6;
+	pixel_x = -5
+	},
+/obj/item/storage/test_tube_rack/full,
+/turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "Lz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -397,6 +860,12 @@
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
+"MR" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet/royalblue,
+/area/station/maintenance/department/cargo)
 "Nc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -411,9 +880,33 @@
 	},
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
+"Nu" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "NE" = (
 /obj/structure/window/reinforced/fulltile{
 	color = "#4aff9e"
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"NV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/fake_stairs/stone{
+	dir = 8
+	},
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = -12;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
@@ -426,6 +919,24 @@
 	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
+"Pw" = (
+/obj/item/shield/kite,
+/obj/item/shield/kite,
+/turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
+"PA" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = 22;
+	light_range = 8;
+	light_power = 1.5
+	},
+/obj/structure/statue/dragonman,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"PE" = (
+/obj/effect/spawner/random/engineering/canister,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "Qe" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -433,13 +944,16 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/chair/wood{
+	dir = 8
+	},
 /turf/open/floor/carpet/royalblue,
 /area/station/maintenance/department/cargo)
 "Qn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/modular_map_root,
+/obj/modular_map_connector,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
@@ -450,8 +964,40 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
-"RF" = (
-/obj/structure/transit_tube,
+"QI" = (
+/obj/effect/spawner/random/decoration/statue,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"QZ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/effect/landmark/generic_maintenance_landmark,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
+"Rw" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_x = 24;
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
+	},
+/obj/structure/statue/dragonman,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"RM" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = 22;
+	light_range = 8;
+	light_power = 1.5
+	},
+/obj/structure/fermenting_barrel,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"RO" = (
+/obj/structure/fake_stairs/stone{
+	dir = 1
+	},
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "RP" = (
@@ -476,6 +1022,17 @@
 /obj/structure/window/reinforced/tinted/fulltile,
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
+"Tb" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = 22;
+	light_range = 8;
+	light_power = 1.5
+	},
+/obj/effect/spawner/random/structure/chair_comfy{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
 "Tc" = (
 /obj/machinery/door/airlock/wood,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -492,10 +1049,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/item/flashlight/flare/torch/on{
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = 24;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
+/obj/structure/statue/dragonman,
 /turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "TJ" = (
@@ -505,6 +1065,16 @@
 "TL" = (
 /turf/open/floor/carpet/red,
 /area/station/maintenance/department/cargo)
+"TW" = (
+/obj/effect/landmark/start/clown,
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
+"Uz" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "UW" = (
 /obj/structure/window/reinforced/fulltile{
 	color = "#ff1b0f"
@@ -513,11 +1083,35 @@
 /area/station/maintenance/department/cargo)
 "Wf" = (
 /obj/structure/statue/dragonman,
-/obj/item/flashlight/flare/torch/on{
+/obj/item/flashlight/flare/torch/everburning{
 	pixel_x = -15;
-	pixel_y = 5
+	pixel_y = 5;
+	light_range = 8;
+	light_power = 1.5
 	},
 /turf/open/floor/mineral/gold,
+/area/station/maintenance/department/cargo)
+"Wt" = (
+/obj/item/clothing/head/costume/crown/fancy,
+/turf/open/floor/carpet/red,
+/area/station/maintenance/department/cargo)
+"WL" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/hypospray/medipen/pumpup,
+/obj/item/reagent_containers/hypospray/medipen/pumpup{
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/cup/mortar{
+	pixel_x = 3
+	},
+/obj/item/extinguisher/crafted{
+	pixel_y = 9;
+	pixel_x = 3
+	},
+/obj/item/pestle{
+	pixel_x = 4
+	},
+/turf/open/floor/stone,
 /area/station/maintenance/department/cargo)
 "WQ" = (
 /obj/structure/cable,
@@ -528,7 +1122,22 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
+"Xo" = (
+/obj/item/flashlight/flare/torch/everburning{
+	pixel_y = -12;
+	light_range = 8;
+	light_power = 1.5
+	},
+/obj/effect/spawner/random/structure/chair_comfy{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/station/maintenance/department/cargo)
 "Xy" = (
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
+"XW" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "Ye" = (
@@ -738,15 +1347,15 @@ kN
 kN
 kN
 iR
-ad
+ld
+xv
 cs
+bu
+TL
+Wt
 cs
-cs
-cs
-cs
-cs
-cs
-ad
+RO
+ld
 iR
 kN
 kN
@@ -774,17 +1383,17 @@ yB
 yB
 kN
 yB
-iR
+oq
 cs
+xv
+up
+Lm
+Pw
+Ia
+jT
+RO
 cs
-cs
-cs
-cs
-cs
-cs
-cs
-cs
-iR
+oq
 yB
 kN
 Kb
@@ -812,11 +1421,11 @@ yB
 yB
 yB
 iR
-Kv
+pB
 iR
-hQ
-qc
-TL
+Gx
+EA
+EA
 EA
 Kv
 iR
@@ -849,15 +1458,15 @@ Kb
 Kb
 Kb
 iR
+xe
 cs
 cs
 cs
 cs
 cs
 cs
-cs
-cs
-cs
+TW
+Is
 iR
 yB
 kN
@@ -923,13 +1532,13 @@ Kb
 Kb
 Kb
 iR
-Kv
+pB
 iR
-hQ
+Tb
+oR
 nI
-nI
-nI
-Kv
+oR
+Xo
 iR
 hQ
 iR
@@ -960,7 +1569,7 @@ Kb
 Kb
 Kb
 iR
-cs
+xe
 cs
 cs
 nI
@@ -968,7 +1577,7 @@ nI
 nI
 cs
 cs
-cs
+Is
 iR
 yB
 kN
@@ -1034,13 +1643,13 @@ iR
 iR
 iR
 iR
-Kv
+pB
 iR
-hQ
+Tb
+oR
 nI
-nI
-nI
-Kv
+oR
+Xo
 iR
 hQ
 UW
@@ -1147,11 +1756,11 @@ Kb
 iR
 cw
 iR
-hQ
+Tb
+oR
 nI
-nI
-nI
-Kv
+oR
+Xo
 iR
 hQ
 NE
@@ -1165,7 +1774,7 @@ Kb
 Kb
 yB
 yB
-yB
+EI
 yB
 kN
 kN
@@ -1181,7 +1790,7 @@ Kb
 Kb
 Kb
 Kb
-iR
+oq
 Lz
 cs
 cs
@@ -1191,7 +1800,7 @@ cs
 cs
 cs
 cs
-iR
+oq
 Kb
 Kb
 Kb
@@ -1227,7 +1836,7 @@ tj
 tj
 Mt
 cs
-BA
+Rw
 iR
 yB
 yB
@@ -1262,7 +1871,7 @@ iR
 iR
 iR
 iR
-Lz
+IK
 iR
 iR
 iR
@@ -1299,7 +1908,7 @@ Kb
 Kb
 Kb
 iR
-Lz
+IK
 iR
 Kb
 Kb
@@ -1311,11 +1920,11 @@ Kb
 Kb
 Kb
 Kb
-Xy
-Xy
-Xy
-Xy
-Xy
+Hb
+Lq
+Lq
+Lq
+PE
 uI
 Kb
 Kb
@@ -1336,7 +1945,7 @@ Kb
 Kb
 Kb
 iR
-Lz
+NV
 iR
 Kb
 Kb
@@ -1348,11 +1957,11 @@ Kb
 Kb
 Kb
 Kb
+Hb
 Xy
 Xy
-Xy
-Xy
-Xy
+Kt
+PE
 uI
 Kb
 Kb
@@ -1373,7 +1982,7 @@ Kb
 Kb
 Kb
 iR
-Lz
+IK
 iR
 Kb
 Kb
@@ -1385,11 +1994,11 @@ Kb
 Kb
 Kb
 Kb
+hX
 Xy
+fB
 Xy
-Xy
-Xy
-Xy
+PE
 uI
 kN
 Kb
@@ -1410,7 +2019,7 @@ Kb
 Kb
 Kb
 iR
-Lz
+IK
 iR
 Kb
 Kb
@@ -1422,11 +2031,11 @@ Kb
 Kb
 Kb
 Kb
+XW
+Kt
+QZ
 Xy
-Xy
-Xy
-Xy
-Xy
+PE
 uI
 kN
 kN
@@ -1447,7 +2056,7 @@ Kb
 Kb
 Kb
 iR
-Lz
+IK
 iR
 Kb
 Kb
@@ -1459,11 +2068,11 @@ Kb
 Kb
 Kb
 Kb
+fT
 Xy
+DD
 Xy
-Xy
-Xy
-Xy
+PE
 uI
 yB
 yB
@@ -1484,7 +2093,7 @@ Kb
 Kb
 Kb
 iR
-Lz
+tG
 iR
 Kb
 Kb
@@ -1497,8 +2106,8 @@ Kb
 Kb
 Kb
 iR
-iR
-xX
+oq
+xF
 iR
 iR
 iR
@@ -1521,8 +2130,8 @@ Kb
 Kb
 Kb
 iR
-Lz
-iR
+IK
+oq
 iR
 dW
 cs
@@ -1534,11 +2143,11 @@ Kb
 Kb
 Kb
 iR
-cs
-cs
-ad
-cs
-cs
+mZ
+et
+Du
+lN
+lN
 iR
 yB
 yB
@@ -1564,19 +2173,19 @@ iK
 Pm
 wz
 iR
-iR
+oq
 Ed
 iR
 iR
+oq
 iR
 iR
-iR
+mZ
+et
 cs
 cs
-cs
-cs
-cs
-iR
+lN
+FO
 yB
 yB
 kN
@@ -1593,8 +2202,8 @@ Kb
 Kb
 Kb
 iR
-cs
-ad
+xe
+Du
 su
 TL
 TL
@@ -1609,10 +2218,10 @@ TL
 TL
 lO
 TL
-cs
+et
 TL
 TL
-cs
+lN
 iR
 yB
 yB
@@ -1633,7 +2242,7 @@ iR
 cs
 gk
 Qz
-Qz
+FL
 Qz
 Qz
 ob
@@ -1642,7 +2251,7 @@ oU
 oU
 as
 Qz
-Qz
+FL
 Qz
 Qz
 Qz
@@ -1671,9 +2280,9 @@ xX
 iA
 iR
 iR
+gQ
 cs
-cs
-cs
+gQ
 iR
 iR
 iR
@@ -1704,14 +2313,14 @@ Kb
 Kb
 Kb
 Kb
-Xy
+Uz
 WQ
 uI
 iR
 iR
+oq
 iR
 iR
-iR
 Kb
 Kb
 Kb
@@ -1719,12 +2328,12 @@ Kb
 Kb
 Kb
 Kb
-iR
+aZ
 Wf
 Hj
 TL
 Lp
-iR
+om
 yB
 yB
 yB
@@ -1741,7 +2350,7 @@ Kb
 Kb
 Kb
 Kb
-Xy
+Nu
 WQ
 Kb
 Kb
@@ -1756,12 +2365,12 @@ Kb
 Kb
 Kb
 Kb
-iR
+om
 TJ
 Hj
 TL
 tC
-iR
+aZ
 yB
 yB
 yB
@@ -1793,12 +2402,12 @@ Kb
 Kb
 Kb
 Kb
-iR
+om
 TJ
 Hj
 TL
 tC
-iR
+aZ
 yB
 yB
 yB
@@ -1815,8 +2424,8 @@ Kb
 Kb
 Kb
 Kb
-Ye
-Xy
+ic
+XW
 Kb
 Kb
 Kb
@@ -1830,12 +2439,12 @@ Kb
 Kb
 Kb
 Kb
-iR
+aZ
 SD
 Hj
 TL
 JX
-iR
+om
 yB
 yB
 kN
@@ -1867,12 +2476,12 @@ Kb
 Kb
 Kb
 Kb
-iR
+aZ
 SD
 Hj
 TL
 JX
-iR
+om
 yB
 yB
 kN
@@ -1904,12 +2513,12 @@ Kb
 Kb
 Kb
 Kb
-iR
+om
 TJ
 Hj
 TL
 tC
-iR
+aZ
 yB
 yB
 Kb
@@ -1941,12 +2550,12 @@ Kb
 Kb
 Kb
 Kb
-iR
+om
 TJ
 Hj
 TL
 tC
-iR
+aZ
 yB
 kN
 Kb
@@ -1978,12 +2587,12 @@ Kb
 Kb
 Kb
 Kb
-iR
+aZ
 to
 Hj
 TL
 re
-iR
+om
 kN
 Kb
 Kb
@@ -2051,9 +2660,9 @@ Kb
 Kb
 Kb
 iR
-cs
-cs
-ad
+gq
+fF
+Du
 Hj
 TL
 ad
@@ -2088,12 +2697,12 @@ Kb
 Kb
 Kb
 iR
-cs
-cs
+WL
+CI
 cs
 Hj
 TL
-cs
+pc
 iR
 yB
 yB
@@ -2125,12 +2734,12 @@ Kb
 Kb
 Kb
 iR
-cs
+Lv
 cs
 cs
 Hj
 TL
-cs
+pc
 iR
 yB
 yB
@@ -2162,12 +2771,12 @@ iR
 iR
 iR
 iR
-cs
+RM
 cs
 cs
 Hj
 TL
-cs
+pc
 iR
 yB
 yB
@@ -2195,13 +2804,13 @@ Kb
 Kb
 SE
 GP
+mA
 GP
-GP
-GP
+mB
 eu
 GP
 GP
-RF
+GP
 cR
 Cp
 GP
@@ -2231,14 +2840,14 @@ Kb
 Kb
 Kb
 aI
+uo
 GP
-GP
-GP
+sD
 GP
 eu
 GP
 GP
-RF
+GP
 cR
 Cp
 GP
@@ -2273,12 +2882,12 @@ iR
 iR
 iR
 iR
-cs
-cs
-cs
-Hj
-TL
-cs
+iR
+iR
+iR
+mi
+Db
+iR
 iR
 yB
 yB
@@ -2305,17 +2914,17 @@ Kb
 Kb
 Kb
 iR
+QI
+cs
+cs
+Du
 cs
 cs
 cs
-cs
-cs
-cs
-cs
-cs
+QI
 Hj
 TL
-cs
+pc
 iR
 yB
 yB
@@ -2344,15 +2953,15 @@ Kb
 iR
 cs
 Ir
-Ir
-Ir
-Ir
-Ir
+Bm
+Bm
+Bm
+Bm
 Ir
 cs
 Hj
 TL
-cs
+pc
 iR
 yB
 yB
@@ -2381,15 +2990,15 @@ Kb
 iR
 cs
 Ir
-Ir
-Ir
-Ir
-Ir
+lq
+hK
+vF
+Ky
 Ir
 cs
 Hj
 TL
-cs
+pc
 iR
 yB
 kN
@@ -2416,7 +3025,7 @@ Kb
 Kb
 Ti
 iR
-cs
+tc
 Ir
 Ir
 Ir
@@ -2425,8 +3034,8 @@ Ir
 Ir
 cs
 dW
-cs
-cs
+xU
+pc
 iR
 kN
 Kb
@@ -2452,13 +3061,13 @@ Kb
 Kb
 Kb
 Tc
-td
+jX
 jX
 cb
 Dm
-Nc
-Nc
-Nc
+ff
+wf
+yC
 Nc
 tj
 Yk
@@ -2493,9 +3102,9 @@ cs
 cs
 Ir
 Qe
-Ir
-Ir
-Ir
+MR
+MR
+MR
 Ir
 cs
 iR
@@ -2526,15 +3135,15 @@ Kb
 Kb
 Kb
 iR
-cs
+PA
 cs
 cs
 dW
 cs
 cs
 cs
-cs
-cs
+xU
+GL
 iR
 Kb
 Kb
@@ -2638,10 +3247,10 @@ Kb
 Kb
 Kb
 iR
-cs
+xU
 TL
 Hj
-cs
+xU
 iR
 iR
 Kb

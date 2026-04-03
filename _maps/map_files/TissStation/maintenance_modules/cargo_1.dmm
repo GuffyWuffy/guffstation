@@ -41,7 +41,7 @@
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/transit_tube/crossing,
 /turf/open/floor/plating/airless,
-/area/template_noop)
+/area/station/asteroid)
 "bS" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -84,7 +84,7 @@
 /obj/structure/window/reinforced/tinted/fulltile,
 /obj/structure/transit_tube,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/station/maintenance/department/cargo)
 "eJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -550,7 +550,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/template_noop)
+/area/station/asteroid)
 "EN" = (
 /obj/machinery/door/airlock{
 	name = "Maintenance Bathroom"
@@ -736,8 +736,6 @@
 /area/station/maintenance/department/cargo)
 "Uj" = (
 /obj/structure/rack,
-/obj/item/roulette_wheel_beacon,
-/obj/item/roulette_wheel_beacon,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "Uw" = (
