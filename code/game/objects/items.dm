@@ -438,7 +438,20 @@
 	if(!(item_flags & WEAPON_DESCRIPTION_INITIALIZED))
 		add_weapon_description()
 		item_flags |= WEAPON_DESCRIPTION_INITIALIZED
-	return ..()
+	. = ..()
+	// Troutstation hacky as fuck edit
+	if(isflock(user))
+		if(w_class > WEIGHT_CLASS_NORMAL)
+			return
+		var/resources_gained = get_flock_item_resources(src)
+		if(resources_gained == 0)
+			. += span_flock("<br>-=# INTEGRATED COMPOSITION ANALYZER::<br>\
+				- <b>No material worth.</b>.<br>\
+				- Estimated processing time: <b>[get_flock_item_eating_time(src)]s</b>.")
+		else
+			. += span_flock("<br>-=# INTEGRATED COMPOSITION ANALYZER::<br>\
+				- Calculated resource total: <b>[get_flock_item_resources(src)]</b>.<br>\
+				- Estimated processing time: <b>[get_flock_item_eating_time(src)]s</b>.")
 
 /obj/item/examine_more(mob/user)
 	. = ..()
@@ -1515,6 +1528,7 @@
 		if(!istype(loc, /turf))
 			return
 		source = loc
+	SEND_SIGNAL(src, COMSIG_ITEM_BEFORE_PICKUP_ANIMATION)
 	var/image/pickup_animation = image(icon = src)
 	SET_PLANE(pickup_animation, GAME_PLANE, source)
 	pickup_animation.transform.Scale(0.75)
@@ -1551,6 +1565,7 @@
 	if(!istype(moving_from))
 		return
 
+	SEND_SIGNAL(src, COMSIG_ITEM_BEFORE_DROP_ANIMATION)
 	var/turf/current_turf = get_turf(src)
 	var/direction = get_dir(moving_from, current_turf)
 	var/from_x = moving_from.base_pixel_x
@@ -2217,7 +2232,7 @@
 		return FALSE
 
 	if (!istype(target_limb))
-		target_limb = victim.get_bodypart(target_limb) || victim.bodyparts[1]
+		target_limb = victim.get_bodypart(target_limb) || victim.get_bodypart()
 
 	return get_embed()?.embed_into(victim, target_limb)
 
