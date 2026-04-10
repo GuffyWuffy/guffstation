@@ -134,6 +134,7 @@
 	color = "#95682a"
 	},
 /obj/effect/spawner/random/clothing/funny_hats,
+/obj/item/scrying,
 /turf/open/floor/white{
 	color = "#cacaca"
 	},
@@ -190,7 +191,9 @@
 	},
 /area/station/maintenance/starboard/fore)
 "CS" = (
-/obj/structure/sign/calendar/directional/north,
+/obj/structure/sign/calendar/directional/north{
+	color = "#ffd8d4"
+	},
 /turf/open/floor/white{
 	color = "#cacaca"
 	},
@@ -305,6 +308,10 @@
 /obj/item/modular_computer/laptop/gamer{
 	pixel_y = 8;
 	pixel_x = 5
+	},
+/obj/item/reagent_containers/cup/mortar{
+	pixel_x = -7;
+	pixel_y = 3
 	},
 /turf/open/floor/white{
 	color = "#cacaca"
