@@ -53,6 +53,12 @@
 	custom_materials = list(/datum/material/sandstone = SHEET_MATERIAL_AMOUNT*2)
 	rust_resistance = RUST_RESISTANCE_BASIC
 
+/turf/closed/wall/mineral/stone/wizard
+	icon = 'troutstation/icons/turf/walls/stone_wall_wizard.dmi'
+	icon_state = "stone_wall_wizard-0"
+	base_icon_state = "stone_wall_wizard"
+	smoothing_groups = SMOOTH_GROUP_STONE_WALLS_WIZARD + SMOOTH_GROUP_WALLS + SMOOTH_GROUP_CLOSED_TURFS
+	canSmoothWith = SMOOTH_GROUP_STONE_WALLS_WIZARD
 
 /// Areas
 
