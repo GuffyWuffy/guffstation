@@ -27285,7 +27285,9 @@
 /obj/effect/turf_decal/tile/dark_red/opposingcorners,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/west,
-/mob/living/basic/mothroach/bar,
+/mob/living/basic/mothroach/bar{
+	name = "Sleight"
+	},
 /turf/open/floor/iron/dark,
 /area/station/service/bar)
 "imU" = (
@@ -32760,7 +32762,9 @@
 /obj/structure/curtain,
 /obj/machinery/shower/directional/south,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/mob/living/basic/spaceman,
+/mob/living/basic/spaceman{
+	name = "Spaceman 12"
+	},
 /turf/open/floor/iron/freezer,
 /area/station/command/heads_quarters/captain/private)
 "jPN" = (
