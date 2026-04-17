@@ -23,6 +23,10 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
+"ch" = (
+/obj/effect/spawner/random/engineering/tank,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
 "cJ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -33,11 +37,28 @@
 /obj/item/toy/crayon/spraycan/lubecan,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
-"ec" = (
-/obj/structure/sink/greyscale,
+"dy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/trash/moisture_trap,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
+"dF" = (
+/mob/living/basic/bunyip,
 /turf/open/floor/white{
 	color = "#cacaca"
 	},
+/area/station/maintenance/starboard/fore)
+"ec" = (
+/obj/machinery/light_switch/directional/north,
+/obj/structure/sink/cauldron,
+/turf/open/floor/white{
+	color = "#cacaca"
+	},
+/area/station/maintenance/starboard/fore)
+"en" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "fr" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -71,6 +92,17 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
+"hK" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
 "iJ" = (
 /obj/structure/bookcase/random/reference/wizard,
 /turf/open/floor/white{
@@ -81,6 +113,10 @@
 /turf/open/floor/white{
 	color = "#cacaca"
 	},
+/area/station/maintenance/starboard/fore)
+"lu" = (
+/obj/effect/spawner/random/trash/grime,
+/turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "nR" = (
 /obj/machinery/door/airlock/external,
@@ -96,22 +132,33 @@
 	},
 /turf/open/floor/white,
 /area/station/maintenance/starboard/fore)
-"oX" = (
+"pz" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
-"pr" = (
-/obj/machinery/light_switch/directional/north,
-/turf/open/floor/white{
-	color = "#cacaca"
-	},
+"pD" = (
+/obj/effect/spawner/random/maintenance/no_decals/two,
+/obj/structure/closet,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
+"pI" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
 "pM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
+"qa" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/spawner/random/structure/steam_vent,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "qV" = (
@@ -129,21 +176,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
-"rS" = (
-/obj/structure/safe/floor{
-	color = "#95682a"
-	},
-/obj/effect/spawner/random/clothing/funny_hats,
-/obj/item/scrying,
-/turf/open/floor/white{
-	color = "#cacaca"
-	},
-/area/station/maintenance/starboard/fore)
 "rU" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
+"tj" = (
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "tr" = (
@@ -155,9 +196,21 @@
 "uy" = (
 /turf/closed/wall/mineral/stone/wizard,
 /area/station/maintenance/starboard/fore)
+"wu" = (
+/obj/effect/spawner/random/maintenance/no_decals/three,
+/obj/structure/closet,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
 "wJ" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
+"xl" = (
+/obj/effect/spawner/random/maintenance,
+/obj/structure/closet,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
 "xo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/burnt_floor,
@@ -168,6 +221,15 @@
 /obj/structure/fake_stairs/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
+"xT" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/structure/steam_vent,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "zA" = (
@@ -183,20 +245,46 @@
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
 "Cf" = (
-/obj/effect/rune/teleport{
+/obj/effect/turf_decal{
+	icon = 'icons/obj/antags/cult/rune.dmi';
+	icon_state = "7";
 	color = "#ed1c24"
+	},
+/obj/effect/step_trigger/teleport_fancy{
+	locationx = 162;
+	locationy = 170;
+	uses = 0;
+	entersparks = 1;
+	exitsparks = 1
 	},
 /turf/open/floor/white{
 	color = "#cacaca"
 	},
 /area/station/maintenance/starboard/fore)
 "CS" = (
-/obj/structure/sign/calendar/directional/north{
-	color = "#ffd8d4"
-	},
-/turf/open/floor/white{
-	color = "#cacaca"
-	},
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/structure/flora/bush/grassy/style_random,
+/obj/structure/flora/bush/grassy/style_random,
+/obj/structure/flora/bush/lavendergrass/style_random,
+/obj/structure/flora/bush/lavendergrass/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/grass/jungle/a/style_random,
+/obj/structure/flora/grass/jungle/a/style_random,
+/obj/structure/flora/grass/jungle/b/style_random,
+/obj/structure/flora/grass/jungle/b/style_random,
+/turf/open/floor/grass,
+/area/station/maintenance/starboard/fore)
+"CW" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "Dk" = (
 /obj/structure/disposalpipe/segment,
@@ -222,14 +310,32 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
+"Gi" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/structure/reagent_dispensers/beerkeg,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
 "HD" = (
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
-"Iv" = (
-/obj/machinery/light/very_dim/directional/south,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
+"IJ" = (
+/obj/effect/turf_decal{
+	icon = 'icons/obj/antags/cult/rune.dmi';
+	icon_state = "7";
+	color = "#ed1c24"
+	},
+/obj/effect/step_trigger/teleport_fancy{
+	locationx = 157;
+	locationy = 168;
+	uses = 0;
+	entersparks = 1;
+	exitsparks = 1
+	},
+/turf/open/floor/white{
+	color = "#cacaca"
+	},
 /area/station/maintenance/starboard/fore)
 "IM" = (
 /obj/structure/disposalpipe/segment,
@@ -246,11 +352,6 @@
 /obj/structure/disposalpipe/sorting/mail,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/station/maintenance/starboard/fore)
-"Js" = (
-/obj/effect/spawner/random/structure/girder,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
@@ -326,22 +427,14 @@
 /obj/effect/mapping_helpers/airlock/access/any/engineering/external,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
-"RQ" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/railing/corner/end/flip{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
+"RH" = (
+/obj/effect/spawner/random/trash/moisture_trap,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "RY" = (
-/obj/structure/railing,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/burnt_floor,
-/obj/effect/spawner/random/trash/moisture_trap,
+/obj/effect/spawner/random/structure/grille,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "Tc" = (
@@ -359,16 +452,24 @@
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating/airless,
 /area/station/asteroid)
-"Xz" = (
-/obj/effect/spawner/structure/window/reinforced,
+"VP" = (
+/obj/effect/spawner/random/maintenance/no_decals,
+/obj/structure/closet,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
+"WT" = (
+/obj/machinery/light/floor{
+	nightshift_light_color = "#FFFFFF";
+	bulb_power = 5
+	},
+/obj/effect/landmark/generic_maintenance_landmark,
+/turf/open/floor/white{
+	color = "#cacaca"
+	},
 /area/station/maintenance/starboard/fore)
 "XC" = (
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/plating,
-/area/station/maintenance/starboard/fore)
-"XU" = (
-/obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "Yi" = (
@@ -385,12 +486,29 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
+"Yv" = (
+/turf/open/space/basic,
+/area/space)
 "YZ" = (
-/obj/structure/railing/corner/end{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/structure/grille,
 /turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
+"Zp" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
+"ZJ" = (
+/obj/structure/safe/floor{
+	color = "#95682a";
+	tumblers = list(20,9)
+	},
+/obj/effect/spawner/random/clothing/funny_hats,
+/obj/item/scrying,
+/obj/effect/turf_decal/trimline,
+/turf/open/floor/white{
+	color = "#cacaca"
+	},
 /area/station/maintenance/starboard/fore)
 "ZZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -530,7 +648,7 @@ tr
 tr
 tr
 LC
-ge
+Tp
 tr
 tr
 tr
@@ -558,7 +676,7 @@ tr
 tr
 tr
 rU
-XU
+dp
 tr
 tr
 tr
@@ -586,7 +704,7 @@ tr
 tr
 tr
 rU
-Js
+Yi
 tr
 tr
 tr
@@ -604,7 +722,7 @@ tr
 tr
 tr
 tr
-HD
+pD
 fr
 uy
 uy
@@ -630,9 +748,9 @@ tr
 tr
 tr
 tr
-HD
-HD
-HD
+wu
+Zp
+tj
 ZZ
 uy
 Cf
@@ -643,12 +761,12 @@ tr
 tr
 Tc
 RY
-Tp
-dp
+ge
+HD
 Jv
 HD
-Yi
-cJ
+HD
+dy
 tr
 "}
 (10,1,1) = {"
@@ -659,8 +777,8 @@ tr
 tr
 gm
 FM
+CW
 Dk
-FM
 FM
 FM
 FM
@@ -668,9 +786,9 @@ IM
 Dk
 FM
 FM
-FM
+xT
 ES
-RQ
+FM
 FM
 FM
 Je
@@ -684,13 +802,13 @@ tr
 tr
 tr
 tr
+RH
+hK
+tj
+tj
 HD
-ro
-uy
-uy
-uy
-uy
-uy
+HD
+HD
 LE
 tr
 tr
@@ -711,13 +829,13 @@ tr
 tr
 tr
 tr
-HD
-HD
-ro
+VP
+tj
+hK
 uy
-iJ
-jB
-rS
+uy
+uy
+uy
 uy
 xo
 tr
@@ -738,14 +856,14 @@ tr
 (13,1,1) = {"
 tr
 tr
-HD
-HD
-HD
+tj
+lu
+tj
 ro
 uy
-pr
-jB
-jB
+iJ
+dF
+ZJ
 uy
 LE
 tr
@@ -765,11 +883,11 @@ tr
 "}
 (14,1,1) = {"
 tr
-HD
-HD
-HD
-HD
-ro
+en
+gm
+pz
+Km
+zA
 uy
 ec
 jB
@@ -794,13 +912,13 @@ tr
 (15,1,1) = {"
 tr
 fQ
-oX
-Km
-oX
 zA
+ch
+bn
+bn
 uy
 CS
-jB
+WT
 jB
 uy
 LE
@@ -824,14 +942,14 @@ tr
 tr
 tr
 bn
-HD
-HD
+bn
+Yv
 oy
 Nq
 jB
-Cf
+IJ
 uy
-Iv
+LE
 tr
 tr
 tr
@@ -851,9 +969,9 @@ tr
 tr
 tr
 tr
-bn
-bn
-HD
+Yv
+pI
+Yv
 uy
 PF
 jB
@@ -879,15 +997,15 @@ tr
 tr
 tr
 tr
-Bd
-bn
-Xz
+Yv
+pI
+Yv
 uy
 uy
 uy
 uy
 uy
-pM
+qa
 tr
 tr
 tr
@@ -907,14 +1025,14 @@ tr
 tr
 tr
 tr
-Bd
-tr
-Bd
+Yv
+pI
+Yv
 wJ
 wJ
 wJ
 bn
-HD
+Gi
 pM
 tr
 tr
@@ -936,13 +1054,13 @@ tr
 tr
 tr
 tr
-tr
-Bd
+pI
+Yv
 Bd
 wJ
 wJ
 bn
-HD
+RH
 LE
 tr
 tr
@@ -966,7 +1084,7 @@ tr
 tr
 tr
 tr
-Bd
+tr
 Bd
 wJ
 bn
@@ -998,14 +1116,14 @@ tr
 Bd
 wJ
 bn
-HD
+xl
 LE
 LE
 aq
-HD
+lu
 cJ
 HD
-HD
+xl
 bn
 wJ
 wJ
@@ -1026,8 +1144,8 @@ tr
 tr
 wJ
 bn
-HD
-HD
+Zp
+xl
 bn
 bn
 nR

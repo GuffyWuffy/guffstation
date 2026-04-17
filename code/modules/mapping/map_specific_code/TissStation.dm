@@ -60,6 +60,13 @@
 	smoothing_groups = SMOOTH_GROUP_STONE_WALLS_WIZARD + SMOOTH_GROUP_WALLS + SMOOTH_GROUP_CLOSED_TURFS
 	canSmoothWith = SMOOTH_GROUP_STONE_WALLS_WIZARD
 
+/obj/structure/sink/cauldron
+	name = "cauldron"
+	icon = 'troutstation/icons/obj/watercloset.dmi'
+	icon_state = "cauldron"
+	desc = "A mystically shitty cauldron which seems to slowly refill its contents. You don't think you'd be able to actually brew with this..."
+	dispensedreagent = /datum/reagent/luminescent_fluid
+
 /// Areas
 
 /area/station/service/kitchen/tisserand

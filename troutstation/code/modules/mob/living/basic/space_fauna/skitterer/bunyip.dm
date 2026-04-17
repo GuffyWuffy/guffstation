@@ -47,6 +47,24 @@
 	)
 	ai_controller.set_blackboard_key(BB_BASIC_MOB_SPEAK_LINES, display_emote)
 
+	AddComponent(\
+		/datum/component/ghost_direct_control,\
+		poll_candidates = TRUE,\
+		role_name = "Bunyip",\
+		poll_ignore_key = POLL_IGNORE_GAY_SKITTERER,\
+		assumed_control_message = "You are a bunyip. You're a bit of a mischief maker, ain't cha?",\
+		poll_length = 30 SECONDS,\
+		after_assumed_control = CALLBACK(src, PROC_REF(became_player_controlled)),\
+		poll_chat_border_icon = /mob/living/basic/bunyip,\
+	)
+
+/mob/living/basic/bunyip/proc/became_player_controlled()
+	notify_ghosts(
+		"A bunyip has gained sentience in \the [get_area(src)].",
+		source = src,
+		header = "Bunyip Sentience",
+		notify_flags = NOTIFY_CATEGORY_NOFLASH,
+	)
 
 /datum/ai_controller/basic_controller/bunyip
 	blackboard = list(
