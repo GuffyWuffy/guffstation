@@ -505,7 +505,7 @@
 	},
 /obj/effect/spawner/random/clothing/funny_hats,
 /obj/item/scrying,
-/obj/effect/turf_decal/trimline,
+/obj/effect/turf_decal/trimline/tram,
 /turf/open/floor/white{
 	color = "#cacaca"
 	},
