@@ -866,7 +866,6 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
 "Ja" = (
-/obj/structure/table,
 /obj/item/reagent_containers/cup/bottle/epinephrine{
 	pixel_x = 6
 	},
@@ -988,8 +987,6 @@
 "LK" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/bed/medical/emergency,
-/obj/structure/bed/medical/emergency,
-/obj/machinery/iv_drip,
 /obj/machinery/iv_drip,
 /turf/open/floor/iron/large,
 /area/shuttle/escape)
