@@ -491,6 +491,13 @@
 /obj/effect/spawner/random/structure/closet_empty/crate/with_loot,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
+"VY" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/door/airlock/maintenance,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/engine)
 "XQ" = (
 /turf/open/misc/beach/coast{
 	dir = 8
@@ -1761,7 +1768,7 @@ Ye
 Ye
 Kc
 YS
-gy
+VY
 YS
 bU
 tq
