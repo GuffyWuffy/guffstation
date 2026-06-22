@@ -25,7 +25,7 @@ modules = ["mainNorthEast_1.dmm","mainNorthEast_2.dmm"]
 modules = ["mainNorthWest_1.dmm"]
 
 [rooms.engUpperEast]
-modules = ["engUpperEast_1.dmm"]
+modules = ["engUpperEast_1.dmm", "engUpperEast_2.dmm"]
 
 [rooms.engUpperWest]
 modules = ["engUpperWest_1.dmm"]
