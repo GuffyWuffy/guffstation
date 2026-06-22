@@ -41211,7 +41211,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/fore/starboard)
 "mnH" = (
-/mob/living/simple_animal/bot/secbot/pingsky{
+/mob/living/basic/bot/secbot/pingsky{
 	dir = 1
 	},
 /obj/machinery/ai_slipper,
@@ -49646,7 +49646,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/engineering)
 "oVg" = (
-/mob/living/simple_animal/bot/secbot/beepsky/armsky,
+/mob/living/basic/bot/secbot/beepsky/armsky,
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 4
 	},
@@ -56412,7 +56412,7 @@
 /turf/open/floor/carpet/blue,
 /area/station/service/library)
 "qYD" = (
-/mob/living/simple_animal/bot/secbot/beepsky,
+/mob/living/basic/bot/secbot/beepsky,
 /obj/structure/bed/double,
 /obj/effect/spawner/random/bedsheet/any/double,
 /turf/open/floor/carpet/neon/simple/red,
@@ -65669,12 +65669,6 @@
 /turf/open/floor/iron,
 /area/station/science/walkway)
 "tVC" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
 /area/station/engineering/break_room)
 "tVN" = (
@@ -76041,6 +76035,10 @@
 	},
 /obj/effect/spawner/random/vending/colavend,
 /obj/machinery/airalarm/directional/south,
+/obj/machinery/light_switch/directional/east{
+	pixel_x = 22;
+	pixel_y = -8
+	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/breakroom)
 "xdV" = (

@@ -10,7 +10,7 @@ modules = ["cargo_1.dmm", "cargo_2.dmm"]
 modules = ["disposals_1.dmm", "disposals_2.dmm"]
 
 [rooms.engCentral]
-modules = ["engCentral_1.dmm"]
+modules = ["engCentral_1.dmm", "engCentral_2.dmm"]
 
 [rooms.mainCentralEast]
 modules = ["mainCentralEast_1.dmm","mainCentralEast_2.dmm"]
