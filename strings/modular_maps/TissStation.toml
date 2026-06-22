@@ -40,10 +40,10 @@ modules = ["mainOuterEast_1.dmm","mainOuterEast_2.dmm"]
 modules = ["medEast_1.dmm","medEast_2.dmm"]
 
 [rooms.medMorgue]
-modules = ["medMorgue_1.dmm"]
+modules = ["medMorgue_1.dmm", "medMorgue_2.dmm"]
 
 [rooms.medNorth]
-modules = ["medNorth_1.dmm"]
+modules = ["medNorth_1.dmm", "medNorth_2.dmm"]
 
 [rooms.medWest]
 modules = ["medWest_1.dmm","medWest_2.dmm"]

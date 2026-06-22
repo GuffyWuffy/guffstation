@@ -3231,7 +3231,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "bak" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3752,7 +3752,7 @@
 "bhe" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/station/solars/port/fore)
+/area/station/solars/starboard/fore)
 "bhv" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/yellow{
@@ -15493,7 +15493,7 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
 /turf/open/space/basic,
-/area/station/solars/port/fore)
+/area/station/solars/starboard/fore)
 "eKv" = (
 /turf/open/floor/plating,
 /area/station/commons/dorms)
@@ -15521,7 +15521,7 @@
 "eKM" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/station/solars/port/fore)
+/area/station/solars/starboard/fore)
 "eKS" = (
 /obj/machinery/firealarm/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -18830,7 +18830,7 @@
 /obj/structure/lattice/catwalk,
 /obj/effect/landmark/navigate_destination,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "fJq" = (
 /obj/machinery/door/airlock/security{
 	name = "Prison Recreation"
@@ -34512,7 +34512,7 @@
 /obj/effect/spawner/random/structure/grille,
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/station/solars/port/fore)
+/area/station/solars/starboard/fore)
 "kqo" = (
 /obj/structure/transit_tube/crossing/horizontal,
 /obj/structure/lattice,
@@ -38054,7 +38054,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "lrg" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Control Room"
@@ -48667,7 +48667,7 @@
 /obj/structure/lattice,
 /obj/structure/cable,
 /turf/open/space/basic,
-/area/station/solars/port/fore)
+/area/station/solars/starboard/fore)
 "oGU" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -51617,7 +51617,7 @@
 "pyr" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "pyu" = (
 /obj/structure/chair/stool/bamboo,
 /obj/structure/cable,
@@ -52274,7 +52274,7 @@
 /obj/structure/chair/stool/directional/west,
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "pIT" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/food_or_drink/plant_produce,
@@ -53066,7 +53066,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "pXc" = (
 /obj/machinery/door/airlock/external{
 	name = "Labor Camp Shuttle Airlock"
@@ -54502,7 +54502,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "qtr" = (
 /obj/effect/turf_decal/trimline/purple/filled/corner{
 	dir = 4
@@ -60153,7 +60153,7 @@
 	name = "Aft-Port Solar Array"
 	},
 /turf/open/floor/iron/solarpanel/airless,
-/area/station/solars/port/fore)
+/area/station/solars/starboard/fore)
 "sjQ" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
@@ -60404,7 +60404,7 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "snY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -63378,7 +63378,7 @@
 /obj/structure/cable,
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "thA" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -64135,7 +64135,7 @@
 /obj/structure/lattice/catwalk,
 /obj/machinery/power/smes,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "tuF" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2
@@ -66571,7 +66571,7 @@
 /obj/machinery/power/tracker,
 /obj/structure/cable,
 /turf/open/space/basic,
-/area/station/solars/port/fore)
+/area/station/solars/starboard/fore)
 "uiU" = (
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/engineering/atmos)
@@ -66718,7 +66718,7 @@
 "ulu" = (
 /obj/structure/cable,
 /turf/open/floor/iron/solarpanel/airless,
-/area/station/solars/port/fore)
+/area/station/solars/starboard/fore)
 "ulv" = (
 /obj/machinery/seed_extractor,
 /obj/effect/turf_decal/trimline/green/filled/line{
@@ -68470,7 +68470,7 @@
 /area/station/hallway/secondary/exit/departure_lounge)
 "uKh" = (
 /turf/closed/wall/rock/porous,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "uKn" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/grassy/style_random,
@@ -68830,7 +68830,7 @@
 /obj/structure/cable,
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/station/solars/port/fore)
+/area/station/solars/starboard/fore)
 "uPG" = (
 /obj/structure/transit_tube/station/dispenser/reverse/flipped,
 /obj/machinery/door/poddoor/preopen{
@@ -73772,7 +73772,7 @@
 /obj/structure/closet/crate/engineering/electrical,
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "wsz" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -75994,7 +75994,7 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "xdn" = (
 /obj/machinery/status_display/ai/directional/north,
 /obj/machinery/computer/station_alert,
@@ -79374,7 +79374,7 @@
 /obj/structure/lattice/catwalk,
 /obj/machinery/light/directional/south,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/port/fore)
+/area/station/maintenance/solars/starboard/fore)
 "yeF" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners{
 	dir = 1

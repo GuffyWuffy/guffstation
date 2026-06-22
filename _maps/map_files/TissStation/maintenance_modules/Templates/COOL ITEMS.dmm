@@ -1,8 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
-/obj/item/clothing/suit/caution,
-/turf/open/space/basic,
-/area/space)
 "e" = (
 /obj/structure/votebox,
 /turf/open/space/basic,
@@ -185,7 +181,7 @@ H
 H
 H
 H
-a
+H
 z
 "}
 (8,1,1) = {"
