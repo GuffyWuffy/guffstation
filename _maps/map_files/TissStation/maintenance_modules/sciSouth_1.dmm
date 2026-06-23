@@ -183,6 +183,7 @@
 	pixel_x = 1;
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 21, /datum/reagent/consumable/nutriment/vitamin = 6, /datum/reagent/inverse/gravitum = 2)
 	},
+/obj/structure/cable,
 /turf/open/floor/carpet/royalblue,
 /area/station/maintenance/department/science/south)
 "vy" = (
@@ -331,6 +332,10 @@
 /obj/effect/spawner/random/engineering/canister,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/south)
+"Mj" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/maintenance/department/science/south)
 "Mr" = (
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
@@ -353,6 +358,10 @@
 "ML" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
+"NX" = (
+/obj/structure/cable,
+/turf/open/floor/carpet/royalblack,
+/area/station/maintenance/department/science/south)
 "Oi" = (
 /obj/effect/spawner/random/engineering/canister,
 /obj/effect/decal/cleanable/dirt,
@@ -1106,10 +1115,10 @@ qq
 qq
 qq
 Bb
-Fm
+NX
 ue
-Fm
-fq
+NX
+Mj
 qq
 qq
 qq

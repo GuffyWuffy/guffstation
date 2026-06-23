@@ -66,7 +66,7 @@
 "ll" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "lQ" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
@@ -74,7 +74,7 @@
 	name = "Solar Maintenance"
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "nU" = (
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/central)
@@ -93,11 +93,11 @@
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
-/area/station/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "qM" = (
 /obj/machinery/power/smes,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "tG" = (
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating,
@@ -108,7 +108,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "uN" = (
 /obj/item/melee/baseball_bat/british,
 /obj/effect/decal/cleanable/confetti,
@@ -182,7 +182,7 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
 /turf/open/space/basic,
-/area/station/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "Bx" = (
 /obj/effect/spawner/random/decoration/glowstick/on,
 /obj/effect/decal/cleanable/confetti,
@@ -195,7 +195,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "Ci" = (
 /obj/item/solar_assembly,
 /obj/item/solar_assembly,
@@ -217,13 +217,13 @@
 /obj/structure/closet/crate/engineering/electrical,
 /obj/item/stack/cable_coil,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "CR" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "Df" = (
 /turf/closed/wall/r_wall,
 /area/station/science/xenobiology)
@@ -253,7 +253,7 @@
 /obj/item/stack/sheet/glass/fifty,
 /obj/structure/closet/crate/engineering/electrical,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "Fa" = (
 /obj/effect/spawner/random/trash/janitor_supplies,
 /obj/effect/decal/cleanable/dirt,
@@ -276,7 +276,7 @@
 "HU" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating/airless,
-/area/station/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "KD" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
@@ -289,12 +289,12 @@
 	name = "Starboard Quarter Solar Control"
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "Ld" = (
 /obj/effect/landmark/navigate_destination,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "LH" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /obj/item/assembly/prox_sensor{
@@ -326,7 +326,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "Nu" = (
 /obj/effect/spawner/random/structure/grille,
 /obj/effect/decal/cleanable/dirt,
@@ -348,11 +348,11 @@
 /area/station/maintenance/department/science/central)
 "Oq" = (
 /turf/closed/wall/r_wall,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "Pe" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/station/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "Qu" = (
 /turf/closed/wall,
 /area/station/maintenance/department/science/central)
@@ -370,16 +370,16 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "VH" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/closed/wall/r_wall,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "VY" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "Wc" = (
 /obj/item/storage/toolbox/mechanical/old,
 /obj/item/clothing/mask/gas,
@@ -396,7 +396,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "WJ" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/cable,
@@ -405,7 +405,7 @@
 	id = "portsolar"
 	},
 /turf/open/floor/plating/airless,
-/area/station/solars/starboard/aft)
+/area/station/solars/aux/starboard)
 "WL" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
