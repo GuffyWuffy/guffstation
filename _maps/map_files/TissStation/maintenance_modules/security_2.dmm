@@ -414,7 +414,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
 "HG" = (
-/obj/modular_map_root/tissstation,
+/obj/modular_map_connector,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
@@ -480,6 +480,17 @@
 /obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/light/floor,
 /turf/open/floor/iron/freezer,
+/area/station/maintenance/department/security)
+"Od" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/auto_name/directional/south,
+/turf/open/floor/plating,
 /area/station/maintenance/department/security)
 "OJ" = (
 /obj/structure/chair/office{
@@ -1695,7 +1706,7 @@ tW
 tW
 yB
 pT
-sM
+Od
 Ct
 Ct
 Xc
