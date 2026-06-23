@@ -55,10 +55,6 @@
 "H" = (
 /turf/open/space/basic,
 /area/space)
-"J" = (
-/obj/structure/pinata,
-/turf/open/space/basic,
-/area/space)
 "K" = (
 /obj/vehicle/ridden/wheelchair/gold,
 /turf/open/space/basic,
@@ -157,7 +153,7 @@ H
 H
 H
 H
-J
+H
 s
 "}
 (6,1,1) = {"
