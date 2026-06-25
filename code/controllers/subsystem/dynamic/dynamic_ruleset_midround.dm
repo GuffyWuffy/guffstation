@@ -1032,7 +1032,7 @@
 	candidate_role = "Slaughter Demon"
 	// preview_antag_datum = /datum/antagonist/slaughter // Doesn't actually have its own pref
 	midround_type = HEAVY_MIDROUND
-	jobban_flag = ROLE_ALIEN
+	jobban_flag = ROLE_SENTIENCE
 	ruleset_flags = RULESET_INVADER
 	weight = 0
 	min_pop = 20
@@ -1150,7 +1150,7 @@
 	name = "Mass Traitors"
 	config_tag = "Mass Traitors"
 	midround_type = HEAVY_MIDROUND
-	min_pop = 15
+	min_pop = 90 // troutstation edit, fuck off, fuck right off
 	min_antag_cap = 2
 	max_antag_cap = 4
 	repeatable_weight_decrease = 8
