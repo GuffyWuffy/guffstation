@@ -278,7 +278,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "zk" = (
-/obj/machinery/atmospherics/components/tank/air,
+/obj/machinery/atmospherics/components/tank/air{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "zn" = (
@@ -487,11 +489,6 @@
 /obj/effect/turf_decal/stripes/end,
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /turf/open/floor/iron,
-/area/station/maintenance/department/engine)
-"Ig" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/obj/structure/cable,
-/turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "Iz" = (
 /turf/open/misc/asteroid/airless,
@@ -709,14 +706,6 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
-"XG" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Engineering Maintenance"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/main)
 "XP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1047,7 +1036,7 @@ Ek
 Ek
 Ek
 Ek
-XG
+Ek
 CE
 Gw
 St
@@ -2028,8 +2017,8 @@ CE
 CE
 Eh
 CE
-Ig
-Ig
+mz
+mz
 rA
 rA
 rA

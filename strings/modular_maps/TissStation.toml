@@ -52,7 +52,7 @@ modules = ["medWest_1.dmm","medWest_2.dmm"]
 modules = ["sciCentral_1.dmm", "sciCentral_2.dmm"]
 
 [rooms.sciNorth]
-modules = ["sciNorth_1.dmm"]
+modules = ["sciNorth_1.dmm", "sciNorth_2.dmm"]
 
 [rooms.sciSouth]
 modules = ["sciSouth_1.dmm", "sciSouth_2.dmm"]

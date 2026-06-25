@@ -438,12 +438,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/south)
-"OG" = (
-/obj/machinery/conveyor/auto/inverted{
-	dir = 9
-	},
-/turf/closed/wall/r_wall,
-/area/station/maintenance/department/science/south)
 "PG" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/grassy/style_random,
@@ -468,7 +462,7 @@
 	dir = 4
 	},
 /obj/effect/spawner/random/structure/closet_maintenance,
-/turf/closed/wall/r_wall,
+/turf/open/floor/plating,
 /area/station/maintenance/department/science/south)
 "Rt" = (
 /obj/machinery/conveyor/auto{
@@ -556,12 +550,6 @@
 	},
 /obj/effect/spawner/random/entertainment/drugs,
 /turf/open/floor/plating,
-/area/station/maintenance/department/science/south)
-"YC" = (
-/obj/machinery/conveyor/auto{
-	dir = 4
-	},
-/turf/closed/wall/r_wall,
 /area/station/maintenance/department/science/south)
 "YT" = (
 /obj/machinery/conveyor/auto{
@@ -1051,7 +1039,7 @@ Bm
 ba
 CR
 CR
-OG
+RO
 vP
 id
 id
@@ -1078,7 +1066,7 @@ Nf
 Nf
 Nf
 gC
-YC
+IU
 vP
 id
 id
@@ -1375,7 +1363,7 @@ gL
 gL
 Tf
 Rt
-YC
+IU
 vP
 id
 id
@@ -1402,7 +1390,7 @@ Ej
 rA
 rA
 mD
-YC
+IU
 vP
 id
 id
@@ -1429,7 +1417,7 @@ Rt
 ot
 vY
 vY
-jm
+FX
 vP
 id
 id

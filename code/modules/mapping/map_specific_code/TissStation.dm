@@ -187,4 +187,7 @@
 	icon = 'troutstation/icons/area/areas_station.dmi'
 	icon_state = "tiss"
 	name = "\improper Whirling-in-Rags"
+	ambientsounds = list(
+		'troutstation/sound/ambience/rags.ogg',
+		)
 

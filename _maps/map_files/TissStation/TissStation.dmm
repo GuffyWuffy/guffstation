@@ -33780,12 +33780,6 @@
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/rd)
 "kfe" = (
-/obj/effect/mapping_helpers/airlock/access/any/science/maintenance,
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/unres/delayed,
 /turf/open/floor/plating,
 /area/station/science/research)
 "kfh" = (
@@ -128968,8 +128962,8 @@ elN
 elN
 elN
 elN
-uYp
-uYp
+ara
+gXX
 xeM
 xeM
 ohK
@@ -129224,9 +129218,9 @@ elN
 elN
 elN
 elN
-elN
-uYp
-uYp
+key
+key
+xeM
 xeM
 xeM
 ohK
@@ -129480,10 +129474,10 @@ elN
 elN
 elN
 elN
-elN
-elN
-uYp
-uYp
+gua
+nra
+xeM
+xeM
 xeM
 xeM
 ohK
@@ -129737,10 +129731,10 @@ elN
 elN
 elN
 elN
-elN
-elN
 uYp
 uYp
+xeM
+xeM
 xeM
 ohK
 ohK
@@ -129994,10 +129988,10 @@ elN
 elN
 elN
 elN
-elN
-elN
 uYp
 uYp
+xeM
+xeM
 xeM
 ohK
 ohK
@@ -130251,10 +130245,10 @@ elN
 elN
 elN
 elN
-elN
-elN
 uYp
 uYp
+xeM
+xeM
 xeM
 ohK
 ohK
@@ -130508,10 +130502,10 @@ elN
 elN
 elN
 elN
-elN
-elN
-ara
-gXX
+uYp
+uYp
+xeM
+xeM
 xeM
 ohK
 ohK
@@ -130765,9 +130759,9 @@ elN
 elN
 elN
 elN
-elN
-gua
-nra
+uYp
+uYp
+xeM
 xeM
 ohK
 ohK
@@ -131022,9 +131016,9 @@ elN
 elN
 elN
 elN
-elN
 mAR
 uYp
+xeM
 xeM
 ohK
 ohK
@@ -131279,9 +131273,9 @@ elN
 elN
 elN
 elN
-elN
-ara
-gXX
+mAR
+uYp
+xeM
 xeM
 ohK
 ohK
@@ -131536,8 +131530,8 @@ elN
 elN
 elN
 elN
-gua
-nra
+mAR
+uYp
 xeM
 xeM
 ohK
@@ -131584,7 +131578,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 sbR
 ohK
 ohK
@@ -131841,7 +131835,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 ohK
 ohK
 ohK
@@ -132098,7 +132092,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 sbR
 ohK
 ohK
@@ -134668,7 +134662,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 sbR
 ohK
 ohK
@@ -134925,7 +134919,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 ohK
 ohK
 ohK
@@ -135182,7 +135176,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 ohK
 ohK
 ohK
@@ -135439,7 +135433,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 ohK
 ohK
 ohK
@@ -135696,7 +135690,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 ohK
 ohK
 xeM
@@ -135953,7 +135947,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 ohK
 ohK
 xeM
@@ -136210,7 +136204,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 ohK
 ohK
 xeM
@@ -136466,8 +136460,8 @@ efH
 efH
 efH
 efH
-sbR
-sbR
+efH
+efH
 ohK
 ohK
 xeM
@@ -136978,7 +136972,7 @@ efH
 efH
 efH
 efH
-sbR
+efH
 sbR
 ohK
 ohK

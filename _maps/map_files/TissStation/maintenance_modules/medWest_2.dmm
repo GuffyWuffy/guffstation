@@ -263,7 +263,7 @@
 "AU" = (
 /obj/structure/closet/secure_closet/personal{
 	anchored = 1;
-	name = "Chocobo's Locker"
+	name = "Prince Rhydderch's Locker"
 	},
 /obj/item/clothing/shoes/cowboy/laced{
 	name = "Chocobo's Boots"
