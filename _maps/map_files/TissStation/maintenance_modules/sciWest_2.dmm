@@ -86,6 +86,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/power_store/cell/high,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/iron,
 /area/station/science/research/abandoned)
 "fe" = (
@@ -654,7 +655,7 @@
 /obj/item/wrench,
 /obj/item/clothing/mask/gas,
 /obj/structure/rack,
-/obj/machinery/light/small/directional/west,
+/obj/machinery/light/small/directional/east,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating,
 /area/station/science/research/abandoned)
@@ -763,7 +764,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/west)
 "QF" = (
-/obj/machinery/light/small/directional/south,
+/obj/machinery/light/small/directional/north,
 /obj/structure/table_frame,
 /obj/item/reagent_containers/cup/beaker/large{
 	pixel_x = 8;
@@ -854,7 +855,6 @@
 /obj/item/storage/toolbox/mechanical,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/gloves/color/black,
-/obj/machinery/light_switch/directional/east,
 /turf/open/floor/plating,
 /area/station/science/research/abandoned)
 "Yb" = (

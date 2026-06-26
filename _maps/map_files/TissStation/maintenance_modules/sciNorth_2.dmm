@@ -101,6 +101,7 @@
 "dT" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron/white,
 /area/station/maintenance/rags)
 "dW" = (
@@ -907,7 +908,6 @@
 	dir = 1
 	},
 /obj/machinery/light/directional/south,
-/obj/machinery/light/warm/directional/south,
 /turf/open/floor/iron/white,
 /area/station/maintenance/rags)
 "PQ" = (
@@ -1033,6 +1033,7 @@
 /area/station/maintenance/department/science/xenobiology)
 "VJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/white/small,
 /area/station/maintenance/rags)
 "WQ" = (

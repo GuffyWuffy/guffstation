@@ -250,13 +250,6 @@
 /obj/effect/mapping_helpers/airlock/unres/delayed,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
-"ro" = (
-/obj/effect/turf_decal/tile/dark/diagonal_centre,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/iron/white/diagonal,
-/area/station/maintenance/rags)
 "rZ" = (
 /obj/machinery/door/airlock/wood{
 	name = "Whirling-In-Rags Room #1"
@@ -2461,7 +2454,7 @@ zO
 AZ
 gF
 sM
-ro
+Ld
 Ld
 Yt
 nq

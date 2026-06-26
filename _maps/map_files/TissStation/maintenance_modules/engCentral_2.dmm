@@ -293,9 +293,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
-"zF" = (
-/turf/closed/wall,
-/area/template_noop)
 "zP" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -327,21 +324,6 @@
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
-"AK" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/maintenance{
-	name = "Engineering Maintenance"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/main)
 "Bb" = (
 /obj/structure/railing/corner/end{
 	dir = 8
@@ -578,22 +560,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
-"Ra" = (
-/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
-/obj/machinery/door/airlock/maintenance{
-	name = "Engineering Maintenance"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/effect/mapping_error,
-/turf/open/floor/plating,
-/area/station/engineering/atmos)
 "Rg" = (
 /obj/structure/table,
 /obj/effect/spawner/random/maintenance/two,
@@ -1596,7 +1562,7 @@ Ek
 Ek
 Ek
 Ek
-AK
+Ek
 Ek
 Ek
 Ek
@@ -1874,7 +1840,7 @@ Ek
 Ek
 Ek
 Ek
-zF
+Ek
 Ek
 am
 CE
@@ -2109,7 +2075,7 @@ Jn
 Ek
 Ek
 Ek
-Ra
+Ek
 Ek
 Ek
 Ek
