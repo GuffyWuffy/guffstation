@@ -7142,7 +7142,6 @@
 	dir = 10;
 	id = "mining"
 	},
-/obj/machinery/bouldertech/refinery/smelter,
 /obj/effect/turf_decal/stripes/end,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/miningfoundry)
@@ -8547,18 +8546,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig)
-"cGP" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "mining"
-	},
-/obj/machinery/bouldertech/refinery,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/dark/smooth_large,
-/area/station/cargo/miningfoundry)
 "cGU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/structure/cable,
@@ -15714,6 +15701,20 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/hos)
+"eOe" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "mining"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/bouldertech/refinery{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/cargo/miningfoundry)
 "eOl" = (
 /turf/closed/wall/r_wall,
 /area/station/engineering/storage)
@@ -22320,6 +22321,9 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/sign/poster/contraband/d_day_promo/directional/north,
+/obj/machinery/bouldertech/refinery/smelter{
+	dir = 8
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/miningfoundry)
 "gMC" = (
@@ -92375,7 +92379,7 @@ xSg
 jEm
 rAG
 tkU
-wLG
+eOe
 ydi
 sso
 nAH
@@ -92632,7 +92636,7 @@ dhk
 gFm
 rAG
 tkU
-cGP
+wLG
 bMu
 rlS
 tfS
