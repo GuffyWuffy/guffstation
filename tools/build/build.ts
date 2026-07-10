@@ -11,7 +11,7 @@ import fs from 'node:fs';
 import Bun from 'bun';
 import YAML from 'yaml';
 import Juke from './juke/index.js';
-import { bun, bunRoot } from './lib/bun';
+import { bun } from './lib/bun';
 import { DreamDaemon, DreamMaker, NamedVersionFile } from './lib/byond';
 import { downloadFile } from './lib/download';
 import { formatDeps } from './lib/helpers';
@@ -95,7 +95,7 @@ export const CutterTarget = new Juke.Target({
     const temp_path = `${cutter_path}_temp`; // yes this means its file extension is .exe_temp I don't really care
     await downloadFile(download_from, temp_path);
     fs.copyFileSync(temp_path, cutter_path);
-    fs.rmSync(temp_path)
+    fs.rmSync(temp_path);
     if (process.platform !== 'win32') {
       await Juke.exec('chmod', ['+x', cutter_path]);
     }
@@ -414,7 +414,7 @@ export const BunTarget = new Juke.Target({
   parameters: [CiParameter],
   inputs: ['tgui/**/package.json'],
   executes: () => {
-    return bun('install', '--frozen-lockfile', '--ignore-scripts');
+    return bun('./tgui', 'install', '--frozen-lockfile', '--ignore-scripts');
   },
 });
 
@@ -425,7 +425,7 @@ export const BiomeInstallTarget = new Juke.Target({
     return Juke.glob('node_modules/@biomejs/**').length === 0;
   },
   executes: () => {
-    return bunRoot('install');
+    return bun('.', 'install');
   },
 });
 
@@ -439,18 +439,7 @@ export const TgFontTarget = new Juke.Target({
     'tgui/packages/tgfont/dist/tgfont.css',
     'tgui/packages/tgfont/dist/tgfont.woff2',
   ],
-  executes: async () => {
-    await bun('tgfont:build');
-    fs.mkdirSync('tgui/packages/tgfont/static', { recursive: true });
-    fs.copyFileSync(
-      'tgui/packages/tgfont/dist/tgfont.css',
-      'tgui/packages/tgfont/static/tgfont.css',
-    );
-    fs.copyFileSync(
-      'tgui/packages/tgfont/dist/tgfont.woff2',
-      'tgui/packages/tgfont/static/tgfont.woff2',
-    );
-  },
+  executes: () => bun('./tgui/packages/tgfont', 'tgfont:build'),
 });
 
 export const TguiTarget = new Juke.Target({
@@ -468,23 +457,23 @@ export const TguiTarget = new Juke.Target({
     'tgui/public/tgui-say.bundle.css',
     'tgui/public/tgui-say.bundle.js',
   ],
-  executes: () => bun('tgui:build'),
+  executes: () => bun('./tgui', 'tgui:build'),
 });
 
 export const TguiTscTarget = new Juke.Target({
   dependsOn: [BunTarget],
-  executes: () => bun('tgui:tsc'),
+  executes: () => bun('./tgui', 'tgui:tsc'),
 });
 
 export const TguiTestTarget = new Juke.Target({
   parameters: [CiParameter],
   dependsOn: [BunTarget],
-  executes: () => bun('tgui:test'),
+  executes: () => bun('./tgui', 'tgui:test'),
 });
 
 export const BiomeCheckTarget = new Juke.Target({
   dependsOn: [BunTarget, BiomeInstallTarget],
-  executes: () => bunRoot('tgui:lint'),
+  executes: () => bun('.', 'tgui:lint'),
 });
 
 export const TguiLintTarget = new Juke.Target({
@@ -493,12 +482,12 @@ export const TguiLintTarget = new Juke.Target({
 
 export const TguiDevTarget = new Juke.Target({
   dependsOn: [BunTarget],
-  executes: ({ args }) => bun('tgui:dev', ...args),
+  executes: ({ args }) => bun('./tgui', 'tgui:dev', ...args),
 });
 
 export const TguiAnalyzeTarget = new Juke.Target({
   dependsOn: [BunTarget],
-  executes: () => bun('tgui:analyze'),
+  executes: () => bun('./tgui', 'tgui:analyze'),
 });
 
 export const TestTarget = new Juke.Target({
@@ -510,7 +499,7 @@ export const LintTarget = new Juke.Target({
 });
 
 export const BuildTarget = new Juke.Target({
-  dependsOn: [CombineChangelogsTarget, TguiTarget, DmTarget],
+  dependsOn: [CombineChangelogsTarget, TguiTarget, TgFontTarget, DmTarget],
 });
 
 export const ServerTarget = new Juke.Target({
@@ -562,7 +551,7 @@ export const CleanAllTarget = new Juke.Target({
 });
 
 export const TgsTarget = new Juke.Target({
-  dependsOn: [CombineChangelogsTarget, TguiTarget],
+  dependsOn: [CombineChangelogsTarget, TguiTarget, TgFontTarget],
   executes: async () => {
     Juke.logger.info('Prepending TGS define');
     prependDefines('TGS');

@@ -510,7 +510,8 @@
 		/datum/reagent/consumable/nutriment/vitamin = 6,
 	)
 	tastes = list("raw egg" = 2, "soaked bread" = 1)
-	foodtypes = GRAIN | RAW | BREAKFAST | MEAT | EGG
+	foodtypes = GRAIN | RAW | MEAT | EGG
+	foodtypes_added_when_cooked = BREAKFAST
 	w_class = WEIGHT_CLASS_SMALL
 	crafting_complexity = FOOD_COMPLEXITY_2
 	food_flags = FOOD_TINY_SNOUT_EDIBLE // Troutstation edit

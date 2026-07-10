@@ -18,10 +18,11 @@ endmap
 # Production-level maps.
 
 map tissstation
-    minplayers 20
+	minplayers 20
 	votable
 	feedbacklink https://github.com/Cirrial/troutstation/issues
 	webmap_url https://theguff.in/Tisserand.png
+	default
 endmap
 
 map deltastation
@@ -29,10 +30,10 @@ map deltastation
 	votable
 endmap
 
-#map icebox
-#	minplayers 25
-#	votable
-#endmap
+map icebox
+	minplayers 25
+	votable
+endmap
 
 map catwalkstation
 	minplayers 25
@@ -47,31 +48,30 @@ map metastation
 	#webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/metastation
 endmap
 
-#map tramstation
-#	minplayers 35
-#	votable
-#endmap
+map tramstation
+	minplayers 35
+	votable
+endmap
 
-#map nebulastation
-#	minplayers 35
-#	votable
-#endmap
+map nebulastation
+	minplayers 35
+	votable
+endmap
 
-#map wawastation
-#	votable
-#	minplayers 40
-#endmap
+map kilostation
+	votable
+	maxplayers 40
+endmap
 
 # Debug-only maps.
 
-#map gateway_test
-#endmap
+map gateway_test
+endmap
 
-#map multiz_debug
-#endmap
+map multiz_debug
+endmap
 
 map runtimestation
-	default
 endmap
 
 map runtimestation_minimal

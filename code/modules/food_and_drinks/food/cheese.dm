@@ -122,8 +122,7 @@
 	food_flags = FOOD_TINY_SNOUT_EDIBLE // Troutstation edit
 	snout_eat_message_category = SNOUT_EAT_MESSAGE_CATEGORY_SMUSH // Troutstation edit
 
-/obj/item/food/cheese/cheese_curds/Initialize(mapload)
-	. = ..()
+/obj/item/food/cheese/cheese_curds/make_dryable()
 	AddElement(/datum/element/dryable,  /obj/item/food/cheese/firm_cheese)
 
 /obj/item/food/cheese/firm_cheese

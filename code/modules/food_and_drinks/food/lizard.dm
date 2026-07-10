@@ -20,8 +20,7 @@
 	food_flags = FOOD_TINY_SNOUT_EDIBLE // Troutstation edit
 	snout_eat_message_category = SNOUT_EAT_MESSAGE_CATEGORY_NEAT_FIT // Troutstation edit
 
-/obj/item/food/raw_tiziran_sausage/Initialize(mapload)
-	. = ..()
+/obj/item/food/raw_tiziran_sausage/make_dryable()
 	AddElement(/datum/element/dryable, /obj/item/food/tiziran_sausage)
 
 /obj/item/food/tiziran_sausage
@@ -57,8 +56,7 @@
 	crafting_complexity = FOOD_COMPLEXITY_1
 	custom_materials = list(/datum/material/meat = MEATSLAB_MATERIAL_AMOUNT)
 
-/obj/item/food/raw_headcheese/Initialize(mapload)
-	. = ..()
+/obj/item/food/raw_headcheese/make_dryable()
 	AddElement(/datum/element/dryable, /obj/item/food/headcheese)
 
 /obj/item/food/headcheese
@@ -244,7 +242,6 @@
 	desc = "One of the many human foods to make its way to the lizards was french fries, which are called poms-franzisks in Draconic. When topped with barbecued meat and sauce, they make a hearty meal."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lizard_fries"
-	trash_type = /obj/item/plate
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
 		/datum/reagent/consumable/nutriment/protein = 6,
