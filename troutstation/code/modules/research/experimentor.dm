@@ -223,7 +223,7 @@
 	var/turf/local_turf = get_turf(parent_relic)
 	var/datum/gas_mixture/environment = local_turf.return_air()
 	environment.assert_gas(gas_type)
-	environment.gases[gas_type][MOLES] += amount
+	environment.moles[gas_type] += amount
 	local_turf.air_update_turf(FALSE, FALSE)
 	return
 

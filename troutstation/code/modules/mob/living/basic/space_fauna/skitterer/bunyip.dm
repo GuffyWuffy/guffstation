@@ -67,18 +67,19 @@
 	)
 
 /datum/ai_controller/basic_controller/bunyip
+	behavior_tree_json = "troutstation/code/modules/mob/living/basic/space_fauna/skitterer/bunyip.bt.json"
+
 	blackboard = list(
 		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic,
 		BB_GUILTY_CONSCIOUS_CHANCE = 3,
 		BB_STEAL_CHANCE = 15,
+		BB_STEAL_TARGET_PRIORITIES = list(
+			/obj/item/disk/nuclear = 70,
+			/obj/item/card/id = 50,
+			/obj/item/gun = 30,
+			/obj/item/grenade = 30,
+		),
+		BB_STEAL_FALLBACK_PRIORITY = 5,
 	)
 
 	ai_movement = /datum/ai_movement/basic_avoidance
-	idle_behavior = /datum/idle_behavior/idle_random_walk/more_walking
-
-	planning_subtrees = list(
-		/datum/ai_planning_subtree/target_retaliate,
-		/datum/ai_planning_subtree/steal_items,
-		/datum/ai_planning_subtree/random_speech/blackboard,
-		/datum/ai_planning_subtree/basic_melee_attack_subtree,
-	)

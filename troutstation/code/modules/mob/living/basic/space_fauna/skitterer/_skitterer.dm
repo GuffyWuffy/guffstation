@@ -139,42 +139,42 @@
 	)
 
 /datum/ai_controller/basic_controller/skitterer
+	behavior_tree_json = "troutstation/code/modules/mob/living/basic/space_fauna/skitterer/skitterer.bt.json"
+
 	blackboard = list(
 		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic,
 		BB_GUILTY_CONSCIOUS_CHANCE = 3,
 		BB_STEAL_CHANCE = 10,
+		BB_STEAL_TARGET_PRIORITIES = list(
+			/obj/item/disk/nuclear = 70,
+			/obj/item/card/id = 50,
+			/obj/item/gun = 30,
+			/obj/item/grenade = 30,
+		),
+		BB_STEAL_FALLBACK_PRIORITY = 5,
 	)
 
 	ai_movement = /datum/ai_movement/basic_avoidance
-	idle_behavior = /datum/idle_behavior/idle_random_walk/more_walking
-
-	planning_subtrees = list(
-		/datum/ai_planning_subtree/target_retaliate,
-		/datum/ai_planning_subtree/call_reinforcements,
-		/datum/ai_planning_subtree/steal_items,
-		/datum/ai_planning_subtree/random_speech/blackboard,
-		/datum/ai_planning_subtree/basic_melee_attack_subtree,
-	)
 
 /datum/ai_controller/basic_controller/gay_skitterer
+	behavior_tree_json = "troutstation/code/modules/mob/living/basic/space_fauna/skitterer/gayskitterer.bt.json"
+
 	blackboard = list(
 		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic,
 		BB_BE_GAY_CHANCE = 2,
 		BB_GUILTY_CONSCIOUS_CHANCE = 1,
 		BB_STEAL_CHANCE = 15,
+		BB_STEAL_TARGET_PRIORITIES = list(
+			/obj/item/disk/nuclear = 70,
+			/obj/item/card/id = 50,
+			/obj/item/gun = 30,
+			/obj/item/grenade = 30,
+		),
+		BB_STEAL_FALLBACK_PRIORITY = 5,
 	)
 
 	ai_movement = /datum/ai_movement/basic_avoidance
-	idle_behavior = /datum/idle_behavior/idle_random_walk/more_walking
 
-	planning_subtrees = list(
-		/datum/ai_planning_subtree/target_retaliate,
-		/datum/ai_planning_subtree/call_reinforcements,
-		/datum/ai_planning_subtree/steal_items,
-		/datum/ai_planning_subtree/use_mob_ability/be_gay,
-		/datum/ai_planning_subtree/random_speech/blackboard,
-		/datum/ai_planning_subtree/basic_melee_attack_subtree,
-	)
 
 /datum/action/cooldown/mob_cooldown/be_gay
 	name = "Be Gay"
@@ -202,12 +202,13 @@
 	color = COLOR_FADED_PINK
 	amount_to_scale = 3
 
-/datum/ai_planning_subtree/use_mob_ability/be_gay
+/datum/bt_node/ai_behavior/use_mob_ability/be_gay
 
-/datum/ai_planning_subtree/use_mob_ability/be_gay/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
+/datum/bt_node/ai_behavior/use_mob_ability/be_gay/perform(datum/ai_controller/controller, seconds_per_tick)
 	var/trigger_prob = controller.blackboard[BB_BE_GAY_CHANCE] || 0
 	if (prob(trigger_prob))
-		return ..()
+		return AI_BEHAVIOR_INSTANT | AI_BEHAVIOR_FAILED
+	return ..()
 
 /mob/living/basic/skitterer/attackby(obj/item/reagent_containers/cooler_jug/thejug, mob/user, list/modifiers, list/attack_modifiers)
 	if(!istype(thejug))
