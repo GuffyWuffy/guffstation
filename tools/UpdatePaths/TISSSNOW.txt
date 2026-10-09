@@ -1,0 +1,68 @@
+/mob/living/basic/kiwi : /mob/living/basic/skitterer{@OLD}
+/obj/effect/landmark/start/barber : /obj/effect/landmark/start/assistant
+/obj/effect/landmark/start/blacksmith : /obj/effect/landmark/start/cargo_technician
+/obj/effect/landmark/start/corrections_officer : /obj/effect/landmark/start/security_officer
+/obj/effect/landmark/start/customs_agent : /obj/effect/landmark/start/cargo_technician
+/obj/effect/mapping_helpers/airlock/access/any/supply/blacksmith : /obj/effect/mapping_helpers/airlock/access/any/supply/blacksmith
+/obj/item/bdsm_candle : /obj/item/flashlight/flare/candle
+/obj/item/food/grown/harebell : /obj/item/food/grown/flower/harebell
+/obj/item/food/grown/poppy : /obj/item/food/grown/flower/poppy
+/obj/machinery/door/airlock/asylum : /obj/machinery/door/airlock/public
+/obj/machinery/door/airlock/bathroom : /obj/machinery/door/airlock/public
+/obj/machinery/door/airlock/corporate : /obj/machinery/door/airlock/command
+/obj/machinery/door/airlock/multi_tile/metal : /obj/machinery/door/airlock/multi_tile
+/obj/machinery/door/airlock/psych : /obj/machinery/door/airlock/medical
+/obj/structure/drain : /obj/structure/fluff/shower_drain
+/obj/structure/rack/shelf : /obj/structure/rack
+/obj/structure/rack/wooden : /obj/structure/rack
+/obj/structure/sign/poster/contraband/crocin_pool/directional/south : /obj/structure/sign/poster/contraband/random/directional/south
+/obj/structure/towel_bin : /obj/structure/bedsheetbin/basket
+/area/station/common/cryopods/aux : @DELETE
+/area/station/terminal/cryo : @DELETE
+/mob/living/basic/pet/bumbles : @DELETE
+/mob/living/basic/pet/dog/corgi/borgi : @DELETE
+/mob/living/basic/pet/dog/markus : @DELETE
+/mob/living/basic/pet/poppy : @DELETE
+/obj/effect/decal/cleanable/cum : @DELETE
+/obj/effect/landmark/latejoin_override : @DELETE
+/obj/effect/landmark/start/bridge_assistant : @DELETE
+/obj/item/cigarette/khi : @DELETE
+/obj/item/clothing/glasses/nice_goggles : @DELETE
+/obj/item/clothing/shoes/cowboyboots : @DELETE
+/obj/item/clothing/shoes/cowboyboots/black : @DELETE
+/obj/item/clothing/shoes/jungleboots : @DELETE
+/obj/item/clothing/shoes/wraps : @DELETE
+/obj/item/clothing/shoes/wraps/blue : @DELETE
+/obj/item/clothing/shoes/wraps/red : @DELETE
+/obj/item/clothing/shoes/wraps/silver : @DELETE
+/obj/item/clothing/suit/croptop : @DELETE
+/obj/item/clothing/suit/jacket/cherno : @DELETE
+/obj/item/clothing/suit/jacket/delta : @DELETE
+/obj/item/clothing/suit/koreacoat : @DELETE
+/obj/item/clothing/suit/modern_winter : @DELETE
+/obj/item/clothing/suit/warm_coat : @DELETE
+/obj/item/clothing/under/pants/tactical : @DELETE
+/obj/item/lipstick/quantum : @DELETE
+/obj/item/storage/box/lipsticks : @DELETE
+/obj/item/tank/internals/nitrogen/full : @DELETE
+/obj/machinery/computer/cryopod/directional/east : @DELETE
+/obj/machinery/computer/cryopod/directional/north : @DELETE
+/obj/machinery/computer/cryopod/directional/south : @DELETE
+/obj/machinery/computer/cryopod/directional/west : @DELETE
+/obj/machinery/cryopod : @DELETE
+/obj/machinery/cryopod/prison/directional/north : @DELETE
+/obj/machinery/gbp_redemption : @DELETE
+/obj/machinery/modular_computer/preset/time_clock : @DELETE
+/obj/machinery/posialert/@SUBTYPES : @DELETE
+/obj/machinery/vending/access/command : @DELETE
+/obj/machinery/vending/barbervend : @DELETE
+/obj/machinery/vending/dorms/ : @DELETE
+/obj/structure/closet/secure_closet/security_medic : @DELETE
+/obj/structure/sign/directions/cryo/@SUBTYPES : @DELETE
+
+
+
+
+
+
+

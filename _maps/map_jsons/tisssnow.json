@@ -1,0 +1,67 @@
+{
+	"version": 1,
+	"map_name": "Tisserand Station",
+	"map_path": "map_files/TissSnow",
+	"map_file": "TissSnow.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"wilderness_levels": 2,
+	"planetary": 1,
+	"give_players_hooks": 1,
+	"shuttles": {
+		"emergency": "emergency_tiss",
+		"ferry": "ferry_fancy",
+		"cargo": "cargo_tiss",
+		"whiteship": "whiteship_tiss"
+	},
+	"wilderness": {
+		"directory": "map_files/IceWilderness",
+		"mountain.dmm": 10,
+		"rocky_planes.dmm": 1,
+		"snow_planes.dmm": 1,
+		"ice_planes.dmm": 1,
+		"forest.dmm": 3
+	},
+	"traits": [
+		{
+			"Up": true,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Ice Ruins Underground": true,
+			"Baseturf": "/turf/open/lava/plasma/ice_moon",
+			"No Parallax": true
+		},
+		{
+			"Up": true,
+			"Down": true,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Ice Ruins Underground": true,
+			"Baseturf": "/turf/open/openspace/icemoon/keep_below",
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Ice Ruins": true,
+			"Weather_Snowstorm": true,
+			"Baseturf": "/turf/open/openspace/icemoon/keep_below",
+			"No Parallax": true
+		}
+	],
+	"minetype": "ice",
+	"blacklist_file": "iceruinblacklist.txt",
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/commons/park"]
+		},
+		"Captain": {
+			"special_charter": "asteroid cluster"
+		}
+	},
+	"bonus_weakpoints": 2
+}
