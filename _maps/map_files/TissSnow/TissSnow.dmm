@@ -2911,7 +2911,7 @@
 	pixel_y = -8;
 	icon_screen = "tiss_1";
 	base_icon_state = "tiss";
-	icon = 'modular_zubbers/icons/maps/tisserand/computer.dmi'
+	icon = 'troutstation/icons/obj/tram/computer.dmi'
 	},
 /obj/structure/sign/tram_plate/directional/south{
 	specific_transport_id = "tiss_1"
@@ -5636,7 +5636,7 @@
 	density = 0;
 	specific_transport_id = "tiss_4";
 	pixel_y = -8;
-	icon = 'modular_zubbers/icons/maps/tisserand/computer.dmi';
+	icon = 'troutstation/icons/obj/tram/computer.dmi';
 	icon_screen = "tiss_4";
 	base_icon_state = "tiss"
 	},
@@ -20157,7 +20157,7 @@
 	density = 0;
 	specific_transport_id = "tiss_2";
 	pixel_y = -8;
-	icon = 'modular_zubbers/icons/maps/tisserand/computer.dmi';
+	icon = 'troutstation/icons/obj/tram/computer.dmi';
 	icon_screen = "tiss_2";
 	base_icon_state = "tiss"
 	},
@@ -29482,7 +29482,7 @@
 "gVZ" = (
 /obj/machinery/status_display/evac/directional/north,
 /obj/structure/table,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
 /obj/effect/turf_decal/tile/dark/diagonal_edge,
 /turf/open/floor/iron/dark/diagonal,
 /area/station/science/robotics/augments)
@@ -51181,7 +51181,7 @@
 /obj/effect/spawner/random/entertainment/plushie_delux{
 	pixel_x = 4
 	},
-/obj/item/relic{
+/obj/item/assembly/relic{
 	pixel_x = -8
 	},
 /turf/open/floor/plating,
@@ -52895,7 +52895,7 @@
 /turf/open/floor/iron/white,
 /area/station/subway/cargo/north)
 "msK" = (
-/obj/item/relic,
+/obj/item/assembly/relic,
 /obj/item/bedsheet/black{
 	dir = 1
 	},
@@ -54698,7 +54698,7 @@
 	specific_transport_id = "tiss_3";
 	dir = 4;
 	pixel_x = 8;
-	icon = 'modular_zubbers/icons/maps/tisserand/computer.dmi';
+	icon = 'troutstation/icons/obj/tram/computer.dmi';
 	icon_screen = "tiss_3";
 	base_icon_state = "tiss"
 	},
@@ -57645,8 +57645,8 @@
 	pixel_x = 6;
 	pixel_y = 13
 	},
-/obj/item/mmi,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
+/obj/item/brain_processor/organic,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/science/robotics/lab)
 "nBy" = (
@@ -65413,7 +65413,7 @@
 	specific_transport_id = "tiss_5";
 	dir = 4;
 	pixel_x = 8;
-	icon = 'modular_zubbers/icons/maps/tisserand/computer.dmi';
+	icon = 'troutstation/icons/obj/tram/computer.dmi';
 	icon_screen = "tiss_5";
 	base_icon_state = "tiss"
 	},

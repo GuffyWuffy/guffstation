@@ -2232,7 +2232,11 @@
 	icon_state = "tram_alt_controls";
 	density = 0;
 	specific_transport_id = "tiss_1";
-	pixel_y = -8
+	icon_screen = "tiss_1";
+	base_icon_state = "tiss";
+	icon = 'troutstation/icons/obj/tram/computer.dmi';
+	dir = 4;
+	pixel_x = 8
 	},
 /obj/structure/sign/tram_plate/directional/south{
 	specific_transport_id = "tiss_1"
@@ -12467,7 +12471,7 @@
 "dOV" = (
 /obj/structure/transport/linear/tram,
 /obj/structure/tram,
-/obj/machinery/transport/tram_controller/tiss{
+/obj/machinery/transport/tram_controller/tiss/ai{
 	req_one_access = list("rd","tcoms");
 	req_access = null
 	},
@@ -22822,7 +22826,7 @@
 "gVZ" = (
 /obj/machinery/status_display/evac/directional/north,
 /obj/structure/table,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
 /obj/effect/turf_decal/tile/dark/diagonal_edge,
 /turf/open/floor/iron/dark/diagonal,
 /area/station/science/robotics/augments)
@@ -24012,8 +24016,8 @@
 "hoq" = (
 /obj/structure/transport/linear/tram,
 /obj/structure/thermoplastic/light,
-/obj/effect/landmark/transport/nav_beacon/tram/nav/tiss/main,
-/obj/effect/landmark/transport/nav_beacon/tram/platform/tiss/north,
+/obj/effect/landmark/transport/nav_beacon/tram/nav/tiss/ai,
+/obj/effect/landmark/transport/nav_beacon/tram/platform/tiss/ai/north,
 /turf/open/floor/plating,
 /area/station/hallway/primary/tram/sciai)
 "hoC" = (
@@ -40379,7 +40383,7 @@
 /obj/effect/spawner/random/entertainment/plushie_delux{
 	pixel_x = 4
 	},
-/obj/item/relic{
+/obj/item/assembly/relic{
 	pixel_x = -8
 	},
 /turf/open/floor/plating,
@@ -45546,8 +45550,8 @@
 	pixel_x = 6;
 	pixel_y = 13
 	},
-/obj/item/mmi,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
+/obj/item/brain_processor/organic,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/science/robotics/lab)
 "nBy" = (
@@ -62151,7 +62155,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/lab)
 "sMH" = (
-/obj/effect/landmark/transport/nav_beacon/tram/platform/tiss/south,
+/obj/effect/landmark/transport/nav_beacon/tram/platform/tiss/ai/south,
 /turf/open/floor/plating,
 /area/station/ai/satellite/foyer)
 "sML" = (
@@ -65733,7 +65737,7 @@
 "tTL" = (
 /obj/structure/transport/linear/tram,
 /obj/structure/thermoplastic/light,
-/obj/effect/landmark/transport/transport_id/tiss/line_1,
+/obj/effect/landmark/transport/transport_id/tiss/line_ai,
 /turf/open/floor/plating,
 /area/station/hallway/primary/tram/sciai)
 "tTU" = (
